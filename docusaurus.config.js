@@ -82,7 +82,7 @@ const config = {
         },
         items: [
           {to: '/demo/intro', label: 'Demo', position: 'left'},
-          {to: '/journal-management-system/intro', label: 'JMS', position: 'left'},
+          {to: '/journal-management-system/Introduction/Overview', label: 'JMS', position: 'left'},
           {to: '/job-nest/intro', label: 'Job Nest', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
