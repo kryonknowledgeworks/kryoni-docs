@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kryoni',
-  tagline: 'Kryoni Editiorial are cool',
+  tagline: 'Kryoni Editiorial is cool',
   favicon: 'img/kryoni-fav-icon-mini.jpg',
 
   // Set the production url of your site here
@@ -81,11 +81,66 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Products',
             items: [
               {
-                label: 'Tutorial',
-                to: '/journal-management-system/Introduction/Overview',
+                label: 'JMS',
+                to: 'https://www.kryoni.com/products/docs/jms',
+              },
+              {
+                label:'Job Nest',
+                to:'https://www.kryoni.com/products/job-nest',
+              },
+              {
+                label:'Syream Space',
+                to:'https://www.kryoni.com/products/stream-space',
+              },
+              {
+                label:'Plagiarism Checker',
+                to:'#',
+              },
+            ],
+          },
+          {
+            title: 'MAIN LINKS',
+            items: [
+              {
+                label: 'About Us',
+                to: 'https://www.kryoni.com/about',
+              },
+              {
+                label:'Why Kryoni',
+                to:'https://www.kryoni.com/why-kryoni',
+              },
+              {
+                label:'Learning',
+                to:'https://www.kryoni.com/products/docs',
+              },
+              {
+                label:'Support',
+                to:'#',
+              },
+            ],
+
+          },
+           {
+            title: 'QUICK LINKS',
+            items: [
+              {
+                label: 'Blog',
+                to: '#',
+              },
+              {
+                label:'Contact Us',
+                to:'#',
+              },
+              {
+                label:'Terms of Use',
+                to:'#',
+              },
+              {
+                label:'Privacy Policy',
+                to:'#',
               },
             ],
           },
