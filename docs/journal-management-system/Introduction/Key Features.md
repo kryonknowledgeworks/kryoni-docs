@@ -26,5 +26,3 @@ sidebar: jmsSidebar
 10. **Flexible Review Models:** Supports various review models, including open, single-blind, and double-blind reviews.
 
 11. **User Training and 24/7 Support:** Offers extensive training and round-the-clock assistance.
-
-## In This Article

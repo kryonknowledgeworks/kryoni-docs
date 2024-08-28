@@ -3,9 +3,9 @@ sidebar_position: 1
 sidebar: jmsSidebar
 ---
 
-### IN THIS ARTICLE
+#
 
-# Overview
+## Overview
 
     At Kryoni, we understand the complexities and demands of the editorial process in the publishing industry. Our journal management system is designed to streamline and enhance every stage of your publishing journey, from submission to final publication.
 
@@ -20,4 +20,3 @@ The journey begins with author submission. We offer an intuitive and user-friend
 ## Production
 
       Kryoni JMS offers a seamless transition from production to publication, ensuring that the final version of the manuscript is published promptly and accurately.
-
