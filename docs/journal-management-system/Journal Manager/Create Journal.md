@@ -2,11 +2,11 @@
 sidebar_position: 1
 sidebar: jmsSidebar
 ---
-# Create Journal
+#
 
-## Journal Configuration
+## **Journal Configuration**
 
-- Create a new journal by filling out the required information.
+- **Create a new journal by filling out the required information.**
 
   - You have the choice to assign existing users for the particular journal.
 
@@ -14,16 +14,16 @@ sidebar: jmsSidebar
 
   - Note that the Journal Manager has access to all journals, while the Editor-in-Chief has access only to the particular journal they oversee.
 
-- JOURNAL  DETAILS
+- **Journal  Details**
 
   - Complete the necessary details for the journal and assign the Editor-in-Chief. Remember that the Journal Manager has access to all journals, while the Editor-in-Chief has access only to the specific journal they manage.
 
-- Journal Summary
+- **Journal Summary**
   - Provide your journal summary and upload the journal cover image in JPG, JPEG, or PNG format with dimensions of 800x800 pixels.
   
   ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## Article configuration
+## **Article configuration**
 
 Choose the article type and its corresponding blind type, then click "Add." You can select multiple article types and create new ones if needed.
 
@@ -41,7 +41,7 @@ Choose the article type and its corresponding blind type, then click "Add." You 
 
   ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## File Format
+## **File Format**
 
 - Select or create the file format and corresponding file types, then click "Add." You can add multiple file types. Also, enter the submission language and categories.
 - Choose which file types must be required for author submissions
@@ -50,13 +50,13 @@ Choose the article type and its corresponding blind type, then click "Add." You 
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## Guidelines
+## **Guidelines**
 
 - Add the comprehensive author and reviewer guidelines, and attach any relevant files associated with them. These will be displayed on the author and reviewer board. Additionally, make sure to include the copyright notice to address legal requirements.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## Preview
+## **Preview**
 
 - Review the details of your journal. If any revisions are necessary, you may return and modify the relevant sections. Then proceed to finalize the creation of your journal.
 

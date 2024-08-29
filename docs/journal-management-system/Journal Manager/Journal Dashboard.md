@@ -3,9 +3,9 @@ sidebar_position: 2
 sidebar: jmsSidebar
 ---
 
-# Journal Dashboard
+#
 
-## Dashboard
+## **Dashboard**
 
 Clicking on a specific journal will display the submission list for that journal, providing comprehensive insights such as submission title, stage, current status, and submission date.
 

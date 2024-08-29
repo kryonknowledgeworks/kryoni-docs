@@ -2,8 +2,9 @@
 sidebar_position: 1
 sidebar: jmsSidebar
 ---
+#
 
-# Journal Manager
+## **Journal Manager**
 
 - **Creating the Journal:**
   - Establishing the framework and structure of the journal.

@@ -4,16 +4,13 @@ sidebar: jmsSidebar
 ---
 #
 
-## Author Submission
+## **Author Submission**
 
-**Author Submission:**
 Redirect from the journal's website to start submitting your manuscript.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## Accept and Acknowledge Author Guidelines
-
-**Accept and Acknowledge Author Guidelines:**
+## **Accept and Acknowledge Author Guidelines**
 
 - Before starting your submission, ensure that you accept and acknowledge the author's guidelines.
 

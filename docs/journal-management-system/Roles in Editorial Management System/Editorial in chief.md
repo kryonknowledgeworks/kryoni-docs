@@ -2,7 +2,9 @@
 sidebar_position: 2
 sidebar: jmsSidebar
 ---
-# Editorial In Chief
+#
+
+## **Editorial In Chief**
 
 - **Managing a Specific Journal:**  
   - Overseeing the operations and activities related to a particular journal within the broader publication platform.

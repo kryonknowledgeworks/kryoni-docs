@@ -4,7 +4,7 @@ sidebar: jmsSidebar
 ---
 #
 
-**Resubmitting for Review - If Revision needed:**
+## **Resubmitting for Review - If Revision needed**
 
 - The author can see the revision request in the status bar.
 - To view the details, click on the specific journal and then click on the revision tab.

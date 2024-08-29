@@ -1,24 +1,24 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 sidebar: jmsSidebar
 ---
 
-# Journal Settings
+#
 
-## Edit Details
+## **Edit Details**
 
 - To edit or add details, click on "Journal Settings" and "Configuration" to make changes or add information to the journal details.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## Additional Fields
+## **Additional Fields**
 
 **There are two additional fields:**
 
-- Submission Checklist:
+- **Submission Checklist:**
   - This is a checklist for authors. You can choose its display position and add a description. Multiple checklists can be added for authors.
 
-- Reviewer Form:
+- **Reviewer Form:**
   - This is for configuring the review form.
 
   - **Is it necessary to include a reviewer form with every review request?:**
@@ -28,30 +28,25 @@ sidebar: jmsSidebar
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## Site Info
+## **Site Info**
 
 **Landing Page Link:** Copy the landing page link for authors and reviewers and embed it in an HTML element, such as a submit button, for easy manuscript submission.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## User Role and Settings
+## **User Role and Settings**
 
-**User Role and Settings:**
 Add users for specific roles like editor, author, or reviewer for the specific journal. You can also import user details.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## Developer Setting
-
-**Developer Setting:**
+## **Developer Setting**
 
 Set up email notifications for various actions within the system. The journal manager can enable or disable these notifications and adjust their content as needed.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## Reports
-
-**Reports:**
+## **Reports**
 
 Access detailed reports on all actions performed within the JMS for thorough analysis and tracking.
 

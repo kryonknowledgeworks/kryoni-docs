@@ -2,8 +2,9 @@
 sidebar_position: 1
 sidebar: jmsSidebar
 ---
+#
 
-# Register With Kryoni
+## **Register With Kryoni**
 
 Sign up with Kryoni, to begin managing your journals effortlessly. Our advanced platform is designed to help you organize, track, and optimize your journaling experience.
 

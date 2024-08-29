@@ -3,7 +3,9 @@ sidebar_position: 2
 sidebar: jmsSidebar
 ---
 
-# Register Your Publishing House
+#
+
+## **Register Your Publishing House**
 
 Please provide the required details on the registration page and click the "Register" button to complete the process.
 

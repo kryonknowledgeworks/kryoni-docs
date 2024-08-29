@@ -28,3 +28,54 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+.social-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+.social-icons img{
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+.footer__col:first-of-type .footer__title {
+  display: none;
+}
+.footer__title{
+  margin-top: 20px;
+}
+.footer-links h4 {
+  color: #010101;
+  font-size: 20px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+.popup-form{
+  display: flex;
+  width: 100%;
+  column-gap: 10px;
+  margin-top: 15px;
+}
+input {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #00000033;
+  color: #a3a3a3;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.popup-form button {
+  cursor: pointer;
+  background-color: #100697;
+  border: 0px;
+  color: #fff;
+}
+
+.hash-link{
+  visibility: hidden;
+}
+.footer__link-item>svg , .navbar__link>svg{
+  visibility: hidden;
+}

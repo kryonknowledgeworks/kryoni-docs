@@ -4,7 +4,7 @@ sidebar: jmsSidebar
 ---
 #
 
-## AUTHOR DASHBOARD
+## **Author  Dashboard**
 
 **Dashboard:**
 

@@ -2,7 +2,9 @@
 sidebar_position: 2
 sidebar: jmsSidebar
 ---
-# Review Process
+#
+
+## **Review Process**
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
@@ -10,38 +12,38 @@ The reviewer receives an automatic notification of a new review assignment. Upon
 
 The reviewer can read the abstract, request notes, and decide whether to accept or decline the review.
 
-## **Guideline Acceptance:**
+## **Guideline Acceptance**
 
 The reviewer must accept the review guidelines.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## **Download and Review:**
+## **Download and Review**
 
 - Under “Review Files,” click on the article file to download it for review.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## **Peer Review Discussion:**
+## **Peer Review Discussion**
 
 - Reviewers can add comments for the author, Editor-in-Chief (EIC), and Journal Manager (JM), and can also upload files with detailed descriptions.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## **Review Form:**
+## **Review Form**
 
 - Download the review form, fill it out, and upload it by clicking the "Upload Review Form" button.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## **Review Comments:**
+## **Review Comments**
 
 - For Author and Editor Comments: The reviewer has distinct discussion sections for addressing both the author and the editor, where they can raise questions or provide feedback about the article.
 - For Editor Comments:If the reviewer wishes to include comments solely for the editor, these specific remarks are directed exclusively to the editor.
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## **Recommendation Options:**
+## **Recommendation Options**
 
 After reading the paper and adding the comments, the reviewer must make their recommendation using the dropdown menu.
 
@@ -69,7 +71,7 @@ After reading the paper and adding the comments, the reviewer must make their re
 
 ![image](https://cdn.kryoni.com/kryoni/images/icons/eo-production-flow.png)
 
-## **Submit Review:**
+## **Submit Review**
 
 - Finally, click the Submit Review button to finish your task. You will be asked to confirm your submission.
 

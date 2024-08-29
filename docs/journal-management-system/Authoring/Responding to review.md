@@ -4,7 +4,7 @@ sidebar: jmsSidebar
 ---
 #
 
-**Responding to review:**
+## **Responding to review**
 
 - Once the review process is complete, an email notification from the editor will be received regarding their decision.
 
