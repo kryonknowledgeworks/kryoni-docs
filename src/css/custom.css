@@ -79,3 +79,11 @@ input {
 .footer__link-item>svg , .navbar__link>svg{
   visibility: hidden;
 }
+
+.footer__links:nth-child(5){
+  min-width: 350px;
+}
+
+.footer-links{
+  min-width: 350px;
+}
