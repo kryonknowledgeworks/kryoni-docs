@@ -12,7 +12,6 @@ sidebar: jmsSidebar
 
 - **Managing the Journal:**
   - Ensuring adherence to editorial guidelines and quality standards.
-  - Handling administrative tasks such as scheduling, budgeting, and resource allocation.
 
 - **Configuring System Settings:**
   - Customizing the journal management system to suit specific requirements.
