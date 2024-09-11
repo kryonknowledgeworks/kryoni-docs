@@ -34,6 +34,43 @@ const config = {
     locales: ['en'],
   },
 
+    // other configurations
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css',
+          integrity: 'sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN',
+          crossorigin: 'anonymous',
+        },
+      },
+      {
+        tagName: 'script',
+        attributes: {
+          src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js',
+          crossorigin: 'anonymous',
+          defer: 'true',
+        },
+      },
+      {
+        tagName: 'script',
+        attributes: {
+          src: 'https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js',
+          crossorigin: 'anonymous',
+          defer: 'true',
+        },
+      },
+      {
+        tagName: 'script',
+        attributes: {
+          src: 'https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js',
+          crossorigin: 'anonymous',
+          defer: 'true',
+        },
+      },
+    ],
+
   presets: [
     [
       'classic',
