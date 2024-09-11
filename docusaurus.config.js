@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Kryoni',
-  tagline: 'Kryoni Editiorial is cool',
+  title: 'Kryoni Docs',
+  // tagline: 'Kryoni Editiorial is cool',
   favicon: 'img/kryoni-fav-icon-mini.jpg',
 
   // Set the production url of your site here
@@ -35,7 +35,9 @@ const config = {
   },
 
     // other configurations
+   
     headTags: [
+      
       {
         tagName: 'link',
         attributes: {
@@ -98,8 +100,13 @@ const config = {
   ],
 
   themeConfig:
+  
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'description', content: 'Learn how to set up, use, and customize Kryoni with our comprehensive resources and guides for effective editorial management needs.'},
+        {name: 'keywords', content: 'Kryoni Docs,Kryoni User Guide,Editorial management solutions,Editorial management setup,Kryoni resource center'},
+      ],
       // Replace with your project's social card
       image: 'img/Kryoni_logo.png',
       navbar: {
