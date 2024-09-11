@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import { useHistory } from 'react-router-dom';
 
 // function HomepageHeader() {
 //   const {siteConfig} = useDocusaurusContext();
@@ -28,6 +29,11 @@ import styles from './index.module.css';
 // }
 
 export default function Home() {
+    const history = useHistory();
+
+    const handleClick = () => {
+      history.push('/journal-management-system/Introduction/Overview');
+    };
   
   return (
     <Layout>  
@@ -47,7 +53,7 @@ export default function Home() {
                 </span>
             </div>
             <div className="d-flex gap-3 align-items-center justify-content-center content-btns">
-                <button >
+                <button onClick={handleClick}>
                     <img src="https://cdn.kryoni.com/kryoni/images/icons/eo.png" alt="eo" className="me-3" />JMS
                 </button>
                 {/* <button onclick="navigateTo('/products/docs/job-nest')">
@@ -92,7 +98,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="mt-2">
-                    <button className="explore-btn">Explore Now</button>
+                    <button className="explore-btn" onClick={handleClick}>Explore Now </button>
                 </div>
             </div>
         </div>
