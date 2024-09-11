@@ -34,6 +34,43 @@ const config = {
     locales: ['en'],
   },
 
+    // other configurations
+    headTags: [
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css',
+          integrity: 'sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN',
+          crossorigin: 'anonymous',
+        },
+      },
+      {
+        tagName: 'script',
+        attributes: {
+          src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js',
+          crossorigin: 'anonymous',
+          defer: 'true',
+        },
+      },
+      {
+        tagName: 'script',
+        attributes: {
+          src: 'https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js',
+          crossorigin: 'anonymous',
+          defer: 'true',
+        },
+      },
+      {
+        tagName: 'script',
+        attributes: {
+          src: 'https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js',
+          crossorigin: 'anonymous',
+          defer: 'true',
+        },
+      },
+    ],
+
   presets: [
     [
       'classic',
@@ -87,103 +124,6 @@ const config = {
       // ----------------footer-----------
       footer: {
         style: 'light',     
-        links: [
-          {
-          items: [ 
-          {
-            html: `
-               <div class="kryonilogofooter">
-                  <a href="https://www.kryoni.com/" target="_blank" rel="noreferrer noopener" aria-label="Kryoni Logo">
-                    <img src="https://cdn.kryoni.com/kryoni/images/icons/footer-logo.png" alt="Kryoni Logo" width="200" height="60" />
-                  </a>
-                  <p>  Our unique suite of software solutions is designed to meet all your publishing needs. </p>
-                  <div class="social-icons">
-                    <a href="https://x.com/Kryoni_"><img src="https://cdn.kryoni.com/kryoni/images/icons/logo-twitter.png" alt="x"></a>
-                    <a href="https://www.facebook.com/profile.php?id=61557829957560"><img src="https://cdn.kryoni.com/kryoni/images/icons/logo-facebook.png" alt="fb"></a>
-                    <a href="https://www.instagram.com/kryoni_/"><img src="https://cdn.kryoni.com/kryoni/images/icons/logo-instagram.png" alt="instagram"></a>
-                    <a href="https://www.linkedin.com/company/kryoni/"><img src="https://cdn.kryoni.com/kryoni/images/icons/logo-linkedin.png" alt="linkedin"></a>
-                  </div>
-                </div>
-              `,
-          } ] },
-          {
-            title: 'PRODUCTS',
-            items: [ 
-              {
-                label: 'JMS',
-                href: 'https://www.kryoni.com/products/docs/jms',
-              },
-              {
-                label:'Job Nest',
-                href:'https://www.kryoni.com/products/job-nest',
-              },
-              {
-                label:'Stream Space',
-                href:'https://www.kryoni.com/products/stream-space',
-              },
-              {
-                label:'Plagiarism Checker',
-                href:'#',
-              },
-            ],
-          },
-          {
-            title: 'MAIN LINKS',
-            items: [
-              {
-                label: 'About Us',
-                href: 'https://www.kryoni.com/about',
-              },
-              {
-                label:'Why Kryoni',
-                href:'https://www.kryoni.com/why-kryoni',
-              },
-              {
-                label:'Learning',
-                href:'https://www.kryoni.com/products/docs',
-              },
-              {
-                label:'Support',
-                href:'#',
-              },
-            ],
-
-          },
-           {
-            title: 'QUICK LINKS',
-            items: [
-              {
-                label: 'Blog',
-                href: '#',
-              },
-              {
-                label:'Contact Us',
-                href:'#',
-              },
-              {
-                label:'Terms of Use',
-                href:'#',
-              },
-              {
-                label:'Privacy Policy',
-                href:'#',
-              },
-            ],
-          },
-          {
-            items: [ 
-            {
-              html: `
-                 <div class="col-5 px-0 footer-links">
-                    <h4>Newsletter</h4>
-                    <form action="#" class="popup-form d-flex">
-                      <input type="email" class="popup-form-input" placeholder="Enter Email" required="">
-                      <button class="popup-form-submit"> Subscribe</button>
-                    </form>
-                  </div>
-                `,
-            } ] },
-        ],
         copyright: `Kryoni @ ${new Date().getFullYear()} , All Rights Reserved.`,
       },
       prism: {
