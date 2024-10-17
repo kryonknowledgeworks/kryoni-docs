@@ -5,7 +5,7 @@ sidebar: jmsSidebar
 
 #
 
-## **Overview**
+## **BEFORE YOU BEGIN**
 
 Upon logging in, click on Journal Management System.
 
@@ -13,16 +13,16 @@ You will be automatically redirected to the Publishing House Registration page. 
 
 Integrate your publishing house into our Journal Management System (JMS) to optimize editorial workflows and maintain full control over every stage of publication. From manuscript submission to final production, the system offers comprehensive tools to streamline operations, ensuring smoother collaboration between editors, reviewers, and authors.
 
-This registration enables you to:
+- **This registration enables you to:**
 
-Manage multiple journals under a unified platform.
+- Manage multiple journals under a unified platform.
 
-Track submission statuses and peer reviews in real-time.
+- Track submission statuses and peer reviews in real-time.
 
-Automate key processes such as notifications, reminders, and deadlines.
+- Automate key processes such as notifications, reminders, and deadlines.
 
-Customize workflows to align with your publishing needs and standards.
+- Customize workflows to align with your publishing needs and standards.
 
-Access insights through detailed reports on submissions and reviewer performance.
+- Access insights through detailed reports on submissions and reviewer performance.
 
-By registering your publishing house, you lay the foundation for a structured, efficient, and transparent publishing process—helping you deliver high-quality research to the global community.
+- By registering your publishing house, you lay the foundation for a structured, efficient, and transparent publishing process—helping you deliver high-quality research to the global community.
