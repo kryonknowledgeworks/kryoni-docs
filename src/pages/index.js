@@ -1,11 +1,11 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
-import { useHistory } from 'react-router-dom';
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import Heading from "@theme/Heading";
+import styles from "./index.module.css";
+import { useHistory } from "react-router-dom";
 
 // function HomepageHeader() {
 //   const {siteConfig} = useDocusaurusContext();
@@ -29,81 +29,111 @@ import { useHistory } from 'react-router-dom';
 // }
 
 export default function Home() {
-    const history = useHistory();
+  const history = useHistory();
 
-    const handleClick = () => {
-      history.push('/journal-management-system/Introduction/Overview');
-    };
-  
+  const handleClick = () => {
+    history.push("/journal-management-system/started/introduction");
+  };
+
   return (
-    <Layout>  
+    <Layout>
       <main>
-      <section id="query-content" className="pb-4 position-relative">
-        <div className="center-content pt-5">
+        <section id="query-content" className="pb-4 position-relative">
+          <div className="center-content pt-5">
             <h5 className="pt-4 text-uppercase top-heading mb-3">
-                Easy to find your queries
+              Easy to find your queries
             </h5>
             <h1 className="text-capitalize fs-1 mb-4">
-                Get a technical documentation that's easy to find answers in
+              Get a technical documentation that's easy to find answers in
             </h1>
             <div className="input-group search-design-input mb-5">
-                <input type="text" className="form-control" placeholder="Enter keywords here...." />
-                <span className="input-group-text">
-                    <img src="https://cdn.kryoni.com/kryoni/images/icons/search-big.png" alt="search" />
-                </span>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Enter keywords here...."
+              />
+              <span className="input-group-text">
+                <img
+                  src="https://cdn.kryoni.com/kryoni/images/icons/search-big.png"
+                  alt="search"
+                />
+              </span>
             </div>
             <div className="d-flex gap-3 align-items-center justify-content-center content-btns">
-                <button onClick={handleClick}>
-                    <img src="https://cdn.kryoni.com/kryoni/images/icons/eo.png" alt="eo" className="me-3" />JMS
-                </button>
-                {/* <button onclick="navigateTo('/products/docs/job-nest')">
+              <button onClick={handleClick}>
+                <img
+                  src="https://cdn.kryoni.com/kryoni/images/icons/eo.png"
+                  alt="eo"
+                  className="me-3"
+                />
+                JMS
+              </button>
+              {/* <button onclick="navigateTo('/products/docs/job-nest')">
                     <img src="https://cdn.kryoni.com/kryoni/images/icons/jn.png" alt="eo" className="me-3" />Job Nest
                 </button> */}
-                <button >
-                    <img src="https://cdn.kryoni.com/kryoni/images/icons/ch.png" alt="eo" className="me-3" />Stream Space
-                </button>
+              <button>
+                <img
+                  src="https://cdn.kryoni.com/kryoni/images/icons/ch.png"
+                  alt="eo"
+                  className="me-3"
+                />
+                Stream Space
+              </button>
             </div>
-        </div>
-    </section>
-    <section id="editorial-office" className="container py-5">
-        <div className="row w-100 m-0 align-items-center pb-5">
+          </div>
+        </section>
+        <section id="editorial-office" className="container py-5">
+          <div className="row w-100 m-0 align-items-center pb-5">
             <div className="col-5">
-                <img src="https://cdn.kryoni.com/kryoni/images/icons/article.png" alt="article" className="article-img" />
+              <img
+                src="https://cdn.kryoni.com/kryoni/images/icons/article.png"
+                alt="article"
+                className="article-img"
+              />
             </div>
             <div className="col-7">
-                <img src="https://cdn.kryoni.com/kryoni/images/icons/eo-icon.png" alt="eo" className="icon-logo mb-3" />
-                <h2 className="fw-bold fs-2">Journal Management System (JMS)</h2>
-                <p className="p-content">
-                    Our Journal Management System is a one-stop software solution for all your editorial needs.
-                    Efficiently manages the entire lifecycle of journal publishing, from the initial submission of
-                    manuscripts to the peer review process, and our system ensures seamless coordination and
-                    communication among authors, reviewers, and editors, facilitating a smooth workflow.
-                    By incorporating our Journal Management System into your workflow, you can ensure an efficient,
-                    transparent editorial process, ultimately enhancing the quality and impact of your journal.
-                </p>
-                <div className="d-flex gap-4 flex-row">
-                    <div className="">
-                        <ul>
-                            <li>Easy Submission</li>
-                            <li>Automated Acknowledgment</li>
-                            <li>Reviewer Selection</li>
-                            <li>Reviewer Assignment</li>
-                        </ul>
-                    </div>
-                    <div className="">
-                        <ul>
-                            <li>Review Tracking</li>
-                            <li>Confidential Reviews</li>
-                        </ul>
-                    </div>
+              <img
+                src="https://cdn.kryoni.com/kryoni/images/icons/eo-icon.png"
+                alt="eo"
+                className="icon-logo mb-3"
+              />
+              <h2 className="fw-bold fs-2">Journal Management System (JMS)</h2>
+              <p className="p-content">
+                Our Journal Management System is a one-stop software solution
+                for all your editorial needs. Efficiently manages the entire
+                lifecycle of journal publishing, from the initial submission of
+                manuscripts to the peer review process, and our system ensures
+                seamless coordination and communication among authors,
+                reviewers, and editors, facilitating a smooth workflow. By
+                incorporating our Journal Management System into your workflow,
+                you can ensure an efficient, transparent editorial process,
+                ultimately enhancing the quality and impact of your journal.
+              </p>
+              <div className="d-flex gap-4 flex-row">
+                <div className="">
+                  <ul>
+                    <li>Easy Submission</li>
+                    <li>Automated Acknowledgment</li>
+                    <li>Reviewer Selection</li>
+                    <li>Reviewer Assignment</li>
+                  </ul>
                 </div>
-                <div className="mt-2">
-                    <button className="explore-btn" onClick={handleClick}>Explore Now </button>
+                <div className="">
+                  <ul>
+                    <li>Review Tracking</li>
+                    <li>Confidential Reviews</li>
+                  </ul>
                 </div>
+              </div>
+              <div className="mt-2">
+                <button className="explore-btn" onClick={handleClick}>
+                  Explore Now{" "}
+                </button>
+              </div>
             </div>
-        </div>
-    </section>
-    {/* <section id="job-nest">
+          </div>
+        </section>
+        {/* <section id="job-nest">
         <div className="container py-5">
             <div className="row w-100 m-0 align-items-center py-5">
                 <div className="col-7">
@@ -145,79 +175,104 @@ export default function Home() {
             </div>
         </div>
     </section> */}
-    <section id="content-hosting" className="container py-5">
-        <div className="row w-100 m-0 align-items-center py-5">
+        <section id="content-hosting" className="container py-5">
+          <div className="row w-100 m-0 align-items-center py-5">
             <div className="col-5">
-                <img src="https://cdn.kryoni.com/kryoni/images/icons/ch-vector.png" alt="article" className="article-img" />
+              <img
+                src="https://cdn.kryoni.com/kryoni/images/icons/ch-vector.png"
+                alt="article"
+                className="article-img"
+              />
             </div>
             <div className="col-7">
-                <img src="https://cdn.kryoni.com/kryoni/images/icons/ch-icon.png" alt="eo" className="icon-logo mb-3" />
-                <h2 className="fw-bold fs-2">Stream Space</h2>
-                <p className="p-content">
-                    Kickstart your journal effortlessly with Stream Space, our cutting-edge content-hosting platform.
-                    Stream Space delivers a perfect blend of dependable infrastructure, cutting-edge security, and
-                    versatile template options, designed to facilitate a seamless and journal launch.
-                    Our platform not only guarantees reliable performance but also provides the flexibility to tailor
-                    your setup, delivering a smooth, secure, and professional journal experience.
-                </p>
-                <div className="d-flex gap-4 flex-row">
-                    <div className="">
-                        <ul>
-                            <li>Dependable Infrastructure</li>
-                            <li>Advanced Security</li>
-                            <li>User-Friendly Interface</li>
-                        </ul>
-                    </div>
-                    <div className="">
-                        <ul>
-                            <li>Comprehensive Support</li>
-                            <li>Customizable Template Options</li>
-                            <li>Flexible Setup</li>
-                        </ul>
-                    </div>
+              <img
+                src="https://cdn.kryoni.com/kryoni/images/icons/ch-icon.png"
+                alt="eo"
+                className="icon-logo mb-3"
+              />
+              <h2 className="fw-bold fs-2">Stream Space</h2>
+              <p className="p-content">
+                Kickstart your journal effortlessly with Stream Space, our
+                cutting-edge content-hosting platform. Stream Space delivers a
+                perfect blend of dependable infrastructure, cutting-edge
+                security, and versatile template options, designed to facilitate
+                a seamless and journal launch. Our platform not only guarantees
+                reliable performance but also provides the flexibility to tailor
+                your setup, delivering a smooth, secure, and professional
+                journal experience.
+              </p>
+              <div className="d-flex gap-4 flex-row">
+                <div className="">
+                  <ul>
+                    <li>Dependable Infrastructure</li>
+                    <li>Advanced Security</li>
+                    <li>User-Friendly Interface</li>
+                  </ul>
                 </div>
-                <div className="mt-2">
-                    <button className="explore-btn">Explore
-                        Now</button>
+                <div className="">
+                  <ul>
+                    <li>Comprehensive Support</li>
+                    <li>Customizable Template Options</li>
+                    <li>Flexible Setup</li>
+                  </ul>
                 </div>
+              </div>
+              <div className="mt-2">
+                <button className="explore-btn">Explore Now</button>
+              </div>
             </div>
-        </div>
-    </section>
-    <section id="properties" className="container pb-5">
-        <div className="row">
+          </div>
+        </section>
+        <section id="properties" className="container pb-5">
+          <div className="row">
             <div className="col-4">
-                <div className="support p-4 px-5">
-                    <img src="https://cdn.kryoni.com/kryoni/images/icons/support.png" alt="support" className="mb-3" />
-                    <h5 className="fw-semibold text-capitalize">24/7 Customer support</h5>
-                    <span className="span-content">
-                        We offer round-the-clock support for prompt issue resolution and
-                        uninterrupted workflow.
-                    </span>
-                </div>
+              <div className="support p-4 px-5">
+                <img
+                  src="https://cdn.kryoni.com/kryoni/images/icons/support.png"
+                  alt="support"
+                  className="mb-3"
+                />
+                <h5 className="fw-semibold text-capitalize">
+                  24/7 Customer support
+                </h5>
+                <span className="span-content">
+                  We offer round-the-clock support for prompt issue resolution
+                  and uninterrupted workflow.
+                </span>
+              </div>
             </div>
             <div className="col-4">
-                <div className="support p-4 px-5 api">
-                    <img src="https://cdn.kryoni.com/kryoni/images/icons/api.png" alt="support" className="mb-3" />
-                    <h5 className="fw-semibold text-capitalize">API Reference Guide</h5>
-                    <span className="span-content">
-                        We offer round-the-clock support for prompt issue resolution and
-                        uninterrupted workflow.
-                    </span>
-                </div>
+              <div className="support p-4 px-5 api">
+                <img
+                  src="https://cdn.kryoni.com/kryoni/images/icons/api.png"
+                  alt="support"
+                  className="mb-3"
+                />
+                <h5 className="fw-semibold text-capitalize">
+                  API Reference Guide
+                </h5>
+                <span className="span-content">
+                  We offer round-the-clock support for prompt issue resolution
+                  and uninterrupted workflow.
+                </span>
+              </div>
             </div>
             <div className="col-4">
-                <div className="support p-4 tools px-5">
-                    <img src="https://cdn.kryoni.com/kryoni/images/icons/tools.png" alt="support" className="mb-3" />
-                    <h5 className="fw-semibold text-capitalize">Developer Tools</h5>
-                    <span className="span-content">
-                        We offer round-the-clock support for prompt issue resolution and
-                        uninterrupted workflow.
-                    </span>
-                </div>
+              <div className="support p-4 tools px-5">
+                <img
+                  src="https://cdn.kryoni.com/kryoni/images/icons/tools.png"
+                  alt="support"
+                  className="mb-3"
+                />
+                <h5 className="fw-semibold text-capitalize">Developer Tools</h5>
+                <span className="span-content">
+                  We offer round-the-clock support for prompt issue resolution
+                  and uninterrupted workflow.
+                </span>
+              </div>
             </div>
-        </div>
-    </section>
-
+          </div>
+        </section>
       </main>
     </Layout>
   );
