@@ -125,7 +125,7 @@ const config = {
         // ------------navbar-----------
         items: [
           {
-            to: "/journal-management-system/started/introduction",
+            to: "/journal-management-system/Started/Introduction",
             label: "JMS",
             position: "left",
           },
