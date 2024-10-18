@@ -125,7 +125,7 @@ const config = {
         // ------------navbar-----------
         items: [
           {
-            to: "/journal-management-system/started/Introduction",
+            to: "/journal-management-system/started/introduction",
             label: "JMS",
             position: "left",
           },
@@ -134,7 +134,7 @@ const config = {
           // {to: '/job-nest/intro', label: 'Job Nest', position: 'left'},
           // {to:'/stream-space/intro',label:'Stream Space',position:'left'},
 
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://www.kryoni.com/",
             label: "Go To Kryoni Website",
