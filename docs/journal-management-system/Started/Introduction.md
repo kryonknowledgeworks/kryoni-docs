@@ -7,4 +7,4 @@ sidebar: jmsSidebar
 
 ## **Introduction**
 
-Content of the introduction job nest.
+Content of the introduction JMS.
