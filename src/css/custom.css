@@ -367,4 +367,104 @@ input {
   #properties .tools{
       background-image: url(https://cdn.kryoni.com/kryoni/images/icons/support-bg-3.png);
   }
- 
+
+[class*="sidebar_node_modules-@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module"] {
+  border-right: none !important; 
+  box-shadow: none !important;   
+}
+
+
+[class*="container"],
+[class*="main-content"],
+[class*="wrapper"],
+[class*="layout"] {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Sidebar link styles */
+[class*="sidebar_node_modules-@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module"] .menu__link {
+  color: #0067c5; 
+  padding: 5px; 
+  display: block; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  padding-left: 20px;
+  font-size: .875rem;
+  padding-right: 10px;
+}
+
+
+[class*="sidebar_node_modules-@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module"] .menu__link:hover {
+  text-decoration: underline; 
+  background-color: #e6f0ff; 
+}
+
+.theme-doc-markdown.markdown h1,
+.theme-doc-markdown.markdown h2,
+.theme-doc-markdown.markdown h3,
+.theme-doc-markdown.markdown h4,
+.theme-doc-markdown.markdown h5,
+.theme-doc-markdown.markdown h6 {
+    font-family: 'Your Font Family', sans-serif;
+    color: #333;
+}
+
+.theme-doc-markdown.markdown h1 {
+    font-size: 2em; 
+}
+.theme-doc-markdown.markdown h2 {
+    font-size: 1.75em; 
+}
+.theme-doc-markdown.markdown h3 {
+    font-size: 1.5em; 
+}
+.theme-doc-markdown.markdown h4 {
+    font-size: 1.25em; 
+}
+.theme-doc-markdown.markdown h5 {
+    font-size: 1.1em; 
+}
+.theme-doc-markdown.markdown h6 {
+    font-size: 1em; 
+}
+
+
+.theme-doc-markdown.markdown p {
+    font-size: 1em; 
+    line-height: 1.5; 
+    color: #444; 
+}
+.table-of-contents.table-of-contents__left-border {
+  border-left: none !important; 
+}
+/* .parent-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+.clean-btn.menu__caret {
+  order: -1; 
+  margin-right: 10px; 
+}
+.menu__list {
+  margin-left: 60px; 
+} */
+/* .menu__list-item-collapsible {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+}
+
+.menu__list-item-collapsible .menu__caret {
+  order: -1; 
+  margin-right: 10px; 
+} */
+
+
+
+
+
+
+
+
