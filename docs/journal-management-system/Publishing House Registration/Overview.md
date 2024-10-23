@@ -5,7 +5,7 @@ sidebar: jmsSidebar
 
 #
 
-## **BEFORE YOU BEGIN**
+## **Before you Begin**
 
 Upon logging in, click on Journal Management System.
 
