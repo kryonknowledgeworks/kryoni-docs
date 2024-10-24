@@ -1,7 +1,7 @@
 {
     "label": "Get Started with JMS",
     "position": 1,
-    // "link": {
-    //   "type": "generated-index"
-    // }
+    "link": {
+      "type": "generated-index"
+    }
 }
