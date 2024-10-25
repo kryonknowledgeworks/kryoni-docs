@@ -95,7 +95,7 @@ input {
  
 :root {
   --primary-black: #010101;
-  --primary-font-size: 16px;
+  --primary-font-size: 16px;  
   --secondary-font-size: 15px;
   --primary-color:#065997;
 }
@@ -244,7 +244,7 @@ input {
     font-size: var(--primary-font-size);
     font-weight: 400;
     line-height: 33px;
-    font-weight: 500;
+    /* font-weight: 500; */
   }
  
   #editorial-office ul {
@@ -379,17 +379,19 @@ input {
   border: none !important;
   box-shadow: none !important;
 }
-[class*="sidebar_node_modules-@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module"] .menu__link {
-  color: #161616; 
-  padding: 5px; 
-  display: block; 
-  border-radius: 5px; 
-  text-decoration: none; 
-  padding-left: 20px;
-  font-size: .875rem;
-  padding-right: 10px;
-  font-weight: 400;
+.menu__link {
+  color: #161616 !important;
+  padding: 5px !important;
+  display: block !important;
+  border-radius: 5px !important;
+  text-decoration: none !important;
+  padding-left: 20px !important;
+  font-size: .875rem !important;
+  padding-right: 10px !important;
+  font-weight: 400 !important;
 }
+
+
 .theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-2.menu__list-item:hover {
   text-decoration: underline;
   background-color: #e6f0ff;
@@ -402,7 +404,7 @@ input {
 .theme-doc-markdown.markdown h4,
 .theme-doc-markdown.markdown h5,
 .theme-doc-markdown.markdown h6 {
-    font-family: 'Your Font Family', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif; 
     color: #333;
 }
 
@@ -439,6 +441,7 @@ input {
   border-left: none !important; 
 }
 .menu__list-item-collapsible {
+  color: #161616 !important;
   display: flex;
   justify-content: flex-start; 
   align-items: center;
@@ -477,19 +480,19 @@ p {
   text-decoration: none; 
 }
 
-.menu.thin-scrollbar.menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-Content-styles-module {
+.menu.thin-scrollbar {
     /* margin-left: 30px; */
     padding: 1.5rem;
 }
-.title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module {
+.title_node_modules {
   font-size: 40px; 
   font-weight: 600; 
 }
-.anchor.anchorWithStickyNavbar_node_modules-\@docusaurus-theme-classic-lib-theme-Heading-styles-module {
+.anchor.anchorWithStickyNavbar_node_modules {
   font-size: 34px; 
   font-weight: 600; 
 }
-.tocCollapsible_node_modules-\@docusaurus-theme-classic-lib-theme-TOCCollapsible-styles-module.theme-doc-toc-mobile.tocMobile_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-TOC-Mobile-styles-module {
+.tocCollapsible_node_modules {
   font-size: 34px; 
   font-weight: 600; 
 }
@@ -505,10 +508,10 @@ p {
   content: ''; 
   display: inline-block; 
 }
-[class*="generatedIndexPage_node_modules-@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module"] {
+[class*="generatedIndexPage"] {
   padding: 0.5rem !important;
 }
-[class*="docItemCol_node_modules-@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module"] {
+[class*="docItemCol"] {
   padding: 0.5rem !important;
 }
 .menu__link--active {
@@ -523,9 +526,6 @@ p {
 .sidebar .menu__link {
   display: none; 
 }
-.sidebar .menu__link:not([href='/category/get-started-with-jms']) {
-  display: block;
-}
 .breadcrumbs__item:not(:last-child):after {
   content: ' / ' !important; 
   display: inline-block; 
@@ -533,7 +533,10 @@ p {
   opacity: 1;
   background: none !important; 
 }
-.breadcrumbs__link span {
+.breadcrumbHomeIcon_YNFT {
+  color: #3578e5 !important;
+}
+.breadcrumbs__link {
   color: #3578e5 !important;
 }
 .table-of-contents__link.toc-highlight.table-of-contents__link--active {
@@ -548,6 +551,18 @@ p {
 [class*="breadcrumbHomeIcon_node_modules"] {
   color: #3578e5;
 }
+/* .menu__list {
+  font-size: .875rem !important;
+  color: #161616 !important;
+  padding: 5px !important;
+  display: block !important;
+  border-radius: 5px !important;
+  text-decoration: none !important;
+  padding-left: 20px !important;
+  padding-right: 10px !important;
+  font-weight: 400 !important;
+} */
+
 
 
 
