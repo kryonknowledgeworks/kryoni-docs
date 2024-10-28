@@ -53,7 +53,7 @@ Updating your journal’s information within the Journal Management System (JMS)
 
 The **Submission Checklist** ensures that authors meet all necessary submission requirements before proceeding, helping maintain quality and compliance with journal guidelines. This guide explains how to edit, remove, or create new checklist items for seamless journal submissions.
 
-<span style={{ color: 'blue' }}> **Editing a Predefined Checklist Item** </span>
+**Editing a Predefined Checklist Item**
 
 **1. Locate the Item to Edit:**
 
@@ -67,7 +67,7 @@ The **Submission Checklist** ensures that authors meet all necessary submission 
 
 - Click **Submit** to apply the modifications.
 
-<span style={{ color: 'blue' }}> **Deleting a Checklist Item** </span>
+**Deleting a Checklist Item**
 
 **1. Identify the Item to Remove:**
 
@@ -77,7 +77,7 @@ The **Submission Checklist** ensures that authors meet all necessary submission 
 
 Click the **Delete** option. A confirmation prompt may appear—confirm the deletion to remove the item permanently.
 
-<span style={{ color: 'blue' }}> **Creating a New Submission Checklist Item** </span>
+**Creating a New Submission Checklist Item**
 
 **1. Add a New Item:**
 
@@ -113,7 +113,7 @@ This form ensures that reviewers provide comprehensive feedback, enabling the ed
 
 In our JMS, you can customize a set of conditions specific to your journal regarding the Review Form. This configuration will be displayed to the Editor-in-Chief (EIC) when assigning a reviewer.
 
-<span style={{ color: 'blue' }}>Configuring the Review Form </span>
+Configuring the Review Form
 
 When setting up a review form in the JMS, several configuration options are available to ensure that it aligns with your journal’s requirements.
 
@@ -185,7 +185,7 @@ Once authors click on the Submission URL, they will be directed to the submissio
 
 Managing editorial roles in the Journal Management System (JMS) is streamlined to ensure efficiency in the publishing workflow. Within JMS, you can easily add, assign, or delete users, as well as customize roles based on your journal’s specific needs. Here’s a step-by-step guide on how to add a user to JMS and assign roles effectively
 
-<span style={{ color: 'blue' }}> How to Add Users to the JMS </span>
+How to Add Users to the JMS
 
 **1. Access Journal Settings**
 
@@ -211,7 +211,7 @@ Submits manuscripts and manages submission status and history.
 
 **Add User**
 
-<span style={{ color: 'blue' }}> How to Add an Editorial User </span>
+How to Add an Editorial User
 
 1. **Click Add User** from the **User Roles and Settings** section.
 
@@ -221,7 +221,7 @@ Submits manuscripts and manages submission status and history.
 
 INVITE A NEW USER – LINK
 
-<span style={{ color: 'blue' }}> How to Add a Reviewer </span>
+How to Add a Reviewer
 
 1. **Click Add Reviewer** in the User Roles section.
 
@@ -233,7 +233,7 @@ INVITE A NEW USER – LINK
 
 INVITE A NEW USER – LINK
 
-<span style={{ color: 'blue' }}> How to Add an Author </span>
+How to Add an Author
 
 1. **Click Add User** within the User Roles and Settings section.
 
@@ -267,7 +267,7 @@ If predefined roles do not meet specific needs, JMS offers the flexibility to **
 
 If predefined roles don’t meet your needs, JMS offers a **Create New Role** option for greater customization
 
-<span style={{ color: 'blue' }}> How to Create a Custom Role </span>
+How to Create a Custom Role
 
 1. **Access the Role Settings**
 
