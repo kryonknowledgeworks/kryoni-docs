@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 sidebar: jmsSidebar
 ---
 
@@ -94,24 +94,6 @@ Once you receive an invitation to review a manuscript, you have the following op
 ![image](https://cdn.kryoni.com/kryoni-docs/images/peerdeclinerequestreview.png)
 
 ![image](https://cdn.kryoni.com/kryoni-docs/images/peerrequestforreviewconfirmation.png)
-
-### **Peer review Process**
-
-The **peer review process** is an essential component of academic publishing, ensuring that submissions meet the highest standards of quality, validity, and originality. This guide outlines the steps involved, including the use of review forms, submission of recommendations, and interaction with our Journal Management System (JMS).
-
-**What is Peer Review?**
-
-Peer review is a process in which experts within the same field evaluate a manuscript to ensure it meets the journal's quality standards. It serves as a **critical checkpoint** in publishing by:
-
-Identifying gaps, errors, or inconsistencies in the research.
-
-Offering constructive feedback to authors for improvement.
-
-Ensuring the work aligns with the journal’s scope and academic standards.
-
-Helping editors make informed decisions on publication.
-
-The review process also ensures that published research maintains **objectivity, accuracy, and originality**.
 
 Let's Review the Manuscript
 
