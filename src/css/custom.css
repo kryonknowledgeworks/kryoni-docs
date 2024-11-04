@@ -564,6 +564,23 @@ p {
   font-weight: 400 !important;
 } */
 
+a[href*="docs.kryoni.com/blog/authors/all-sebastien-lorber-articles"],
+a[href*="docs.kryoni.com/blog/tags/docusaurus"],
+a[href*="docs.kryoni.com/blog/tags"],
+a[href*="docs.kryoni.com/blog/tags/hello"],
+a[href*="docs.kryoni.com/category/user-accounts"],
+a[href*="docs.kryoni.com/blog/authors"],
+a[href*="docs.kryoni.com/blog/tags/facebook"],
+a[href*="docs.kryoni.com/journal-management-system/User Accounts/Register Your Publishing House"],
+a[href*="docs.kryoni.com/blog/authors/yangshun"],
+a[href*="docs.kryoni.com/blog/first-blog-post"],
+a[href*="docs.kryoni.com/blog/welcome"],
+a[href*="docs.kryoni.com/blog/long-blog-post"] {
+    display: none !important;
+}
+
+
+
 
 
 

@@ -9,7 +9,7 @@ sidebar: jmsSidebar
 
 The revision management process in JMS ensures smooth communication between authors, editors, and the journal team. This guide provides step-by-step instructions for handling uploaded revisions, reviewing submissions, and making editorial decisions.
 
-**Revision Uploaded Notification **
+**Revision Uploaded Notification**
 
 - When an author uploads a manuscript revision, the editorial user or journal manager will receive an automated email notification.
 
@@ -73,17 +73,17 @@ Click Accept and Send to Production to move the submission forward.
 
 After the final revision is approved, the editorial user can choose which files to send to production.
 
-1. **Review Files**
+**1. Review Files**
 
 - All submission and revision files will be listed, categorized by review round.
 
-2. Select Files for Production
+**2. Select Files for Production**
 
 - Choose the files you want to send to production by clicking the checkbox next to each file.
 
 - Ensure you select only the final versions that adhere to journal standards.
 
-3. Submit to Production
+**3. Submit to Production**
 
 - Once you have selected the relevant files, click Submit to move the submission to the production phase.
 
