@@ -25,4 +25,4 @@ Integrate your publishing house into our Journal Management System (JMS) to opti
 
 - Access insights through detailed reports on submissions and reviewer performance.
 
-- By registering your publishing house, you lay the foundation for a structured, efficient, and transparent publishing process—helping you deliver high-quality research to the global community.
+- By registering your publishing house, you lay the foundation for a structured, efficient, and transparent publishing process helping you deliver high-quality research to the global community.
