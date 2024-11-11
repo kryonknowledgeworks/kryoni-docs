@@ -18,8 +18,11 @@ sidebar: jmsSidebar
 
 **Response:**
 
-```json response
+<div className="custom-json-response">
 
+**Response**
+
+```yml
 {
    "code": 0,
    "message": "success",
@@ -102,3 +105,5 @@ sidebar: jmsSidebar
    }
 }
 ```
+
+</div>

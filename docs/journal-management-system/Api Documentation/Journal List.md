@@ -20,12 +20,14 @@ To access this API, include the following headers:
 - `x-api-key` - `{Your Api Key Generate in Developer Option}`
 - `x-api-secret` - `{Your Api Secret Generate in Developer Option}`
 
-**Query Parameters**
+### **Query Parameters**
 
-**1.** **Pagination Parameters:**
+**1. Pagination Parameters**
 
-- `page` (integer, optional): Specifies the page number of the journal list to retrieve. If not provided, it defaults to 1.
-- `size` (integer, optional): Specifies the number of journals per page. If not provided, the default value is 20.
+| Parameter | Type    | Required | Description                                    | Default |
+| --------- | ------- | -------- | ---------------------------------------------- | ------- |
+| `page`    | integer | No       | Page number to retrieve from the journal list. | `1`     |
+| `size`    | integer | No       | Number of journals per page.                   | `20`    |
 
 **Example**
 
@@ -47,11 +49,21 @@ https://jms.kryoni.com/api/v1/external/journals?search_text=science
 
 This will return journals that contain "science" in the title or description.
 
-**Response**
+## **Response**
 
 The API response is a JSON object that provides the requested journal data, pagination details, and any search information. Below is an example response structure:
 
-```yaml
+### **Response Headers**
+
+    - **Content-Type: application/json**
+
+### **Response Body**
+
+<div className="custom-json-response">
+
+**Response**
+
+```yml
 {
   "code": 0,
   "message": "success",
@@ -72,6 +84,8 @@ The API response is a JSON object that provides the requested journal data, pagi
     { "page": 1, "size": 20, "total_count": 100, "search_text": "science" },
 }
 ```
+
+</div>
 
 ### Response Fields
 
@@ -109,8 +123,30 @@ GET https://jms.kryoni.com/api/v1/external/journals?page=3&size=15
 GET https://jms.kryoni.com/api/v1/external/journals?search_text=technology
 ```
 
-**Error Handling**
+## **Error Handling**
+
 Possible error responses might include:
 
-- **Code 1**: "Unauthorized" - This occurs if the `x-api-key or` `x-api-secret` headers are invalid or missing.
-- **Code 2**: "Invalid Parameters" - This happens when a query parameter has an invalid format or value.
+| Code | Message          | Description                                                        |
+| ---- | ---------------- | ------------------------------------------------------------------ |
+| `1`  | "Unauthorized"   | Occurs if `x-api-key or` or `x-api-secret` are invalid or missing. |
+| `2`  | "Invalid Params" | Triggered when query parameters contain invalid formats or values. |
+
+**Error Response Example**
+
+For unauthorized access:
+
+<div className="custom-json-response">
+
+**Response**
+
+```yml
+{
+  "code": 1,
+  "message": "Unauthorized",
+  "status_code": 401,
+  "error": "Invalid API credentials",
+}
+```
+
+</div>

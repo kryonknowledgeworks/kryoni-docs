@@ -579,8 +579,40 @@ a[href*="docs.kryoni.com/blog/long-blog-post"] {
     display: none !important;
 }
 
+.code-sidebar {
+  position: fixed;
+  right: 0;
+  top: 20px;
+  width: 30%;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-y: auto;
+  max-height: 80vh;
+}
 
+.code-sidebar code {
+  color: #fff;
+}
+.custom-json-response {
+  background-color: #343232;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+.language-yml {
+background-color: #000 !important;
+}
 
+.token.plain{
+  color: #f0f8ff !important;
+}
+
+.language-plaintext {
+  background-color: #000 !important;
+}
 
 
 

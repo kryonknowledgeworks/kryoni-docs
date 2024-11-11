@@ -34,7 +34,11 @@ This request fetches the journal details for the journal with ID 101.
 **Response**
 The API response is a JSON object that provides detailed journal information, including metadata, disciplines, and attachments. Below is an example response structure:
 
-```yaml
+<div className="custom-json-response">
+
+**Response**
+
+```yml
 {
   "code": 0,
   "message": "success",
@@ -106,6 +110,8 @@ The API response is a JSON object that provides detailed journal information, in
     },
 }
 ```
+
+</div>
 
 ### Response Fields
 
