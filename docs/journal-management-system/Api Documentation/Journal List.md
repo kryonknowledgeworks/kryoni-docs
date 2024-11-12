@@ -13,12 +13,29 @@ sidebar: jmsSidebar
 - Method: GET
 - Description: Fetches a list of journals with pagination and search functionality.
 
-**Headers**
+### **Request Headers**
 
 To access this API, include the following headers:
 
-- `x-api-key` - `{Your Api Key Generate in Developer Option}`
-- `x-api-secret` - `{Your Api Secret Generate in Developer Option}`
+| Header         | Value                                            | Description                             |
+| -------------- | ------------------------------------------------ | --------------------------------------- |
+| `x-api-key`    | `{Your Api Key Generate in Developer Option}`    | API key to authenticate the request.    |
+| `x-api-secret` | `{Your Api Secret Generate in Developer Option}` | API secret to authenticate the request. |
+
+To access this API, include the following headers:
+
+<div className="custom-json-response">
+
+**Api Key**
+
+```javascript
+{
+  "api_key": "string",
+  "api_secret": "string"
+}
+```
+
+</div>
 
 ### **Query Parameters**
 
@@ -55,37 +72,71 @@ The API response is a JSON object that provides the requested journal data, pagi
 
 ### **Response Headers**
 
-    - **Content-Type: application/json**
+    - **Content-Type: `application/json`**
 
 ### **Response Body**
 
-<div className="custom-json-response">
+<details className="response-success">
+  <summary>200 Sucessfull</summary>
+  <div className="custom-json-response">
 
 **Response**
 
-```yml
-{
-  "code": 0,
-  "message": "success",
-  "journals":
-    [
-      {
-        "id": 1,
-        "title": "Journal Of Science",
-        "created_at": "2024-08-26T10:58:44.412203Z",
-      },
-      {
-        "id": 2,
-        "title": "Journal Of Technology",
-        "created_at": "2024-08-27T11:00:00.000000Z",
-      },
-    ],
-  "page_context":
-    { "page": 1, "size": 20, "total_count": 100, "search_text": "science" },
-}
-```
+    ```javascript
+    {
+      "code": 0,
+      "message": "success",
+      "journals":
+        [
+          {
+            "id": 1,
+            "title": "Journal Of Science",
+            "created_at": "2024-08-26T10:58:44.412203Z",
+          },
+          {
+            "id": 2,
+            "title": "Journal Of Technology",
+            "created_at": "2024-08-27T11:00:00.000000Z",
+          },
+        ],
+      "page_context":
+        { "page": 1, "size": 20, "total_count": 100, "search_text": "science" },
+    }
+    ```
 
-</div>
+  </div>
+</details>
+
+<details className="response-error">
+  <summary>401 Unauthorized</summary>
+  <div className="custom-json-response">
+
+    **Response**
+
+    ```javascript
+    {
+      "code": 0,
+      "message": "success",
+      "journals":
+        [
+          {
+            "id": 1,
+            "title": "Journal Of Science",
+            "created_at": "2024-08-26T10:58:44.412203Z",
+          },
+          {
+            "id": 2,
+            "title": "Journal Of Technology",
+            "created_at": "2024-08-27T11:00:00.000000Z",
+          },
+        ],
+      "page_context":
+        { "page": 1, "size": 20, "total_count": 100, "search_text": "science" },
+    }
+    ```
+
+  </div>
+</details>
 
 ### Response Fields
 
@@ -140,12 +191,12 @@ For unauthorized access:
 
 **Response**
 
-```yml
+```javascript
 {
   "code": 1,
   "message": "Unauthorized",
   "status_code": 401,
-  "error": "Invalid API credentials",
+  "error": "Invalid API credentials"
 }
 ```
 
