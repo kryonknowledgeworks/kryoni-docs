@@ -38,7 +38,11 @@ Example:https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&search_t
 
 **Response:**
 
-```json response
+<div className="custom-json-response">
+
+**Response**
+
+```yml
 {
  “code” : 0,
  “message” : “success”,
@@ -59,3 +63,5 @@ Example:https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&search_t
    }
 }
 ```
+
+</div>

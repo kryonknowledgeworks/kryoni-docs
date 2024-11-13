@@ -5,7 +5,17 @@ sidebar: jmsSidebar
 
 #
 
-## **Journal List**
+## **Journal List API**
+
+## Overview
+
+The Journal List API allows you to fetch a list of journals with pagination and search functionality. This documentation provides details on how to authenticate, make requests, and interpret responses.
+
+## Base URL
+
+```plaintext
+https://jms.kryoni.com/api/v1/external/journals
+```
 
 **Endpoint**
 
@@ -13,19 +23,38 @@ sidebar: jmsSidebar
 - Method: GET
 - Description: Fetches a list of journals with pagination and search functionality.
 
-**Headers**
+## Authentication
 
-To access this API, include the following headers:
+To access this API, you must include the following headers in your request:
 
-- `x-api-key` - `{Your Api Key Generate in Developer Option}`
-- `x-api-secret` - `{Your Api Secret Generate in Developer Option}`
+### **Request Headers**
 
-**Query Parameters**
+| Header         | Value                                             | Description                             |
+| -------------- | ------------------------------------------------- | --------------------------------------- |
+| `x-api-key`    | `{Your Api Key Generated in Developer Option}`    | API key to authenticate the request.    |
+| `x-api-secret` | `{Your Api Secret Generated in Developer Option}` | API secret to authenticate the request. |
 
-**1.** **Pagination Parameters:**
+<div className="custom-json-response">
 
-- `page` (integer, optional): Specifies the page number of the journal list to retrieve. If not provided, it defaults to 1.
-- `size` (integer, optional): Specifies the number of journals per page. If not provided, the default value is 20.
+**Api Key**
+
+```javascript
+{
+  "api_key": "string",
+  "api_secret": "string"
+}
+```
+
+</div>
+
+### **Query Parameters**
+
+**1. Pagination Parameters**
+
+| Parameter | Type    | Required | Description                                    | Default |
+| --------- | ------- | -------- | ---------------------------------------------- | ------- |
+| `page`    | integer | No       | Page number to retrieve from the journal list. | `1`     |
+| `size`    | integer | No       | Number of journals per page.                   | `20`    |
 
 **Example**
 
@@ -47,47 +76,91 @@ https://jms.kryoni.com/api/v1/external/journals?search_text=science
 
 This will return journals that contain "science" in the title or description.
 
-**Response**
+## **Response**
 
 The API response is a JSON object that provides the requested journal data, pagination details, and any search information. Below is an example response structure:
 
-```yaml
+### **Response Body**
+
+<details className="response-success">
+  <summary>200 Sucess</summary>
+  <div className="custom-json-response">
+  The response schema is returned in JSON format with details on the requested journals, pagination, and any applied search filters.
+   <details>
+    <summary>Response Schema: `application/json`</summary>
+
+| Field                         | Type              | Description                                         |
+| ----------------------------- | ----------------- | --------------------------------------------------- |
+| `code`                        | integer           | A status code, where `0` indicates success.         |
+| `message`                     | string            | Message detailing the status, e.g., "success".      |
+| `journals`                    | array of objects  | List of journals that match the query parameters.   |
+| ├─ `journals.id`              | integer           | Unique identifier for each journal.                 |
+| ├─ `journals.title`           | string            | Title of the journal.                               |
+| └─ `journals.created_at`      | string (datetime) | Journal creation date in ISO 8601 format.           |
+| `page_context`                | object            | Contains pagination details and search information. |
+| ├─ `page_context.page`        | integer           | Current page number of the result.                  |
+| ├─ `page_context.size`        | integer           | Number of journals per page.                        |
+| ├─ `page_context.total_count` | integer           | Total number of matching journals.                  |
+| └─ `page_context.search_text` | string            | Search term used, if any, to filter the journals.   |
+
+  </details>
+
+**Response**
+
+    ```javascript
+    {
+      "code": 0,
+      "message": "success",
+      "journals":
+        [
+          {
+            "id": 1,
+            "title": "Journal Of Science",
+            "created_at": "2024-08-26T10:58:44.412203Z",
+          },
+          {
+            "id": 2,
+            "title": "Journal Of Technology",
+            "created_at": "2024-08-27T11:00:00.000000Z",
+          },
+        ],
+      "page_context":
+        { "page": 1, "size": 20, "total_count": 100, "search_text": "science" },
+    }
+    ```
+
+  </div>
+</details>
+
+### **Error Handling**
+
+Possible error responses might include:
+
+<details className="response-error">
+  <summary>401 Unauthorized</summary>
+  <div className="custom-json-response">
+   <details>
+    <summary>Response Schema: `application/json`</summary>
+| Code | Message          | Description                                                        |
+| ---- | ---------------- | ------------------------------------------------------------------ |
+| `1`  | "Unauthorized"   | Occurs if `x-api-key or` or `x-api-secret` are invalid or missing. |
+| `2`  | "Invalid Params" | Triggered when query parameters contain invalid formats or values. |
+
+  </details>
+
+    **Response**
+
+```javascript
 {
-  "code": 0,
-  "message": "success",
-  "journals":
-    [
-      {
-        "id": 1,
-        "title": "Journal Of Science",
-        "created_at": "2024-08-26T10:58:44.412203Z",
-      },
-      {
-        "id": 2,
-        "title": "Journal Of Technology",
-        "created_at": "2024-08-27T11:00:00.000000Z",
-      },
-    ],
-  "page_context":
-    { "page": 1, "size": 20, "total_count": 100, "search_text": "science" },
+  "code": 1,
+  "message": "Unauthorized",
+  "status_code": 401,
+  "error": "Invalid API credentials"
 }
 ```
 
-### Response Fields
-
-| Field            | Type                     | Description                                                                    |
-| ---------------- | ------------------------ | ------------------------------------------------------------------------------ |
-| **code**         | integer                  | A status code indicating the response result. `0` means success.               |
-| **message**      | string                   | A descriptive message related to the request's result, such as "success".      |
-| **journals**     | array of journal objects | An array containing details of each journal in the response.                   |
-| **id**           | integer                  | Unique identifier for each journal.                                            |
-| **title**        | string                   | The title of the journal.                                                      |
-| **created_at**   | string (datetime)        | The date and time the journal entry was created in UTC, formatted as ISO 8601. |
-| **page_context** | object                   | Contains pagination and search details.                                        |
-| **page**         | integer                  | Current page number of the response.                                           |
-| **size**         | integer                  | Number of journals per page in the response.                                   |
-| **total_count**  | integer                  | Total number of journals that match the criteria.                              |
-| **search_text**  | string (optional)        | The search term provided, if any, to filter the journals.                      |
+  </div>
+</details>
 
 **Example Requests**
 
@@ -108,9 +181,3 @@ GET https://jms.kryoni.com/api/v1/external/journals?page=3&size=15
 ```plaintext
 GET https://jms.kryoni.com/api/v1/external/journals?search_text=technology
 ```
-
-**Error Handling**
-Possible error responses might include:
-
-- **Code 1**: "Unauthorized" - This occurs if the `x-api-key or` `x-api-secret` headers are invalid or missing.
-- **Code 2**: "Invalid Parameters" - This happens when a query parameter has an invalid format or value.

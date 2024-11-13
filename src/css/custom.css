@@ -579,10 +579,90 @@ a[href*="docs.kryoni.com/blog/long-blog-post"] {
     display: none !important;
 }
 
+.code-sidebar {
+  position: fixed;
+  right: 0;
+  top: 20px;
+  width: 30%;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: monospace;
+  overflow-y: auto;
+  max-height: 80vh;
+}
 
+.code-sidebar code {
+  color: #fff;
+}
+.custom-json-response {
+  background-color: #303846;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+.language-yml {
+background-color: RGB(27, 32, 40) !important;
+}
 
+.token.plain{
+  color: #f0f8ff !important;
+}
 
+.language-plaintext {
+  background-color:  RGB(27, 32, 40) !important;
+}
 
+.button {
+  border-radius: 5px !important;
+}
+
+.custom-button {
+  background-color: RGB(27, 32, 40) !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border: none !important;
+  border-radius: 4px !important;
+  text-align: center !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+}
+.custom-status-code { 
+  background-color: RGB(51, 51, 51) !important;
+  padding: 2px !important;
+  border-radius: 5px !important;
+}
+
+/* Green color for 200 response */
+.response-success summary {
+  color: green;
+  font-weight: bold;
+}
+
+/* Red color for 400 response */
+.response-error summary {
+  color: red;
+  font-weight: bold;
+}
+
+.content-type {
+  background-color: #000 !important;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+.language-json {
+  background-color: RGB(27, 32, 40) !important;
+}
+
+.language-javascript {
+  background-color: RGB(27, 32, 40) !important;
+}
+
+.language-http {
+  background-color: RGB(27, 32, 40) !important;
+}
 
 
 
