@@ -17,6 +17,8 @@ The Journal Details API allows you to retrieve detailed information about a spec
 https://jms.kryoni.com/api/v1/external/journals/{journal_id}
 ```
 
+**Endpoint**
+
 - **URL:** `https://jms.kryoni.com/api/v1/external/journals/{journal_id}`
 - **Method:** `GET`
 - **Description:** Fetch detailed information about a specific journal, including metadata, guidelines, disciplines, and author-related data.
@@ -29,6 +31,19 @@ To access this API, include the following headers:
 
 - **x-api-key**: `{Your Api Key Generate in Developer Option}`
 - **x-api-secret**: `{Your Api Secret Generate in Developer Option}`
+
+<div className="custom-json-response">
+
+**Api Key**
+
+```javascript
+{
+  "api_key": "string",
+  "api_secret": "string"
+}
+```
+
+</div>
 
 ---
 
@@ -169,14 +184,15 @@ Possible error responses might include:
     **Response**
 
 ```yml
-{ “code”: "10", “message”: “Journal Not Found” }
+{ “code”: 10, “message”: “Journal Not Found” }
 ```
 
   </div>
 </details>
 
 **Example Requests**
-**1.** **Fetching Journal Details by ID:**
+
+**Fetching Journal Details by ID:**
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/journals/101

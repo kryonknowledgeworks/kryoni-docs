@@ -107,7 +107,7 @@ The API response is a JSON object that provides the requested journal data, pagi
 
 **Response**
 
-    ```javascript
+    ```yml
     {
       "code": 0,
       "message": "success",
@@ -150,12 +150,12 @@ Possible error responses might include:
 
     **Response**
 
-```javascript
+```yml
 {
   "code": 1,
   "message": "Unauthorized",
   "status_code": 401,
-  "error": "Invalid API credentials"
+  "error": "Invalid API credentials",
 }
 ```
 
