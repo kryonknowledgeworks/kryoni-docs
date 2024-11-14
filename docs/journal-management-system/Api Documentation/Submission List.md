@@ -5,63 +5,173 @@ sidebar: jmsSidebar
 
 #
 
-## **Submission List**
+## **Submission List API**
 
-**API :** https://jms.kryoni.com/api/v1/external/journals
+## Overview
 
-**Method:** GET
+The Submission List API allows you to retrieve a list of journal submissions with pagination and search capabilities. The following documentation outlines authentication, request methods, and response handling.
 
-**Headers:**
+### Base URL
 
-- `x-api-key` - `{Your Api Key Generate in Developer Option}`
-- `x-api-secret` - `{Your Api Secret Generate in Developer Option}`
+```plaintext
+https://jms.kryoni.com/api/v1/external/submissions
+```
 
-**Journal:**
+**Endpoint**
 
-- Add journal_id in url to filter by journal.And It is mandatory for this api.
+- **URL:** `https://jms.kryoni.com/api/v1/external/submissions`
+- **Method:** `GET`
+- **Description:** Retrieves a list of submissions, filtered by journal ID, with pagination and search options.
 
-**Example**: https://jms.kryoni.com/api/v1/external/journals?journal_id=1
+## Authentication
 
-**Pagination:**
-Add value in url param
+To access this API, include the following headers in your request:
 
-- page // Page of List (Default is set to 1)
-- size // Size of Page (Default is set to 20)
+### **Request Headers**
 
-Example: https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&page=1&size=20
-
-**Search:**
-
-- Add search_text in url param
-
-Example:https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&search_text=science
-
-**Response:**
+| Header         | Value                                             | Description                             |
+| -------------- | ------------------------------------------------- | --------------------------------------- |
+| `x-api-key`    | `{Your Api Key Generated in Developer Option}`    | API key to authenticate the request.    |
+| `x-api-secret` | `{Your Api Secret Generated in Developer Option}` | API secret to authenticate the request. |
 
 <div className="custom-json-response">
 
-**Response**
+**Api Key**
 
-```yml
+```javascript
 {
- “code” : 0,
- “message” : “success”,
- “submissions”:[
-    {
-     “id”:1,
-     “title”:”The Global Warning”,
-     “journal_id” : 1,
-     “journal_title” : “The Journal of Science”,
-     “created_at” : ”2024-08-26T10:58:44.412203Z”
-    },..
-  ],
- “page_context”: {
-   “page”: 1,
-   “size”: 20,
-   “total_count” : 100,
-   “search_text”: ”science”
-   }
+  "api_key": "string",
+  "api_secret": "string"
 }
 ```
 
 </div>
+
+**Journal Filter**
+
+- Required: `journal_id` parameter in the URL to filter submissions by journal.
+
+**Example**
+
+```plaintext
+https://jms.kryoni.com/api/v1/external/journals?journal_id=1
+```
+
+**Pagination Parameters**
+Add value in url param
+
+| Parameter | Type    | Required | Description                    | Default |
+| --------- | ------- | -------- | ------------------------------ | ------- |
+| `page`    | integer | No       | Page of the list               | `1`     |
+| `size`    | integer | No       | Number of submissions per page | `20`    |
+
+**Example**
+
+```plaintext
+https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&page=1&size=20
+```
+
+**Search Parameter**
+
+- Optional: `search_text` to filter by search term.
+
+**Example**
+
+```plaintext
+https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&search_text=science
+```
+
+### **Response Body**
+
+<details className="response-success">
+  <summary>200 Sucess</summary>
+  <div className="custom-json-response">
+  The response schema is returned in JSON format with details on the requested journals, pagination, and any applied search filters.
+   <details>
+    <summary>Response Schema: `application/json`</summary>
+
+| Field              | Type              | Description                                                                                                                          |
+| ------------------ | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `code`             | integer           | Status code indicating the result of the request. A value of `0` typically indicates a successful request.                           |
+| `message`          | string            | Message describing the status of the response, e.g., "success" if the request was processed correctly.                               |
+| `submissions`      | array of objects  | List of submissions that match the specified criteria. Each object represents a single submission and includes the following fields: |
+| ├─ `id`            | integer           | Unique identifier for the submission.                                                                                                |
+| ├─ `title`         | string            | Title of the submission.                                                                                                             |
+| ├─ `journal_id`    | integer           | Unique identifier for the journal to which the submission belongs.                                                                   |
+| ├─ `journal_title` | string            | Title of the journal associated with the submission.                                                                                 |
+| └─ `created_at`    | string (datetime) | Date and time the submission was created, formatted in ISO 8601 (e.g., "2024-08-26T10:58:44.412203Z").                               |
+| `page_context`     | object            | Object containing pagination information and search details. It includes the following fields:                                       |
+| ├─ `page`          | integer           | Current page number of the response data.                                                                                            |
+| ├─ `size`          | integer           | Number of submissions per page as specified in the request parameters.                                                               |
+| ├─ `total_count`   | integer           | Total number of submissions that match the query criteria.                                                                           |
+| └─ `search_text`   | string            | Search term used, if any, to filter the submissions. This value matches the `search_text` parameter from the request.                |
+
+  </details>
+
+**Response**
+
+    ```yml
+    {
+      “code” : 0,
+      “message” : “success”,
+      “submissions”:[
+          {
+          “id”:1,
+          “title”:”The Global Warning”,
+          “journal_id” : 1,
+          “journal_title” : “The Journal of Science”,
+          “created_at” : ”2024-08-26T10:58:44.412203Z”
+          },..
+        ],
+      “page_context”: {
+        “page”: 1,
+        “size”: 20,
+        “total_count” : 100,
+        “search_text”: ”science”
+        }
+      }
+    ```
+
+  </div>
+</details>
+
+### **Error Handling**
+
+Possible error responses might include:
+
+<details className="response-error">
+  <summary>401 Unauthorized</summary>
+  <div className="custom-json-response">
+   <details>
+    <summary>Response Schema: `application/json`</summary>
+| Field             | Type               | Description                                                                                                                                        |
+|-------------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| `code`            | integer            | Error code indicating the type of error. Each code corresponds to a specific issue (e.g., `400` for bad request, `401` for unauthorized access).   |
+| `message`         | string             | Descriptive error message explaining the issue encountered (e.g., "Invalid API key", "Journal ID required").                                        |
+| `errors`          | array of objects   | Additional details on specific errors, if any, that occurred. Each error object contains information about a specific field or parameter issue:    |
+| ├─ `field`        | string             | Name of the field or parameter that caused the error.                                                                                              |
+| └─ `message`      | string             | Explanation of the error related to the field.                                                                                                      |
+
+### Example Error Response
+
+  </details>
+
+    **Response**
+
+```yml
+{
+  "code": 400,
+  "message": "Invalid request parameters.",
+  "errors":
+    [
+      {
+        "field": "journal_id",
+        "message": "The journal_id parameter is required.",
+      },
+      { "field": "x-api-key", "message": "Invalid API key provided." },
+    ],
+}
+```
+
+  </div>
+</details>

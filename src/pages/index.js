@@ -252,8 +252,8 @@ export default function Home() {
                   API Reference Guide
                 </h5>
                 <span className="span-content">
-                  We offer round-the-clock support for prompt issue resolution
-                  and uninterrupted workflow.
+                  Comprehensive documentation for easy integration and optimal
+                  functionality in your applications.
                 </span>
               </div>
             </div>
@@ -266,8 +266,8 @@ export default function Home() {
                 />
                 <h5 className="fw-semibold text-capitalize">Developer Tools</h5>
                 <span className="span-content">
-                  We offer round-the-clock support for prompt issue resolution
-                  and uninterrupted workflow.
+                  Robust tools to enhance development efficiency, streamline
+                  customization, and simplify workflows.
                 </span>
               </div>
             </div>
