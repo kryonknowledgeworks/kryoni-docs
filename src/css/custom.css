@@ -597,7 +597,7 @@ a[href*="docs.kryoni.com/blog/long-blog-post"] {
   color: #fff;
 }
 .custom-json-response {
-  background-color: #303846;
+  background-color: #1B2028;
   color: #fff;
   padding: 15px;
   border-radius: 5px;
@@ -663,7 +663,32 @@ background-color: RGB(27, 32, 40) !important;
 .language-http {
   background-color: RGB(27, 32, 40) !important;
 }
+/* Override the Prism styles applied inline */
+.prism-code .token.property {
+  color: #FFFFFF !important;
+}
 
+.prism-code .token.string {
+  color: #9EF8A8 !important;
+}
+
+.prism-code .token.number {
+  color: #4A8BB3 !important;
+}
+/* Target JSON code blocks */
+pre.language-json code {
+  color: #d6336c !important; /* Adjust color with !important */
+  font-weight: bold !important;
+}
+.custom-response {
+  color: #FFFFFF;
+}
+.prism-code .token.operator {
+  color: #FFFFFF !important;
+}
+.prism-code .token.punctuation {
+  color: #FFFFFF !important;
+}  
 
 
 

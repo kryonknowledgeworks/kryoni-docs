@@ -5,13 +5,13 @@ sidebar: jmsSidebar
 
 #
 
-## **Journal List API**
+# **Journal List API**
 
 ## Overview
 
 The Journal List API allows you to fetch a list of journals with pagination and search functionality. This documentation provides details on how to authenticate, make requests, and interpret responses.
 
-## Base URL
+### Base URL
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/journals
@@ -34,9 +34,8 @@ To access this API, you must include the following headers in your request:
 | `x-api-key`    | `{Your Api Key Generated in Developer Option}`    | API key to authenticate the request.    |
 | `x-api-secret` | `{Your Api Secret Generated in Developer Option}` | API secret to authenticate the request. |
 
-<div className="custom-json-response">
-
-**Api Key**
+<details className="response-success">
+  <summary>Api Key Authentication</summary>
 
 ```javascript
 {
@@ -45,7 +44,7 @@ To access this API, you must include the following headers in your request:
 }
 ```
 
-</div>
+</details>
 
 ### **Query Parameters**
 
@@ -83,8 +82,8 @@ The API response is a JSON object that provides the requested journal data, pagi
 ### **Response Body**
 
 <details className="response-success">
-  <summary>200 Sucess</summary>
-  <div className="custom-json-response">
+  <summary>200 Success</summary>
+  <div className="custom-response">
   The response schema is returned in JSON format with details on the requested journals, pagination, and any applied search filters.
    <details>
     <summary>Response Schema: `application/json`</summary>
@@ -105,9 +104,11 @@ The API response is a JSON object that provides the requested journal data, pagi
 
   </details>
 
+---
+
 **Response**
 
-    ```yml
+    ```javascript
     {
       "code": 0,
       "message": "success",
@@ -125,7 +126,11 @@ The API response is a JSON object that provides the requested journal data, pagi
           },
         ],
       "page_context":
-        { "page": 1, "size": 20, "total_count": 100, "search_text": "science" },
+        { "page": 1,
+          "size": 20,
+          "total_count": 100,
+          "search_text": "science"
+        },
     }
     ```
 
@@ -138,7 +143,7 @@ Possible error responses might include:
 
 <details className="response-error">
   <summary>401 Unauthorized</summary>
-  <div className="custom-json-response">
+  <div className="custom-response">
    <details>
     <summary>Response Schema: `application/json`</summary>
 | Code | Message          | Description                                                        |
@@ -148,9 +153,11 @@ Possible error responses might include:
 
   </details>
 
-    **Response**
+---
 
-```yml
+**Response**
+
+```javascript
 {
   "code": 1,
   "message": "Unauthorized",
