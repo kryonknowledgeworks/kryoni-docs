@@ -27,14 +27,17 @@ https://jms.kryoni.com/api/v1/external/journals/{journal_id}
 
 ## Authentication
 
-To access this API, include the following headers:
+To access this API, you must include the following headers in your request:
 
-- **x-api-key**: `{Your Api Key Generate in Developer Option}`
-- **x-api-secret**: `{Your Api Secret Generate in Developer Option}`
+### **Request Headers**
 
-<div className="custom-json-response">
+| Header         | Value                                             | Description                             |
+| -------------- | ------------------------------------------------- | --------------------------------------- |
+| `x-api-key`    | `{Your Api Key Generated in Developer Option}`    | API key to authenticate the request.    |
+| `x-api-secret` | `{Your Api Secret Generated in Developer Option}` | API secret to authenticate the request. |
 
-**Api Key**
+<details className="response-success">
+  <summary>Api Key Authentication</summary>
 
 ```javascript
 {
@@ -43,7 +46,7 @@ To access this API, include the following headers:
 }
 ```
 
-</div>
+</details>
 
 ---
 
@@ -63,9 +66,11 @@ This request fetches the journal details for the journal with ID 101.
 
 The API response is a JSON object that provides detailed journal information, including metadata, disciplines, and attachments. Below is an example response structure:
 
+### **Response Body**
+
 <details className="response-success">
-  <summary>200 Sucess</summary>
-  <div className="custom-json-response">
+  <summary>200 Success</summary>
+  <div className="custom-response">
    <details>
     <summary>Response Schema: `application/json`</summary>
 
@@ -89,7 +94,7 @@ The API response is a JSON object that provides detailed journal information, in
 
 **Response**
 
-      ```yml
+      ```javascript
       {
         "code": 0,
         "message": "success",
@@ -171,7 +176,7 @@ Possible error responses might include:
 
 <details className="response-error">
   <summary>401 Unauthorized</summary>
-  <div className="custom-json-response">
+  <div className="custom-response">
    <details>
     <summary>Response Schema: `application/json`</summary>
 | HTTP Status | Code | Message            | Description                                            |
@@ -183,8 +188,11 @@ Possible error responses might include:
 
     **Response**
 
-```yml
-{ “code”: 10, “message”: “Journal Not Found” }
+```javascript
+{
+  “code”: 10,
+  “message”: “Journal Not Found”
+}
 ```
 
   </div>

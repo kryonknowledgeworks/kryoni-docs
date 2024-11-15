@@ -5,7 +5,7 @@ sidebar: jmsSidebar
 
 #
 
-## **Submission Detail API**
+# **Submission Detail API**
 
 ## Overview
 
@@ -34,9 +34,8 @@ To access this API, include the following headers in your request:
 | `x-api-key`    | `{Your Api Key Generated in Developer Option}`    | API key for authentication.    |
 | `x-api-secret` | `{Your Api Secret Generated in Developer Option}` | API secret for authentication. |
 
-<div className="custom-json-response">
-
-**Api Key**
+<details className="response-success">
+  <summary>Api Key Authentication</summary>
 
 ```javascript
 {
@@ -45,7 +44,7 @@ To access this API, include the following headers in your request:
 }
 ```
 
-</div>
+</details>
 
 ## **Response**
 
@@ -54,8 +53,8 @@ The API response provides submission data including details on the authors, file
 ### **Response Body**
 
 <details className="response-success">
-  <summary>200 Sucess</summary>
-  <div className="custom-json-response">
+  <summary>200 Success</summary>
+  <div className="custom-response">
   The response schema is returned in JSON format with details on the requested journals, pagination, and any applied search filters.
    <details>
     <summary>Response Schema: `application/json`</summary>
@@ -83,7 +82,7 @@ The API response provides submission data including details on the authors, file
 
 **Response**
 
-    ```yml
+    ```javascript
 
             {
         "code": 0,
@@ -177,7 +176,7 @@ Possible error responses might include:
 
 <details className="response-error">
   <summary>400 Unauthorized</summary>
-  <div className="custom-json-response">
+  <div className="custom-response">
    <details>
     <summary>Response Schema: `application/json`</summary>
 | HTTP Status | Code | Message            | Description                                            |
@@ -189,7 +188,7 @@ Possible error responses might include:
 
     **Response**
 
-```yml
+```javascript
 { “code”: 10, “message”: “Submission Not Found” }
 ```
 

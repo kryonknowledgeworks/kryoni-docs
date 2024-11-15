@@ -5,7 +5,7 @@ sidebar: jmsSidebar
 
 #
 
-## **Submission List API**
+# **Submission List API**
 
 ## Overview
 
@@ -34,9 +34,8 @@ To access this API, include the following headers in your request:
 | `x-api-key`    | `{Your Api Key Generated in Developer Option}`    | API key to authenticate the request.    |
 | `x-api-secret` | `{Your Api Secret Generated in Developer Option}` | API secret to authenticate the request. |
 
-<div className="custom-json-response">
-
-**Api Key**
+<details className="response-success">
+  <summary>Api Key Authentication</summary>
 
 ```javascript
 {
@@ -45,7 +44,7 @@ To access this API, include the following headers in your request:
 }
 ```
 
-</div>
+</details>
 
 **Journal Filter**
 
@@ -81,11 +80,15 @@ https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&page=1&size=20
 https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&search_text=science
 ```
 
+## **Response**
+
+The API response is a JSON object that contains the requested journal submissions data, along with pagination details and any search criteria applied. Below is a sample response structure with an explanation of each field.
+
 ### **Response Body**
 
 <details className="response-success">
-  <summary>200 Sucess</summary>
-  <div className="custom-json-response">
+  <summary>200 Success</summary>
+  <div className="custom-response">
   The response schema is returned in JSON format with details on the requested journals, pagination, and any applied search filters.
    <details>
     <summary>Response Schema: `application/json`</summary>
@@ -110,7 +113,7 @@ https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&search_text=scie
 
 **Response**
 
-    ```yml
+    ```javascript
     {
       “code” : 0,
       “message” : “success”,
@@ -141,7 +144,7 @@ Possible error responses might include:
 
 <details className="response-error">
   <summary>401 Unauthorized</summary>
-  <div className="custom-json-response">
+  <div className="custom-response">
    <details>
     <summary>Response Schema: `application/json`</summary>
 | Field             | Type               | Description                                                                                                                                        |
@@ -152,13 +155,11 @@ Possible error responses might include:
 | ├─ `field`        | string             | Name of the field or parameter that caused the error.                                                                                              |
 | └─ `message`      | string             | Explanation of the error related to the field.                                                                                                      |
 
-### Example Error Response
-
   </details>
 
     **Response**
 
-```yml
+```javascript
 {
   "code": 400,
   "message": "Invalid request parameters.",
