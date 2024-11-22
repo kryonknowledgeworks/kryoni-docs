@@ -408,7 +408,7 @@ input {
     color: #333;
 }
 
-.theme-doc-markdown.markdown h1 {
+/* .theme-doc-markdown.markdown h1 {
     font-size: 2em;
     color: #161616 !important; 
 }
@@ -437,7 +437,7 @@ input {
     font-size: 1em; 
     line-height: 1.5; 
     color: #161616 !important;
-}
+} */
 .table-of-contents.table-of-contents__left-border {
   border-left: none !important; 
 }
@@ -709,13 +709,14 @@ body {
 [data-theme="dark"] h4, 
 [data-theme="dark"] h5, 
 [data-theme="dark"] h6 {
-  color: #ffffff; /* Ensure headers are white in dark mode */
+  color: #ffffff !important; /* Ensure headers are white in dark mode */
 }
 [data-theme="dark"] p,
 [data-theme="dark"] a,
 [data-theme="dark"] span,
-[data-theme="dark"] li {
-  color: #ffffff; /* White font for text elements in dark mode */
+[data-theme="dark"] li,
+[data-theme="dark"] strong {
+  color: #ffffff !important; /* White font for text elements in dark mode */
 }
 
 
