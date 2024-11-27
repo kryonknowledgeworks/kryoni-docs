@@ -719,6 +719,13 @@ body {
   color: #ffffff !important; /* White font for text elements in dark mode */
 }
 
+html .docusaurus-skip-to-content {
+  display: none !important;
+}
+
+
+
+
 
 
 
