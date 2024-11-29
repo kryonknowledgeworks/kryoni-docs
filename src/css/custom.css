@@ -405,15 +405,14 @@ input {
 .theme-doc-markdown.markdown h5,
 .theme-doc-markdown.markdown h6 {
     font-family: 'Plus Jakarta Sans', sans-serif; 
-    color: #333;
+    color: #161616;
 }
 
-/* .theme-doc-markdown.markdown h1 {
-    font-size: 2em;
-    color: #161616 !important; 
+.theme-doc-markdown.markdown h1 {
+    font-size: 3em;
 }
 .theme-doc-markdown.markdown h2 {
-    font-size: 40px !important;
+    font-size: 32px !important;
     font-weight: 600 !important;
     color: #161616 !important; 
 }
@@ -433,7 +432,7 @@ input {
     font-size: 1em;
     color: #161616 !important; 
 }
-.theme-doc-markdown.markdown p {
+/* .theme-doc-markdown.markdown p {
     font-size: 1em; 
     line-height: 1.5; 
     color: #161616 !important;
@@ -473,7 +472,6 @@ input {
 p {
   color: #161616; 
   background-color: rgba(0, 0, 0, 0); 
-  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; 
   font-size: 16px; 
   font-weight: 400; 
   font-style: normal; 
