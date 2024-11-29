@@ -3,11 +3,7 @@ sidebar_position: 1
 sidebar: jmsSidebar
 ---
 
-#
-
-## **Introduction**
-
-**Introducing Kryoni JMS**
+## **Introducing Kryoni JMS**
 
 In an ever-evolving digital landscape, the publishing industry faces unique challenges, from managing author submissions to facilitating peer reviews and overseeing production.
 

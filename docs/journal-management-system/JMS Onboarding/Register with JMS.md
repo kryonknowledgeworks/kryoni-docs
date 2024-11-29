@@ -3,11 +3,7 @@ sidebar_position: 3
 sidebar: jmsSidebar
 ---
 
-#
-
-## **Registration**
-
-**Onboard and Engage**
+## **Onboard and Engage**
 
 **Before you Begin**
 
