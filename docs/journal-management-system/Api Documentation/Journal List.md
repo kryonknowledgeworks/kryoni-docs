@@ -3,15 +3,11 @@ sidebar_position: 1
 sidebar: jmsSidebar
 ---
 
-#
-
-# **Journal List API**
-
-## Overview
+## **Overview**
 
 The Journal List API allows you to fetch a list of journals with pagination and search functionality. This documentation provides details on how to authenticate, make requests, and interpret responses.
 
-### Base URL
+### **Base URL**
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/journals
@@ -23,7 +19,7 @@ https://jms.kryoni.com/api/v1/external/journals
 - Method: GET
 - Description: Fetches a list of journals with pagination and search functionality.
 
-## Authentication
+## **Authentication**
 
 To access this API, you must include the following headers in your request:
 
@@ -108,7 +104,7 @@ The API response is a JSON object that provides the requested journal data, pagi
 
 **Response**
 
-    ```javascript
+    ```javascript  title="API KEY"
     {
       "code": 0,
       "message": "success",

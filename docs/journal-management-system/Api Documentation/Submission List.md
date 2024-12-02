@@ -3,15 +3,11 @@ sidebar_position: 3
 sidebar: jmsSidebar
 ---
 
-#
-
-# **Submission List API**
-
-## Overview
+## **Overview**
 
 The Submission List API allows you to retrieve a list of journal submissions with pagination and search capabilities. The following documentation outlines authentication, request methods, and response handling.
 
-### Base URL
+### **Base URL**
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/submissions
@@ -23,7 +19,7 @@ https://jms.kryoni.com/api/v1/external/submissions
 - **Method:** `GET`
 - **Description:** Retrieves a list of submissions, filtered by journal ID, with pagination and search options.
 
-## Authentication
+## **Authentication**
 
 To access this API, include the following headers in your request:
 

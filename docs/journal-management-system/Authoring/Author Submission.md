@@ -41,7 +41,7 @@ You must provide the following essential information about your manuscript:
 
 - **Submission Title:** Provide a clear and informative title that captures the essence of your work.
 
--** Subtitle:** (if applicable) Include a supplementary subtitle to offer additional context to your title.
+- **Subtitle:** (if applicable) Include a supplementary subtitle to offer additional context to your title.
 
 - **Keywords/Tags:** Input relevant keywords or tags that accurately reflect the content of your manuscript to enhance discoverability.
 
@@ -120,7 +120,7 @@ Please provide potential reviewers for this submission. While we cannot guarante
 
 Click "Add Suggested Reviewer”, enter the mail id, click the "Add" button to include the reviewer in your submission. You can repeat this process for additional suggested reviewers.
 
-**ADD OPPOOSED REVIWER**
+**Add Oppoosed Reviwer**
 
 In some cases, you may want to identify reviewers you feel should not evaluate your manuscript, either due to potential biases or conflicts of interest. Here’s how to add opposed reviewers.
 
