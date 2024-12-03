@@ -82,7 +82,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="editorial-office" className="container py-5">
+        <section id="editorial-office" className="container py-1">
           <div className="row w-100 m-0 align-items-center pb-5">
             <div className="col-5">
               <img

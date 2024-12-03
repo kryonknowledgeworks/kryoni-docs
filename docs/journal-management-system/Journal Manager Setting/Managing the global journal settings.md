@@ -59,7 +59,7 @@ Once the form is completed, you can manage the user's status by selecting either
 
 ![image](https://cdn.kryoni.com/kryoni-docs/images/invite-users.png)
 
-**JOURNAL ACCESS PERMISSIONS**
+**Journal Access Permissions**
 
 At the bottom of the page, you will encounter the option: **Do you want to grant access to the journal?**
 
@@ -69,7 +69,7 @@ After filling out all the necessary information, click the Invite button. A conf
 
 ![image](https://cdn.kryoni.com/kryoni-docs/images/user-status.png)
 
-**USER MANAGEMENT INTERFACE**
+**User Management Interface**
 
 In the Dashboard, you can view and manage user details with the following columns:
 
@@ -97,7 +97,7 @@ In the Dashboard, you can view and manage user details with the following column
 
 Content of the introduction Roles.
 
-### **Publishing house details**
+### **Publishing House Details**
 
 This section allows you to view and edit all essential information related to your publishing house as provided during the registration process. Keeping these details accurate ensures smooth operations and efficient management of publishing workflows within the platform.
 
@@ -111,7 +111,7 @@ You can update the following key details:
 
 - **Mailing Address:** Ensure your physical or mailing address is current for correspondence and documentation purposes.
 
-**ADD YOUR COMPANY LOGO**
+**Add Your Company Logo**
 
 **Click on the Image Placeholder**
 
@@ -207,7 +207,7 @@ Enter the supplier's email address in the provided field. This email will be use
 **For New Users:**  
 Click on the **"Invite User"** Link
 
-**HOW TO INVITE USER - LINK**
+**How To Invite User - Link**
 
 This option allows you to invite a new service provider who is not already registered in JMS.
 
@@ -233,7 +233,7 @@ This option allows you to invite a new service provider who is not already regis
 
 - he system ensures that all communications and submissions are logged for future reference.
 
-**BENEFITS OF USING JMS FOR PRODUCTION MANAGEMENT**
+**Benefits Of Using JMS Ffor Production Management**
 
 - **Centralized Workflow:** Manage all aspects of the production process in one place, reducing the need for external coordination.
 

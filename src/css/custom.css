@@ -720,12 +720,20 @@ body {
 html .docusaurus-skip-to-content {
   display: none !important;
 }
+/* .py-5{
+  padding-bottom: 0rem !important;
+} */
 
+.row.w-100.m-0.align-items-center.py-5{
+  padding-top: 0rem !important;
+}
+.content-hosting{
+  padding-top: 0rem;
+}
 
-
-
-
-
+.section#content-hosting {
+  padding-top: 0rem;
+}
 
 
 
