@@ -73,7 +73,7 @@ input {
   color: #fff;
 }
 
-.hash-link{
+.hash-link {
   visibility: hidden;
 }
 .footer__link-item>svg , .navbar__link>svg{
@@ -87,12 +87,22 @@ input {
 .footer-links{
   min-width: 350px;
 } */
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
  
 * {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
- 
+  */
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Instrument Sans', sans-serif !important;
+}
+
 :root {
   --primary-black: #010101;
   --primary-font-size: 16px;  
