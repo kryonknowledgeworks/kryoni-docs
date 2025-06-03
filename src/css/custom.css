@@ -101,6 +101,7 @@ input {
   margin: 0px;
   box-sizing: border-box;
   font-family: 'Instrument Sans', sans-serif !important;
+  /* color: #415364 !important; */
 }
 
 :root {
@@ -109,7 +110,17 @@ input {
   --secondary-font-size: 15px;
   --primary-color:#065997;
 }
- 
+.docMainContainer_TBSr .theme-doc-markdown.markdown h1,
+.docMainContainer_TBSr .theme-doc-markdown.markdown h2,
+.docMainContainer_TBSr .theme-doc-markdown.markdown h3,
+.docMainContainer_TBSr .theme-doc-markdown.markdown h4,
+.docMainContainer_TBSr .theme-doc-markdown.markdown h5,
+.docMainContainer_TBSr .theme-doc-markdown.markdown h6,
+p,
+li {
+  color: #415364 !important;
+}
+
 .form-select:focus {
   outline: 0;
   box-shadow: none;
@@ -745,29 +756,7 @@ html .docusaurus-skip-to-content {
   padding-top: 0rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+img.img_ev3q{
+  width: 70%;
+  object-fit: contain;
+}

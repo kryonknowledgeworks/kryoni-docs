@@ -3,59 +3,162 @@ sidebar_position: 3
 sidebar: jmsSidebar
 ---
 
-## **Onboard and Engage**
+# Registration
 
-**Before you Begin**
+## Onboard and Engage
 
-Kryoni, the comprehensive publishing software designed to manage the entire publishing process, from manuscript submission to final publication and content hosting. Kryoni offers a robust, user-friendly platform that caters to the needs of authors, editors, and publishers, streamlining complex workflows and ensuring efficiency at every step.
+## Before you Begin
 
-This article is designed to assist you in navigating the Kryoni platform, from initial registration through onboarding and feature utilization.
+Welcome to Kryoni, the all-in-one publishing platform that simplifies and enhances the entire publishing process. Whether you are an author, editor, or publisher, Kryoni provides an end-to-end workflow that integrates all aspects of scholarly and publishing into a single, efficient ecosystem.
 
-### **Access the Registration Page**
+From the initial manuscript submission to the final publication and content hosting, Kryoni offers intelligent automation, structured workflows, and a user-friendly interface to ensure a smooth publishing experience.
 
-Begin by visiting the Kryoni website and selecting the "Register" option, located in the top navigation menu.
-To register as a new user, click on "<span style={{ color: 'red' }}>Sign up</span>".
+This comprehensive guide is designed to help you register, onboard, and engage with the platform effectively.
 
-![image](https://cdn.kryoni.com/kryoni-docs/images/registration.png)
+### Access the Registration Page
 
-### **Provide Required Information**
+    - **Visit the Kryoni Website**
+        
+        Open your web browser and navigate to the Kryoni website. Once there, locate the top navigation menu.
 
-Complete the registration form with the following information:
+    - **Select the "Access JMS" Option**
 
-- First Name
+        In the top navigation menu, find and click on the “Access JMS” link. This will direct you to the registration page.
 
-- Middle Name
+### Register as a New User
 
-- Last Name
+    - **Register as a New User**
 
-- Email Address
+        On the registration page, you will be asked to enter your email address. Carefully type your email address into the designated field to ensure accuracy.
+    - **Click "Continue"**
 
-- Password
+        After entering your email, click the Continue button to proceed to the next step. This will initiate the registration process.
 
-- Country
+![image](/assets/images/register-email.webp)
 
-Please ensure that all information is accurate, as this will be used for account verification and communication purposes.
+Our system is designed for a simple and efficient login process using your email address, ensuring quick access.
 
-![image](https://cdn.kryoni.com/kryoni-docs/images/create-account.png)
+## OTP Verification and Profile Setup
 
-### **Agree to Terms and Conditions**
+###
 
-After reviewing your information, accept the Kryoni Terms and Conditions and Privacy Policy by checking the corresponding box.
+#### 1. Enter the One-Time Password (OTP)
 
-![image](https://cdn.kryoni.com/kryoni-docs/images/agree-terms-conditions.png)
+After providing your email address, you will receive a One-Time Password (OTP) sent to your registered email. Enter the OTP in the designated field.
 
-### **Submit Registration**
+![image](/assets/images/otp-verify.webp)
 
-Click "<span style={{ color: 'red' }}>Sign Up</span>", To complete the registration process.
+:::note
 
-![image](https://cdn.kryoni.com/kryoni-docs/images/signup.png)
+You can request an OTP up to only **20 times per day.**
 
-Enter the One-Time Password (OTP) sent to your registered email address.
+:::
 
-**<span style={{ color: 'red' }}>Click Verify</span>**
+#### 2. If OTP is Not Received
 
-![image](https://cdn.kryoni.com/kryoni-docs/images/verify-otp.png)
+In case, you do not receive the OTP, click the **Resend OTP** button to request a new one.
 
-Once your OTP is successfully verified:
+![image](/assets/images/resend-otp.webp)
 
-- **Log in to Your Account:** Use your credentials to access your account.
+#### 3. Click "Verify"
+
+Once you’ve entered the OTP, click **Verify** to validate your email address.
+
+![image](/assets/images/verify-otp-copy.webp)
+
+![image](/assets/images/entry-otp.webp)
+
+#### 4. Complete Your Profile Details
+
+After successful OTP verification, you will be prompted to enter your profile details, including:
+
+**a. Full Name**
+
+**b. Country**
+
+![image](/assets/images/finish-register.webp)
+
+#### 5. Agree to Terms
+
+To proceed, check the box indicating that you agree to the **Terms of Service** and **Privacy Policy.**
+
+![image](/assets/images/agree-terms.webp)
+
+Once all steps are completed, you’ll be ready to access the full features of the system.
+
+## Register Using ORCID
+
+### Sign in with ORCID
+
+If you already have an **ORCID** account, click **"Sign in with ORCID"** to proceed.
+
+![image](/assets/images/sign-in-orcid.webp)
+
+### Authenticate Your ORCID Account
+
+Enter your ORCID credentials to log in. After successful authentication, you will be redirected to the **Kryoni Registration Page** to complete your registration.
+
+![image](/assets/images/orcid-id-pass.webp)
+
+Register with Kryoni - **LINK**
+
+Once you have successfully registered with Kryoni, you will have the option to **link your ORCID** to your Kryoni account.
+
+    - For enhanced security and seamless access, we recommend linking your ORCID with Kryoni. Once linked, you can log in effortlessly using your ORCID credentials.
+
+### Benefits of Linking ORCID
+
+  **Quick Access** – Easily log in without needing additional credentials.
+
+  **Secure & Trusted Identity** – Maintain verified author and reviewer credentials.
+
+  **Simplified Future Logins** – Use ORCID for seamless authentication.
+
+### ORCID Linking Options
+
+![image](/assets/images/authorize-now.webp)
+
+After registration, you will see the following options:
+
+    - **Skip and Remind Me Later** – A notification to link ORCID will appear after **15 days**.
+    - **Never Ask Again** – Disable future reminders for linking ORCID.
+    - **Authorize Now** – Click **"Authorize Now"** to immediately link your ORCID. Your ORCID will be linked to your Kryoni account.
+
+### Confirmation & Profile Access
+
+Once your ORCID is successfully linked, you can verify the connection in your Kryoni profile.
+
+### How to Confirm Your ORCID Link?
+
+**1. Go to Your Profile** – Log in to Kryoni and navigate to your profile section.
+
+**2. Check Social Connections** – Under the **Social Connections** tab, look for ORCID.
+
+**3. Verify the Status** – If successfully linked, it will display **"ORCID: Linked."**
+
+This ensures that your ORCID is now integrated with your Kryoni account, allowing seamless access and authentication.
+
+### Unlinking Your ORCID from Kryoni
+
+**1. Click "Unlink ORCID"** – Select the **"Unlink ORCID"** option to disconnect your ORCID from Kryoni.
+
+**2. Confirm the Action** – A confirmation prompt will appear. Click **"Yes, Unlink"** to proceed.
+
+:::warning
+Once unlinked, you will no longer be able to log in using ORCID credentials unless you re-link your account.
+:::
+
+### Access Kryoni JMS
+
+After logging in, click on the **Journal Management System** option. You will be automatically redirected to the **Publishing House Registration** page, which is an essential step in setting up your publishing house within our Journal Management System. This allows you to begin managing your editorial workflows effectively.
+
+Integrating your publishing house into the Journal Management System (JMS) will optimize your editorial workflows and provide full control over each stage of the publication process. From manuscript submission to final production, JMS offers a comprehensive set of tools designed to streamline operations and enhance collaboration between editors, reviewers, and authors.
+
+Through this registration, you will be able to:
+
+    - Manage multiple journals within a unified platform.
+    - Track submission statuses and peer reviews recommendations in real-time.
+    - Automate critical processes such as notifications, reminders, and deadlines.
+    - Customize workflows to fit your publishing needs and industry standards.
+    - Manage production workflows with automated task assignments and ensure production-ready files are prepared efficiently.
+    - Access detailed insights through comprehensive reports on submissions and reviewer performance.

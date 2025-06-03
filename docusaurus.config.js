@@ -62,15 +62,7 @@ const config = {
         crossorigin: "anonymous",
         defer: "true",
       },
-    },
-    {
-      tagName: "script",
-      attributes: {
-        src: "https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js",
-        crossorigin: "anonymous",
-        defer: "true",
-      },
-    },
+    },   
   ],
 
   presets: [
@@ -154,6 +146,20 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    future: {
+      v4: true, // Enable future Docusaurus v4 features
+      experimental_faster: {
+        rspackBundler: true,              // Enable faster bundling with Rspack
+        rspackPersistentCache: true,      // Enable persistent cache for faster rebuilds
+        ssgWorkerThreads: true,           // Use worker threads for static site generation
+        swcJsLoader: true,                // Use SWC for JavaScript transpilation
+        swcJsMinimizer: true,             // Use SWC for JavaScript minification
+        swcHtmlMinimizer: true,           // Use SWC for HTML minification
+        lightningCssMinimizer: true,      // Use Lightning CSS for CSS minification
+        mdxCrossCompilerCache: true       // Enable caching for MDX cross-compilation
+      }
+    }
+
 };
 
 export default config;
