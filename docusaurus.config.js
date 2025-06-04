@@ -113,7 +113,7 @@ const config = {
         title: "",
         logo: {
           alt: "My Site Logo",
-          src: "https://cdn.kryoni.com/kryoni/images/icons/Kryoni_logo.png",
+          src: "https://cdn.kryoni.com/kryoni/images/version-1/kryoni-website-logo.webp",
         },
         // ------------navbar-----------
         items: [

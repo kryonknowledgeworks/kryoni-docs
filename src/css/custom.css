@@ -118,7 +118,7 @@ input {
 .docMainContainer_TBSr .theme-doc-markdown.markdown h6,
 p,
 li {
-  color: #415364 !important;
+  color: #415364;
 }
 
 .form-select:focus {
@@ -402,7 +402,7 @@ li {
 }
 .menu__link {
   color: #161616 !important;
-  padding: 5px !important;
+  padding: 7px 5px !important;
   display: block !important;
   border-radius: 5px !important;
   text-decoration: none !important;
@@ -414,44 +414,30 @@ li {
 
 
 .theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-2.menu__list-item:hover {
-  text-decoration: underline;
   background-color: #e6f0ff;
-  background: transparent !important
+  background: transparent !important;
+  transition: 0.5s ease-in-out;
 }
 
-.theme-doc-markdown.markdown h1,
-.theme-doc-markdown.markdown h2,
-.theme-doc-markdown.markdown h3,
-.theme-doc-markdown.markdown h4,
-.theme-doc-markdown.markdown h5,
-.theme-doc-markdown.markdown h6 {
-    font-family: 'Plus Jakarta Sans', sans-serif; 
-    color: #161616;
-}
 
 .theme-doc-markdown.markdown h1 {
     font-size: 3em;
 }
 .theme-doc-markdown.markdown h2 {
     font-size: 32px !important;
-    font-weight: 600 !important;
-    color: #161616 !important; 
+    font-weight: 600 !important; 
 }
 .theme-doc-markdown.markdown h3 {
-    font-size: 1.5em;
-    color: #161616 !important; 
+    font-size: 1.5em; 
 }
 .theme-doc-markdown.markdown h4 {
-    font-size: 1.25em;
-    color: #161616 !important; 
+    font-size: 1.25em; 
 }
 .theme-doc-markdown.markdown h5 {
-    font-size: 1.1em;
-    color: #161616 !important; 
+    font-size: 1.1em; 
 }
 .theme-doc-markdown.markdown h6 {
-    font-size: 1em;
-    color: #161616 !important; 
+    font-size: 1em; 
 }
 /* .theme-doc-markdown.markdown p {
     font-size: 1em; 
@@ -491,7 +477,6 @@ li {
 }
 
 p {
-  color: #161616; 
   background-color: rgba(0, 0, 0, 0); 
   font-size: 16px; 
   font-weight: 400; 
@@ -518,7 +503,7 @@ p {
 }
 .table-of-contents__link.toc-highlight {
   font-size: 14px; 
-  font-weight: 600;
+  font-weight: 400;
 }
 .menu__caret:before {
   font-size: 1rem;
@@ -535,13 +520,24 @@ p {
   padding: 0.5rem !important;
 }
 .menu__link--active {
-  color: inherit !important;
+  color: rgb(0 124 255) !important;
 }
 .menu__list-item-collapsible--active {
   background: transparent !important;
 }
 .menu__list-item-collapsible:hover {
   background: transparent !important;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: transparent;
+}
+.menu__link--active:not(.menu__link--sublist):hover {
+  background-color: #D4F6FF;
+}
+
+.menu__link.menu__link--active {
+  text-decoration: none !important;
 }
 .sidebar .menu__link {
   display: none; 
@@ -553,9 +549,7 @@ p {
   opacity: 1;
   background: none !important; 
 }
-.breadcrumbHomeIcon_YNFT {
-  color: #3578e5 !important;
-}
+
 .breadcrumbs__link {
   color: #3578e5 !important;
 }
@@ -759,4 +753,5 @@ html .docusaurus-skip-to-content {
 img.img_ev3q{
   width: 70%;
   object-fit: contain;
+  border: 1px solid black;
 }

@@ -1,9 +1,9 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 sidebar: jmsSidebar
 ---
 
-# Registration
+# Registering In JMS
 
 ## Onboard and Engage
 
@@ -72,9 +72,9 @@ Once you’ve entered the OTP, click **Verify** to validate your email address.
 
 After successful OTP verification, you will be prompted to enter your profile details, including:
 
-**a. Full Name**
+##### a. Full Name
 
-**b. Country**
+##### b. Country
 
 ![image](/assets/images/finish-register.webp)
 
