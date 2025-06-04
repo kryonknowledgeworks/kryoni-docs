@@ -52,7 +52,7 @@
 .docMainContainer_TBSr .theme-doc-markdown.markdown h6,
 p,
 li {
-  color: #415364;
+  color: rgb(28, 29, 29);
 }
 
 .form-select:focus {
@@ -335,7 +335,7 @@ li {
   box-shadow: none !important;
 }
 .menu__link {
-  color: #161616 !important;
+  color: rgb(28, 29, 29);
   padding: 7px 5px !important;
   display: block !important;
   border-radius: 5px !important;
@@ -343,35 +343,34 @@ li {
   padding-left: 20px !important;
   font-size: .875rem !important;
   padding-right: 10px !important;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 
 
 .theme-doc-sidebar-item-link.theme-doc-sidebar-item-link-level-2.menu__list-item:hover {
-  background-color: #e6f0ff;
   background: transparent !important;
   transition: 0.5s ease-in-out;
 }
 
 
 .theme-doc-markdown.markdown h1 {
-    font-size: 3em;
+    font-size: 32px;
 }
 .theme-doc-markdown.markdown h2 {
-    font-size: 32px !important;
+    font-size: 24px !important;
     font-weight: 600 !important; 
 }
 .theme-doc-markdown.markdown h3 {
-    font-size: 1.5em; 
+    font-size: 22px; 
 }
 .theme-doc-markdown.markdown h4 {
-    font-size: 1.25em; 
+    font-size: 20px; 
 }
 .theme-doc-markdown.markdown h5 {
-    font-size: 1.1em; 
+    font-size: 18px; 
 }
 .theme-doc-markdown.markdown h6 {
-    font-size: 1em; 
+    font-size: 16px; 
 }
 /* .theme-doc-markdown.markdown p {
     font-size: 1em; 
@@ -403,15 +402,14 @@ li {
 }
 
 .table-of-contents__link.toc-highlight.table-of-contents__link--active strong {
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 
 .table-of-contents__link.toc-highlight strong{
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 
-p {
-  background-color: rgba(0, 0, 0, 0); 
+p { 
   font-size: 16px; 
   font-weight: 400; 
   font-style: normal; 
@@ -437,7 +435,7 @@ p {
 }
 .table-of-contents__link.toc-highlight {
   font-size: 14px; 
-  font-weight: 400;
+  font-weight: 500;
 }
 .menu__caret:before {
   font-size: 1rem;
@@ -453,8 +451,9 @@ p {
 [class*="docItemCol"] {
   padding: 0.5rem !important;
 }
-.menu__link--active {
-  color: rgb(0 124 255) !important;
+.menu__link--active ,.menu__link:hover {
+  color: rgb(0, 124, 255) !important;
+  background-color: #d3e3f3;
 }
 .menu__list-item-collapsible--active {
   background: transparent !important;
@@ -467,7 +466,7 @@ p {
   background-color: transparent;
 }
 .menu__link--active:not(.menu__link--sublist):hover {
-  background-color: #D4F6FF;
+  background-color: #d3e3f3;
 }
 
 .menu__link.menu__link--active {
@@ -488,7 +487,7 @@ p {
   color: #3578e5 !important;
 }
 .table-of-contents__link.toc-highlight.table-of-contents__link--active {
-  color: #161616 !important; 
+  color: rgb(0, 124, 255) !important; 
 }
 .breadcrumbs__item--active .breadcrumbs__link {
   background: none !important;
@@ -685,7 +684,11 @@ html .docusaurus-skip-to-content {
 }
 
 img.img_ev3q{
-  width: 70%;
+  width: 50%;
   object-fit: contain;
   border: 1px solid black;
+}
+
+.table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
+  color: rgb(0,124,255);
 }

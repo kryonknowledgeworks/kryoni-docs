@@ -4,7 +4,7 @@ sidebar: jmsSidebar
 sidebar_label: Registering publishing house
 ---
 
-# REGISTER YOUR PUBLISHING HOUSE
+# Register your publishing house
 
 ##
 
