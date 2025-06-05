@@ -118,7 +118,7 @@ const config = {
         // ------------navbar-----------
         items: [
           {
-            to: "/journal-management-system/Started/Introduction",
+            to: "/journal-management-system/Get-Started-With-Kryoni-JMS/Introduction",
             label: "JMS",
             position: "left",
           },

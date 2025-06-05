@@ -32,7 +32,7 @@ export default function Home() {
   const history = useHistory();
 
   const handleClick = () => {
-    history.push("/journal-management-system/started/introduction");
+    history.push("/journal-management-system/Get-Started-With-Kryoni-JMS/introduction");
   };
 
   return (

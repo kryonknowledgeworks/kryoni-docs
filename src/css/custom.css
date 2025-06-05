@@ -336,13 +336,11 @@ li {
 }
 .menu__link {
   color: rgb(28, 29, 29);
-  padding: 7px 5px !important;
+  padding: 6px 6px 6px 20px !important;
   display: block !important;
   border-radius: 5px !important;
   text-decoration: none !important;
-  padding-left: 20px !important;
   font-size: .875rem !important;
-  padding-right: 10px !important;
   font-weight: 500 !important;
 }
 
@@ -354,14 +352,14 @@ li {
 
 
 .theme-doc-markdown.markdown h1 {
-    font-size: 32px;
+    font-size: 36px;
 }
 .theme-doc-markdown.markdown h2 {
-    font-size: 24px !important;
+    font-size: 28px !important;
     font-weight: 600 !important; 
 }
 .theme-doc-markdown.markdown h3 {
-    font-size: 22px; 
+    font-size: 24px; 
 }
 .theme-doc-markdown.markdown h4 {
     font-size: 20px; 
@@ -375,13 +373,13 @@ li {
 /* .theme-doc-markdown.markdown p {
     font-size: 1em; 
     line-height: 1.5; 
-    color: #161616 !important;
+    color: rgb(28, 29, 29) !important;
 } */
 .table-of-contents.table-of-contents__left-border {
   border-left: none !important; 
 }
 .menu__list-item-collapsible {
-  color: #161616 !important;
+  color: rgb(28, 29, 29) !important;
   display: flex;
   justify-content: flex-start; 
   align-items: center;
@@ -436,6 +434,10 @@ p {
 .table-of-contents__link.toc-highlight {
   font-size: 14px; 
   font-weight: 500;
+  padding: 6px 6px 6px 12px;
+}
+.table-of-contents li {
+  margin: 0px;
 }
 .menu__caret:before {
   font-size: 1rem;
@@ -454,6 +456,7 @@ p {
 .menu__link--active ,.menu__link:hover {
   color: rgb(0, 124, 255) !important;
   background-color: #d3e3f3;
+  font-weight: 600;
 }
 .menu__list-item-collapsible--active {
   background: transparent !important;
@@ -484,11 +487,11 @@ p {
 }
 
 .breadcrumbs__link {
-  color: #3578e5 !important;
+  color: rgb(0, 124, 255) !important;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-.table-of-contents__link.toc-highlight.table-of-contents__link--active {
-  color: rgb(0, 124, 255) !important; 
-}
+
 .breadcrumbs__item--active .breadcrumbs__link {
   background: none !important;
 }
@@ -496,19 +499,9 @@ p {
   padding: 1px;
 }
 [class*="breadcrumbHomeIcon_node_modules"] {
-  color: #3578e5;
+  color: rgb(0, 124, 255);
 }
-/* .menu__list {
-  font-size: .875rem !important;
-  color: #161616 !important;
-  padding: 5px !important;
-  display: block !important;
-  border-radius: 5px !important;
-  text-decoration: none !important;
-  padding-left: 20px !important;
-  padding-right: 10px !important;
-  font-weight: 400 !important;
-} */
+
 
 a[href*="docs.kryoni.com/blog/authors/all-sebastien-lorber-articles"],
 a[href*="docs.kryoni.com/blog/tags/docusaurus"],
@@ -691,4 +684,10 @@ img.img_ev3q{
 
 .table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
   color: rgb(0,124,255);
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+.tableOfContents_bqdL > :first-child > :first-child > a{
+  font-size: 16px;
+  font-weight: 700;
 }
