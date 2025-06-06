@@ -407,12 +407,16 @@ li {
   font-weight: 500 !important;
 }
 
-p { 
-  font-size: 16px; 
-  font-weight: 400; 
-  font-style: normal; 
-  text-align: start; 
-  text-decoration: none; 
+p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: start;
+  text-decoration: none;
+  margin: 8px;
+}
+.markdown li > p {
+    margin-top: 8px;
 }
 
 .menu.thin-scrollbar {
@@ -677,7 +681,7 @@ html .docusaurus-skip-to-content {
 }
 
 img.img_ev3q{
-  width: 50%;
+  width: 80%;
   object-fit: contain;
   border: 1px solid black;
 }
