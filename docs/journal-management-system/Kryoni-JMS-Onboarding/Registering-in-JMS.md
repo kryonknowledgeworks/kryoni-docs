@@ -23,7 +23,7 @@ This comprehensive guide is designed to help you register, onboard, and engage w
 
     - **Select the "Access JMS" option**
 
-        In the top navigation menu, find and click on the “Access JMS” link. This will direct you to the registration page.
+        In the top navigation menu, find and click on the **“Access JMS”** link. This will direct you to the registration page.
 
 ### Register as a new user
 
@@ -44,7 +44,7 @@ Our system is designed for a simple and efficient login process using your email
 
 #### 1. Enter the one-time password (OTP)
 
-After providing your email address, you will receive a  One-Time Password (OTP) sent to your registered email. Enter the OTP in the designated field.
+After providing your email address, you will receive a  one-time password (OTP) sent to your registered email. Enter the OTP in the designated field.
 
 ![image](/assets/images/otp-verify.webp)
 
@@ -152,7 +152,7 @@ Once unlinked, you will no longer be able to log in using ORCID credentials unle
 
 After logging in, click on the **Journal Management System** option. You will be automatically redirected to the **Publishing House Registration** page, which is an essential step in setting up your publishing house within our Journal Management System. This allows you to begin managing your editorial workflows effectively.
 
-Integrating your publishing house into the journal management system (JMS) will optimize your editorial workflows and provide full control over each stage of the publication process. From manuscript submission to final production, JMS offers a comprehensive set of tools designed to streamline operations and enhance collaboration between editors, reviewers, and authors.
+Integrating your publishing house into the Journal Management System (JMS) will optimize your editorial workflows and provide full control over each stage of the publication process. From manuscript submission to final production, JMS offers a comprehensive set of tools designed to streamline operations and enhance collaboration between editors, reviewers, and authors.
 
 Through this registration, you will be able to:
 

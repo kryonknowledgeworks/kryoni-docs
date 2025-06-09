@@ -10,21 +10,21 @@ sidebar_label: Registering publishing house
 
 ### Publishing house registration process
 
-To complete the registration of your publishing house within our journal management system (JMS), kindly provide the following details in the respective sections:
+To complete the registration of your publishing house within our Journal Management System (JMS), kindly provide the following details in the respective sections:
 
 ![image](/assets/images/register-publishing-house.webp)
 
 ### 1. Publisher name
 
-    Enter the **official name** of your publishing house. This name will be used throughout the system for identification and correspondence.
+    Enter the **Official Name** of your publishing house. This name will be used throughout the system for identification and correspondence.
 
 ### 2. Country
 
-    From the dropdown menu, select the **country** where your publishing house is based.
+    From the dropdown menu, select the **Country** where your publishing house is based.
 
 ### 3. Time zone
 
-    Select the appropriate **time zone** to ensure accurate system timestamps for your operations.
+    Select the appropriate **Time zone** to ensure accurate system timestamps for your operations.
 
 ![image](/assets/images/contact-info.webp)
 

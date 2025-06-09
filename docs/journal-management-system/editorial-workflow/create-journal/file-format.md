@@ -6,23 +6,23 @@ sidebar_label: File Format
 
 #
 
-## File Format
+## File format
 
 ![image](/assets/images/file-format.webp)
 
-The File Format Configuration section in the Journal Management System (JMS) enables administrators to define and manage the acceptable file formats for manuscript submissions and editorial processes. This ensures that all uploaded documents adhere to the journal’s technical standards, creating a seamless workflow for authors, editors, and reviewers.
+The File format configuration section in the Journal Management System (JMS) enables administrators to define and manage the acceptable file formats for manuscript submissions and editorial processes. This ensures that all uploaded documents adhere to the journal’s technical standards, creating a seamless workflow for authors, editors, and reviewers.
 
 By specifying allowed file types, the system maintains consistency and compatibility throughout the publication process—from submission to final publication. The platform supports multiple formats such as PDF, DOC, DOCX, image files, etc providing flexibility while ensuring a structured editorial process.
 
-### How to Configure File Formats
+### How to configure file formats
 
-### Select Manuscript File Format
+### Select manuscript file format
 
 ![image](/assets/images/select-manuscript-file.webp)
 
 In the **Journal Management System (JMS),** administrators can define the required file formats for manuscript submissions to ensure consistency and compatibility.
 
-### Configuring File Types and Formats
+### Configuring file types and formats
 
     - For each file type (e.g., Manuscript, Tables, Figures, Source file), administrators can assign one or more acceptable file formats.
 
@@ -39,7 +39,7 @@ In the **Journal Management System (JMS),** administrators can define the requir
 📌 Note: If "Mandatory" is selected, the file must be uploaded by the user during submission. Otherwise, it will be treated as optional.
 :::
 
-### Default File Types
+### Default file types
 
 ![image](/assets/images/default-file-types.webp)
 
@@ -48,7 +48,7 @@ In the **Journal Management System (JMS),** administrators can define the requir
     - Source Files: Accepts DOCX, TEX, XLSX, XML, JSON, media, and code files.
     - Additional Files: May include supplementary data, code, or multimedia files.
 
-### Adding a New File Type
+### Adding a new file type
 
 ![image](/assets/images/adding-new-file-format.webp)
 
@@ -66,7 +66,7 @@ If your journal requires specific file types beyond the defaults, you can create
 
 You can define **unlimited file types** to match your journal’s editorial and technical needs.
 
-### Next Step: Subject & Discipline Configuration
+### Next step: subject & discipline configuration
 
 In the Journal Management System (JMS), accurately categorizing submissions with the appropriate subject and discipline ensures alignment with the journal's scope and focus areas.
 
@@ -74,23 +74,23 @@ In the Journal Management System (JMS), accurately categorizing submissions with
 
 ![image](/assets/images/select-subject-type.webp)
 
-    - **Select an Existing Subject:** Choose the subject that best represents the journal's focus.
-    - **Add a New Subject:** If the desired subject is not listed, enter the subject name and click "Enter" to add it.
+    - **Select an existing subject:** Choose the subject that best represents the journal's focus.
+    - **Add a new subject:** If the desired subject is not listed, enter the subject name and click "Enter" to add it.
     
 ### Discipline
 
 ![image](/assets/images/select-discipline.webp)
 
-    - **Select an Existing Discipline:** Assign the discipline that corresponds to the chosen subject to ensure accurate classification.
-    - **Add a New Discipline:** If the appropriate discipline is missing, type the discipline name and click "Enter" to include it.
+    - **Select an existing discipline:** Assign the discipline that corresponds to the chosen subject to ensure accurate classification.
+    - **Add a new discipline:** If the appropriate discipline is missing, type the discipline name and click "Enter" to include it.
 
-### Adding Additional Subject-Discipline Pairs
+### Adding additional subject-discipline pairs
 
 To configure more subject and discipline combinations:
     - Click **“Add New +”**
     - Repeat the steps above for each new entry
 
-### Submission Language
+### Submission language
 
 ![image](/assets/images/submission-language.webp)
 

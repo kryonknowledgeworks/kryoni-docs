@@ -118,7 +118,7 @@ const config = {
         // ------------navbar-----------
         items: [
           {
-            to: "/journal-management-system/Get-Started-With-Kryoni-JMS/Introduction",
+            to: "/journal-management-system/get-started-with-kryoni-jms/introduction",
             label: "JMS",
             position: "left",
           },
@@ -146,7 +146,19 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-  
+   future: {
+    v4: true, // Enable future Docusaurus v4 features
+    experimental_faster: {
+      rspackBundler: true,  // Enable faster bundling with Rspack
+      rspackPersistentCache: true,   // Enable persistent cache for faster rebuilds
+      ssgWorkerThreads: true,      // Use worker threads for static site generation
+      swcJsLoader: true,        // Use SWC for JavaScript transpilation
+      swcJsMinimizer: true,       // Use SWC for JavaScript minification
+      swcHtmlMinimizer: true,      // Use SWC for HTML minification
+      lightningCssMinimizer: true,   // Use Lightning CSS for CSS minification
+      mdxCrossCompilerCache: true    // Enable caching for MDX cross-compilation
+    }
+    }
 };
 
 export default config;
