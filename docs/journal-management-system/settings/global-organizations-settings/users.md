@@ -14,6 +14,8 @@ The Users section in the JMS enables you to invite, add, and manage users within
 
 The process of inviting a new user is straightforward:
 
+![image](/assets/images/global/invite-user-btn.webp)
+
 **1. Access the invite user option:**
 
 In the left-side menu, click on "Invite User" to open the invitation form.
@@ -21,6 +23,8 @@ In the left-side menu, click on "Invite User" to open the invitation form.
 **2. Fill in the invitation form:**
 
 The form is divided into several sections to capture all necessary details:
+
+![image](/assets/images/global/invite-user-pg.webp)
 
 ### Personal details
 
@@ -41,9 +45,13 @@ The form is divided into several sections to capture all necessary details:
 
 ### User status
 
+![image](/assets/images/global/user-status.webp)
+
 By default, the user status is set to **Active**, meaning the user is immediately enabled to access the JMS upon accepting the invitation. (If needed, you can adjust this setting to **inactive**)
 
 ### Finalizing the invitation
+
+![image](/assets/images/global/final-invite.webp)
 
 After completing all mandatory fields and verifying the information, click invite user. The new user will receive instructions on how to access the system and manage their tasks based on their assigned role.
 
@@ -53,12 +61,18 @@ This comprehensive approach to user management helps ensure a secure and efficie
 
 Once a user is invited, their invitation appears in the pending invites section.
 
+![image](/assets/images/global/user-invited.webp)
+
     - **Pending invites:**
 Any user who has been invited but has not yet accepted the invitation will be listed here. A notification email is sent to them, and their status remains "pending" until they complete the registration process.
     - **Resend invite:**
 
+![image](/assets/images/global/resend-invite.webp)
+
 If needed, you can resend the invitation to ensure that the user receives the necessary information to join the system.
     - **Pending due date:**
+
+![image](/assets/images/global/pending-due-date.webp)
 
 The due date for pending actions is clearly displayed, providing a timeline for the user to accept their invite and complete registration.
 
@@ -67,6 +81,8 @@ The due date for pending actions is clearly displayed, providing a timeline for 
 If you have a list of users that need to be added to the system, you can use the Bulk Import feature to quickly upload multiple users at once.
 
 ### Click on the import icon
+
+![image](/assets/images/global/import-excel.webp)
 
     - Locate and click on the **Import** icon to begin the bulk import process.
 
@@ -89,10 +105,14 @@ If you have a list of users that need to be added to the system, you can use the
 
 ### View the invitation
 
+![image](/assets/images/global/view-invitation.webp)
+
     - Click **"View"** to see the invitation details.
     - You will see options to **ACCEPT** or **DECLINE** the invitation.
 
 Accept the invitation:
+
+![image](/assets/images/global/accept-invite.webp)
 
     - Click **"Accept Invite"** to join the JMS.
     - After acceptance, your account is added to the system.

@@ -7,20 +7,20 @@ sidebar_label: Journal Configuration
 
 ## Journal configuration
 <!-- img -->
-![image](/assets/images/journal-config.webp)
+![image](/assets/images/create/journal-config.webp)
 
 The **Journal Configuration** process involves defining key details about your journal. This step ensures that the journal’s information is organized, consistent, and accessible across its platform. The configuration includes several essential fields, each of which plays a role in shaping the journal's identity and ensuring smooth submission processes.
 
 ### Journal title
 <!-- img -->
-![image](/assets/images/journal-title.webp)
+![image](/assets/images/create/journal-title.webp)
     - **Required field**
 
 Enter the **Official Title** of your journal. This will serve as the primary identifier of your journal within the system and will appear throughout the platform for easy reference by authors, reviewers, and editors.
 
 ### Journal abbreviation
 
-![image](/assets/images/journal-abbr.webp)
+![image](/assets/images/create/journal-abbr.webp)
 
     - **Required field**
 
@@ -28,7 +28,7 @@ Provide the **Abbreviated Form** of your journal title. This abbreviation is com
 
 ### Journal acronym
 
-![image](/assets/images/journal-acronym.webp)
+![image](/assets/images/create/journal-acronym.webp)
 
     - **Required field**
 
@@ -36,7 +36,7 @@ Enter the **Acronym** for your journal. This short form is often used in situati
 
 ### Journal cover image
 
-![image](/assets/images/journal-cover-image.webp)
+![image](/assets/images/create/journal-cover-image.webp)
 
     - **Optional field**
 
@@ -48,9 +48,9 @@ Upload a **Cover Image** for your journal, which will be displayed on the journa
 
 ### Journal type
 
-![image](/assets/images/journal-type-box.webp)
+![image](/assets/images/create/journal-type-box.webp)
 
-![image](/assets/images/journal-type-choose.webp)
+![image](/assets/images/create/journal-type-choose.webp)
 
 Choose the appropriate type for your journal from the following options:
 
@@ -64,11 +64,11 @@ Choose the appropriate type for your journal from the following options:
 
 After selecting your journal type, choose a suitable license based on your journal's access policy
 
-![image](/assets/images/journal-type-cc-by.webp)
+![image](/assets/images/create/journal-type-cc-by.webp)
 
 ### Online ISSN
 
-![image](/assets/images/online-issn.webp)
+![image](/assets/images/create/online-issn.webp)
 
     - **Optional field**
 
@@ -76,7 +76,7 @@ Provide the **Online ISSN (International Standard Serial Number)** for your jour
 
 ### Print ISSN
 
-![image](/assets/images/print-issn.webp)
+![image](/assets/images/create/print-issn.webp)
 
     -  **Optional field**
 
@@ -84,7 +84,7 @@ If your journal is also available in print, enter the Print ISSN.
 
 ### Journal welcome page content
 
-![image](/assets/images/journal-wel-page.webp)
+![image](/assets/images/create/journal-wel-page.webp)
 
     - **Optional field**
 
@@ -92,12 +92,12 @@ Customize the content of your journal’s **Welcome Page**. This is an introduct
 
 ### Journal scope
 
-![image](/assets/images/journal-scope.webp)
+![image](/assets/images/create/journal-scope.webp)
 
     - **Required field**
 
 Clearly define the **scope** of your journal. This description should outline the specific areas of research and topics the journal will cover. It should also detail any particular criteria or submission guidelines that will help authors determine if their work is a suitable fit for the journal. This section is vital in ensuring that submissions align with the journal's thematic focus, which will help maintain high-quality and relevant content.
 
-![image](/assets/images/journal-scope-next.webp)
+![image](/assets/images/create/journal-scope-next.webp)
 
     - Once completed, Click **NEXT**

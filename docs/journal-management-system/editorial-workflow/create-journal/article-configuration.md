@@ -7,7 +7,7 @@ sidebar_label: Article Configuration
 
 ## Article configuration
 
-![image](/assets/images/article-config.webp)
+![image](/assets/images/create/article-config.webp)
 
 ### Article configuration overview
 
@@ -25,13 +25,13 @@ Here’s how to configure articles.
 
 ### Select the article type
 
-![image](/assets/images/select-article-type.webp)
+![image](/assets/images/create/select-article-type.webp)
 
 Administrators can choose from a predefined list of article types relevant to the journal, such as _Case Study, Editorial, Review Article,_ and more. Additionally, they have the flexibility to create custom article types as needed.
 
 ### Create new article type
 
-![image](/assets/images/create-new-article-type.webp)
+![image](/assets/images/create/create-new-article-type.webp)
 
 To add a custom article type:
 
@@ -45,7 +45,7 @@ This feature provides flexibility to accommodate various submission categories b
 
 ### Select the review type
 
-![image](/assets/images/article-review-type.webp)
+![image](/assets/images/create/article-review-type.webp)
 
 Once an article type has been selected, administrators must assign an appropriate review process to ensure a structured and fair evaluation of submissions. The review type determines the level of anonymity maintained between authors and reviewers.
 
@@ -57,7 +57,7 @@ Once an article type has been selected, administrators must assign an appropriat
 
 ### Assigning a review type
 
-![image](/assets/images/assigning-review-type.webp)
+![image](/assets/images/create/assigning-review-type.webp)
 
 1. Select the article type for which the review process is being assigned.
 
@@ -101,11 +101,11 @@ Tracking ID configuration is a crucial step in efficiently organizing and managi
 
 ### How to configure a tracking ID for a journal
 
-![image](/assets/images/config-track-id.webp)
+![image](/assets/images/create/config-track-id.webp)
 
 ### 1. Submission tracking ID prefix
 
-![image](/assets/images/track-id-prefix.webp)
+![image](/assets/images/create/track-id-prefix.webp)
 
     - Enter a unique prefix that will be attached to all submission tracking IDs.
     - The prefix can represent the journal’s name, publishing house, or submission year.
@@ -114,7 +114,7 @@ Tracking ID configuration is a crucial step in efficiently organizing and managi
 
 ### 2. Sequence starting number
 
-![image](/assets/images/seq-starting-number.webp)
+![image](/assets/images/create/seq-starting-number.webp)
 
     - Set the initial number for the submission sequence.
 
@@ -124,7 +124,7 @@ Tracking ID configuration is a crucial step in efficiently organizing and managi
 
 ### 3. Tracking number digits
 
-![image](/assets/images/tracking-number-digits.webp)
+![image](/assets/images/create/tracking-number-digits.webp)
 
     - Define the number of digits in the tracking sequence (e.g., 4 or 6 digits).
 
@@ -147,7 +147,7 @@ Double-check all entries before finalizing to ensure accuracy and alignment with
 
 This section allows customization of various settings using checkbox options to align with your journal’s specific workflow needs. These options offer flexibility while maintaining control over essential processes within the Journal Management System (JMS).
 
-![image](/assets/images/checkbox-options.webp)
+![image](/assets/images/create/checkbox-options.webp)
 
 #### Allow editorial users to override the review type rule while assigning reviewers
 
@@ -159,7 +159,7 @@ This setting determines whether editorial users can bypass predefined review typ
 
 **Recommendation:** Enable this option if your journal requires adaptability in the review process. Disable it if maintaining uniformity in reviewer assignments is a priority.
 
-![image](/assets/images/editiorial-override-type.webp)
+![image](/assets/images/create/editiorial-override-type.webp)
 
 #### Allow to accept submission even all the co-authors verification is not completed
 
@@ -171,7 +171,7 @@ This option controls whether submissions can proceed before all co-authors have 
 
 **Recommendation:** Enable this setting if speed is a priority. Disable it if full co-author verification is necessary to maintain submission integrity.
 
-![image](/assets/images/co-authors-verfication.webp)
+![image](/assets/images/create/co-authors-verfication.webp)
 
 #### Do you want to include color figure information(for pricing calculation)to be collected in submission?
 
@@ -184,7 +184,7 @@ This setting determines whether authors must provide details about colour figure
 
 ### Next option is
 
-![image](/assets/images/next-option-is-yes.webp)
+![image](/assets/images/create/next-option-is-yes.webp)
 
 **Would you like to integrate the production system (Post-Acceptance Tracking) with the Journal Management System (JMS)?**
 
@@ -202,7 +202,7 @@ Administrators can choose whether to integrate the production system (Post-Accep
 
     **Should authors be mandated to provide conflict of interest declarations when submitting their articles?**
 
-![image](/assets/images/authors-provide-conflict.webp)
+![image](/assets/images/create/authors-provide-conflict.webp)
 
 This setting determines whether authors must submit a conflict of interest (COI) declaration when submitting their articles.
 
@@ -212,9 +212,9 @@ This setting determines whether authors must submit a conflict of interest (COI)
 
 **_Click to upload conflict of interest file_**
 
-![image](/assets/images/upload-conflict-file.webp)
+![image](/assets/images/create/upload-conflict-file.webp)
 
-![image](/assets/images/after-upload-yes-conflict.webp)
+![image](/assets/images/create/after-upload-yes-conflict.webp)
 
 The administrator will upload the **COI declaration form,** which authors must download, complete, and upload before finalizing their submission.
 

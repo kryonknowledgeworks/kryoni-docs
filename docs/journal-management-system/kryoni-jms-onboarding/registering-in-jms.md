@@ -34,7 +34,7 @@ This comprehensive guide is designed to help you register, onboard, and engage w
 
         After entering your email, click the **Continue** button to proceed to the next step. This will initiate the registration process.
 
-![image](/assets/images/register-email.webp)
+![image](/assets/images/register/register-email.webp)
 
 Our system is designed for a simple and efficient login process using your email address, ensuring quick access.
 
@@ -46,7 +46,7 @@ Our system is designed for a simple and efficient login process using your email
 
 After providing your email address, you will receive a  one-time password (OTP) sent to your registered email. Enter the OTP in the designated field.
 
-![image](/assets/images/otp-verify.webp)
+![image](/assets/images/register/otp-verify.webp)
 
 :::note
 
@@ -58,15 +58,15 @@ You can request an OTP up to only **20 times per day.**
 
 In case, you do not receive the OTP, click the **Resend OTP** button to request a new one.
 
-![image](/assets/images/resend-otp.webp)
+![image](/assets/images/register/resend-otp.webp)
 
 #### 3. Click "Verify"
 
 Once you’ve entered the OTP, click **Verify** to validate your email address.
 
-![image](/assets/images/verify-otp-copy.webp)
+![image](/assets/images/register/verify-otp-copy.webp)
 
-![image](/assets/images/entry-otp.webp)
+![image](/assets/images/register/entry-otp.webp)
 
 #### 4. Complete your profile details
 
@@ -76,13 +76,13 @@ After successful OTP verification, you will be prompted to enter your profile de
 
 ##### b. Country
 
-![image](/assets/images/finish-register.webp)
+![image](/assets/images/register/finish-register.webp)
 
 #### 5. Agree to terms
 
 To proceed, check the box indicating that you agree to the **Terms of Service** and **Privacy Policy.**
 
-![image](/assets/images/agree-terms.webp)
+![image](/assets/images/register/agree-terms.webp)
 
 Once all steps are completed, you’ll be ready to access the full features of the system.
 
@@ -92,13 +92,13 @@ Once all steps are completed, you’ll be ready to access the full features of t
 
 If you already have an **ORCID** account, click **"Sign in with ORCID"** to proceed.
 
-![image](/assets/images/sign-in-orcid.webp)
+![image](/assets/images/register/sign-in-orcid.webp)
 
 ### Authenticate your ORCID account
 
 Enter your ORCID credentials to log in. After successful authentication, you will be redirected to the **Kryoni Registration Page** to complete your registration.
 
-![image](/assets/images/orcid-id-pass.webp)
+![image](/assets/images/register/orcid-id-pass.webp)
 
 Register with Kryoni - **LINK**
 
@@ -116,7 +116,7 @@ Once you have successfully registered with Kryoni, you will have the option to *
 
 ### ORCID linking options
 
-![image](/assets/images/authorize-now.webp)
+![image](/assets/images/register/authorize-now.webp)
 
 After registration, you will see the following options:
 
