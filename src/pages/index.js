@@ -19,7 +19,7 @@ import { useHistory } from "react-router-dom";
 //         <div className={styles.buttons}>
 //           <Link
 //             classNameName="button button--secondary button--lg"
-//             to="/journal-management-system/Introduction/Overview">
+//             to="/journal-management-system/introduction/Overview">
 //             Step By Step Tutorial For Easy Working
 //           </Link>
 //         </div>
@@ -32,7 +32,7 @@ export default function Home() {
   const history = useHistory();
 
   const handleClick = () => {
-    history.push("/journal-management-system/Get-Started-With-Kryoni-JMS/introduction");
+    history.push("/journal-management-system/get-started-with-kryoni-jms/introduction");
   };
 
   return (

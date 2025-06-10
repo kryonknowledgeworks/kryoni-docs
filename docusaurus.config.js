@@ -118,7 +118,7 @@ const config = {
         // ------------navbar-----------
         items: [
           {
-            to: "/journal-management-system/Get-Started-With-Kryoni-JMS/Introduction",
+            to: "/journal-management-system/get-started-with-kryoni-jms/introduction",
             label: "JMS",
             position: "left",
           },
@@ -146,7 +146,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-  
 };
 
 export default config;
