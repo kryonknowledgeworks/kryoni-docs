@@ -49,11 +49,11 @@ This feature provides flexibility to accommodate various submission categories b
 
 Once an article type has been selected, administrators must assign an appropriate review process to ensure a structured and fair evaluation of submissions. The review type determines the level of anonymity maintained between authors and reviewers.
 
-    - **Open Review** – Author and reviewer identities are visible to each other.
+    - **Open review** – Author and reviewer identities are visible to each other.
 
-    - **Single-Blind Review** – Reviewer identity is hidden from the author.
+    - **Single-blind review** – Reviewer identity is hidden from the author.
 
-    - **Double-Blind Review** – Both author and reviewer identities remain anonymous.
+    - **Double-blind review** – Both author and reviewer identities remain anonymous.
 
 ### Assigning a review type
 
@@ -83,7 +83,7 @@ The available options are
 
     - **Mandatory** – A similarity report must be submitted along with the manuscript.
     - **Optional** – Submission of the similarity report is allowed but not enforced.
-    - **Not Required** – No similarity report is needed for this configuration
+    - **Not required** – No similarity report is needed for this configuration
 
 ### Adding additional configurations
 
@@ -195,7 +195,7 @@ Administrators can choose whether to integrate the production system (Post-Accep
     - **Yes** – Enables integration for seamless tracking and workflow management.
     - **No** – Keeps production tracking separate from JMS.
 
-**Benefits of Integration:**
+**Benefits of integration:**
 
     - Track manuscript production progress efficiently.
     - Define proofing workflows based on journal and article requirements.
@@ -206,9 +206,7 @@ Administrators can choose whether to integrate the production system (Post-Accep
 
 This setting determines whether authors must submit a conflict of interest (COI) declaration when submitting their articles.
 
-
 **Yes (Enabled):** Authors are required to declare any conflicts of interest before submission.
-
 
 **_Click to upload conflict of interest file_**
 

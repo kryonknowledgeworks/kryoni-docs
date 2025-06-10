@@ -56,9 +56,9 @@ Choose the appropriate type for your journal from the following options:
 
     - **Hybrid:** This model combines both open access and subscription-based content, allowing some articles to be freely available while others are behind a paywall.
 
-    - **Open Access:** All content is freely accessible to the public, with no subscription barriers, promoting greater visibility and impact of the research published in your journal.
+    - **Open access:** All content is freely accessible to the public, with no subscription barriers, promoting greater visibility and impact of the research published in your journal.
 
-    - **Subscription-Based:** Content is available only to subscribers. This model is typically used for journals that require a subscription fee for access to the full range of articles.
+    - **Subscription-based:** Content is available only to subscribers. This model is typically used for journals that require a subscription fee for access to the full range of articles.
 
 ### Choose the license type
 

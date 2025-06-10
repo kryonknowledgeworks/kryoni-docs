@@ -15,11 +15,11 @@ sidebar_label: Preview
 The journal preview section allows you to review and confirm all the information configured during the journal creation process. This final step ensures that every setting is accurate and meets your expectations, preventing potential errors that could impact submissions, reviews, or publication workflows.
 
 To finalize the journal setup:
-    - Review : Verify that all the journal configurations are correct.
+    - **Review :** Verify that all the journal configurations are correct.
 
 ![image](/assets/images/create/click-create-journal.webp)
 
-    - Click "Create": Once you are satisfied with the preview, click the “Create” button to complete the setup.
+    - **Click "Create":** Once you are satisfied with the preview, click the “Create” button to complete the setup.
 Your journal will now be officially established within the JMS and ready for use.
 
 ![image](/assets/images/create/created-success.webp)

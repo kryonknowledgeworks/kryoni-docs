@@ -110,11 +110,15 @@ If you have a list of users that need to be added to the system, you can use the
     - Click **"View"** to see the invitation details.
     - You will see options to **ACCEPT** or **DECLINE** the invitation.
 
-Accept the invitation:
+### Accept the invitation
 
 ![image](/assets/images/global/accept-invite.webp)
 
     - Click **"Accept Invite"** to join the JMS.
     - After acceptance, your account is added to the system.
 
+![image](/assets/images/global/once-accepted.webp)
+
 Once accepted, the next step is to assign roles to your account by the administrator—please refer to the relevant guide for role assignment instructions.
+
+![image](/assets/images/global/no-pending-invite.webp)
