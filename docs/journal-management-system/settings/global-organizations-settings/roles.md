@@ -119,19 +119,21 @@ Now, let’s create a new role and assign specific permissions.
 
 ### Creating a role
 
-1. **Navigate to role management**
+#### 1. Navigate to role management
+
     - Navigate to **Settings > Manage > Role Management**.
 
 ![image](/assets/images/global/create-role-click.webp)
 
     - Click Create Role
 
-2. **Enter role name**
+#### 2. Enter role name
+
     - In the **Role Name** field, enter the name of the role (e.g., **"User Management"**).
 
 ![image](/assets/images/global/role-name.webp)
 
-3. **Select permissions**
+#### 3. Select permissions
 
 ![image](/assets/images/global/select-permissions.webp)
 
@@ -143,7 +145,7 @@ Now, let’s create a new role and assign specific permissions.
     - Make sure the selected permissions align with the user's duties to maintain system security and efficiency.
 :::
 
-4. **Save the role**
+#### 4. Save the role
 
 ![image](/assets/images/global/save-role.webp)
 
@@ -163,23 +165,25 @@ Once a role has been created, the next step is to assign users to it. Follow the
 
 ### Assign a role to a user
 
-1. **Select role**
+#### 1. Select role
 
     - From the dropdown menu, choose the appropriate role you created (e.g., User Management).
 
 ![image](/assets/images/global/select-role.webp)
 
-2. **Select user**
+#### 2. Select user
+
     - Choose the user to whom you want to grant permissions.
     - If the user already exists in the system, select them from the available list.
-3. **Invite a new user (If needed)**
+
+#### 3. Invite a new user (If needed)
 
 ![image](/assets/images/global/add-org-invite-user.webp)
 
     - If the user is not registered yet, click **"Invite User"** to send an invitation.
     - Refer to Page 16 for detailed instructions on inviting new users.
 
-4. **Save the assignment**
+#### 4. Save the assignment
 
 ![image](/assets/images/global/save-assignment.webp)
 
