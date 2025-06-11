@@ -10,7 +10,7 @@ sidebar_label: Roles
 
 The role configuration feature in JMS is one of its most important capabilities. Every journal is unique and may require different roles to manage its operations effectively. With JMS, you can configure specific roles and permissions to ensure that each user has the appropriate access levels for their responsibilities.
 
-### Organization-level permissions
+### Organization-Level Permissions
 
 It is important to note that all role and permission settings in JMS apply at the organization level, not just to individual journals. This means:
     - When a user is assigned a role with specific permissions, those permissions are valid across all journals within the system, not just one.
@@ -18,31 +18,31 @@ It is important to note that all role and permission settings in JMS apply at th
 
 For example, if an administrator grants the **"Manage Journal"** permission to a user, they will be able to create, edit, and manage all journals within the system, rather than just one specific journal.
 
-### Key features
+### Key Features
 
     - **Customized Role Assignment:**
 Define and assign roles that align with your journal's structure—whether it's for administrators, editors, reviewers, or other team members.
-    - **Tailored permissions:**
+    - **Tailored Permissions:**
 Set specific permissions for each role to control access to various features and sections of the system. This ensures that users can only perform actions relevant to their responsibilities.
-    - **Enhanced security:**
+    - **Enhanced Security:**
 By restricting access based on roles, you help maintain the security and integrity of your journal's workflow.
-    - **Flexible configuration:**
+    - **Flexible Configuration:**
 Modify and update roles as your journal evolves, ensuring that your team always has the right tools and permissions to work efficiently.
 
 This robust role configuration system helps you to manage user access effectively, making it easier to maintain a well-organized and secure editorial process within JMS.
 
 Each permission controls access to different functionalities within the JMS. You can assign one or more permissions to the new role depending on what responsibilities the role should have. Here are the available permissions and their purposes:
 
-### Manage users
+### Manage Users
 
 The **Manage Users** permission allows authorized users to oversee all aspects of user management within the **Journal Management System (JMS)**. This includes the ability to **add, update, or remove users**, ensuring efficient access control and role assignments within the platform.
-    - **Create users:** Add new users such as authors, editors, or reviewers to the system.
-    - **Edit user details:** Update user information like contact details, credentials, or roles.
-    - **Disable users:** Inactive users or restrict access for users who no longer require it.
+    - **Create Users:** Add new users such as authors, editors, or reviewers to the system.
+    - **Edit User Details:** Update user information like contact details, credentials, or roles.
+    - **Disable Users:** Inactive users or restrict access for users who no longer require it.
 
 **Example:** An admin can invite a new editor to JMS, update their profile info, or disable access if they leave the organization.
 
-### Manage roles
+### Manage Roles
 
 The **Manage Roles** permission allows administrators to define, modify, and assign user roles within JMS. This ensures that users have access only to the features they need.
 
@@ -53,7 +53,7 @@ The **Manage Roles** permission allows administrators to define, modify, and ass
 
 Example: If a journal needs a new "Production Manager" role, a user with **Journal Manager** permissions can create it and assign relevant permissions, such as managing journal submissions.
 
-### Manage journal
+### Manage Journal
 
 The **Manage Journal** permission gives users complete control over journal operations. This is ideal for editors and journal managers who handle submissions, reviews, and publishing.
 
@@ -65,7 +65,7 @@ The **Manage Journal** permission gives users complete control over journal oper
 
 ### Auditing
 
-The Auditing permission allows users to track system activity and monitor changes made within JMS. This is essential for ensuring transparency and accountability.
+The **Auditing** permission allows users to track system activity and monitor changes made within JMS. This is essential for ensuring transparency and accountability.
 
     - **Review User Activity Logs** – See who made changes to the system.
     - **Monitor Submission History** – Track manuscript revisions and editorial decisions.
@@ -73,9 +73,9 @@ The Auditing permission allows users to track system activity and monitor change
 
 **Example:** If a submission status is changed unexpectedly, an auditor can check the logs to see who made the modification.
 
-### Supplier management
+### Supplier Management
 
-The Supplier Management permission allows users to manage external service providers associated with the journal workflow.
+The **Supplier Management** permission allows users to manage external service providers associated with the journal workflow.
 
     - **Add New Suppliers** – Register external vendors for tasks like copyediting, typesetting, or proofreading.
     - **Monitor Supplier Performance** – Track task completion and review supplier efficiency.
@@ -83,7 +83,7 @@ The Supplier Management permission allows users to manage external service provi
 
 **Example:** If a journal outsources typesetting to a vendor, the administrator can assign them tasks and monitor progress within the JMS.
 
-### Developer options
+### Developer Options
 
 The **Developer Options** permission is intended for technical users responsible for integrating JMS with other systems.
 
@@ -91,9 +91,9 @@ The **Developer Options** permission is intended for technical users responsible
 
 **Example:** A developer might use API access to integrate JMS with an external manuscript submission system.
 
-### Administration and billing management
+### Administration and Billing Management
 
-The Administration and Billing Management permission grants access to financial and subscription-related functionalities in JMS.
+The **Administration and Billing Management** permission grants access to financial and subscription-related functionalities in JMS.
 
     - **View and Update Subscription Plans** – Monitor the journal’s current JMS plan.
     - **Manage Billing Information** – Update payment details and process renewals.
@@ -105,21 +105,21 @@ Each permission in JMS plays a key role in managing journal operations efficient
 
 Now, let’s explore how each permission functions in real-time scenarios
 
-### How to create role
+### How to Create Role
 
 ![image](/assets/images/global/create-role.webp)
 
 This interface displays the current roles. At present, only the Administrator role is available,
 
-**Administrator role:** Controls every aspect of the system—from managing settings and users to configuring permissions.
+**Administrator Role:** Controls every aspect of the system—from managing settings and users to configuring permissions.
 
 Now, let’s create a new role and assign specific permissions.
 
-### How it works?
+### How it Works?
 
-### Creating a role
+### Creating a Role
 
-#### 1. Navigate to role management
+#### 1. Navigate to Role Management
 
     - Navigate to **Settings > Manage > Role Management**.
 
@@ -127,13 +127,13 @@ Now, let’s create a new role and assign specific permissions.
 
     - Click Create Role
 
-#### 2. Enter role name
+#### 2. Enter Role Name
 
     - In the **Role Name** field, enter the name of the role (e.g., **"User Management"**).
 
 ![image](/assets/images/global/role-name.webp)
 
-#### 3. Select permissions
+#### 3. Select Permissions
 
 ![image](/assets/images/global/select-permissions.webp)
 
@@ -141,11 +141,11 @@ Now, let’s create a new role and assign specific permissions.
     - Example: If creating a **User Management** role, select the **Manage Users** permission.
 
 :::note
-    - A single role can have **multiple permissions** assigned.
+    - A single role can have **Multiple Permissions** assigned.
     - Make sure the selected permissions align with the user's duties to maintain system security and efficiency.
 :::
 
-#### 4. Save the role
+#### 4. Save the Role
 
 ![image](/assets/images/global/save-role.webp)
 
@@ -156,34 +156,34 @@ Once a role has been created, the next step is to assign users to it. Follow the
 
 ![image](/assets/images/global/add-user.webp)
 
-### Access user management
+### Access User Management
 
 1. Navigate to the **User Management** section in the JMS dashboard.
 2. Click on **"Add User"** to begin the process.
 
 ![image](/assets/images/global/access-user-manage.webp)
 
-### Assign a role to a user
+### Assign a Role to a User
 
-#### 1. Select role
+#### 1. Select Role
 
     - From the dropdown menu, choose the appropriate role you created (e.g., User Management).
 
 ![image](/assets/images/global/select-role.webp)
 
-#### 2. Select user
+#### 2. Select User
 
     - Choose the user to whom you want to grant permissions.
     - If the user already exists in the system, select them from the available list.
 
-#### 3. Invite a new user (If needed)
+#### 3. Invite a New User (If Needed)
 
 ![image](/assets/images/global/add-org-invite-user.webp)
 
     - If the user is not registered yet, click **"Invite User"** to send an invitation.
     - Refer to Page 16 for detailed instructions on inviting new users.
 
-#### 4. Save the assignment
+#### 4. Save the Assignment
 
 ![image](/assets/images/global/save-assignment.webp)
 

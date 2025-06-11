@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 sidebar: jmsSidebar
+sidebar_label: Journal List
 ---
 
 ## **Overview**

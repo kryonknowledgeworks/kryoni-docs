@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 sidebar: jmsSidebar
+sidebar_label: Journal Detail
 ---
 
 ## **Overview**

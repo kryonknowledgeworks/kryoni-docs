@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 sidebar: jmsSidebar
+sidebar_label: Submission List
 ---
 
 ## **Overview**

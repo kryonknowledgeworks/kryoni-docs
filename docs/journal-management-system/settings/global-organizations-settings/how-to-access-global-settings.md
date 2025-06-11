@@ -1,11 +1,13 @@
 ---
 sidebar_position: 2
 sidebar: jmsSidebar
-sidebar_label: How to Access Global Settings
+sidebar_label: Global Settings
 ---
 #
 
-## How to Access Global Settings
+## Global Settings
+
+### How to Access Global Settings
 
 ![image](/assets/images/global/access-global.webp)
 

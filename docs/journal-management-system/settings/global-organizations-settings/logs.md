@@ -9,17 +9,17 @@ sidebar_label: Logs
 
 For security and transparency, all actions performed within our Journal Management System (JMS) are automatically recorded as logs. Every event, from journal creation to publication, is logged with a times, ensuring that every step in the editorial and publishing process is tracked.
 
-### Key features of the log system
+### Key Features of the Log System
 
-**Permanent records:** Once an action is logged, it cannot be edited or deleted, ensuring all records remain accurate.
+**Permanent Records:** Once an action is logged, it cannot be edited or deleted, ensuring all records remain accurate.
 
-**Detailed tracking:** Every activity—such as submissions, user management, or publishing—is recorded, giving you a full history of events.
+**Detailed Tracking:** Every activity—such as submissions, user management, or publishing—is recorded, giving you a full history of events.
 
 ![image](/assets/images/global/detailed-tracking.webp)
 
-**Security and reference:** These logs help maintain security and can be used for future reference, ensuring smooth and clear communication within the system.
+**Security and Reference:** These logs help maintain security and can be used for future reference, ensuring smooth and clear communication within the system.
 
-### Additional options
+### Additional Options
 
     - **Filter:**
 

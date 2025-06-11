@@ -695,3 +695,7 @@ img.img_ev3q{
   font-size: 16px;
   font-weight: 700;
 }
+
+.hash-link::before {
+    display: none;
+}

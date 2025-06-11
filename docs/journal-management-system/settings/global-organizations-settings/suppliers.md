@@ -11,33 +11,33 @@ In the **Editorial Management System**, once a manuscript successfully passes pe
 
 The **Journal Management System (JMS)** simplifies this process by allowing you to manage all production-related activities directly within a single, intuitive platform—eliminating the need for manual coordination or scattered communication.
 
-### Key features
+### Key Features
 
     - Invite and onboard production suppliers seamlessly
     - Assign tasks such as copyediting, typesetting, and proofreading
     - Automate task distribution to streamline workflows
     - Enable or disable supplier access as needed from the admin dashboard
 
-### How to add a supplier
+### How to Add a Supplier
 
 ![image](/assets/images/global/add-supplier.webp)
 
 1. **Click "Add Supplier"**
 
     - Begin the onboarding process for a new production service provider.
-2. **Enter the invite code**
+2. **Enter the Invite Code**
 
 ![image](/assets/images/global/add-supplier-invite-code.webp)
 
  This code is generated from the supplier’s account (see below for how to obtain it).
 
-### Obtaining the invite code (Supplier Side)
+### Obtaining the Invite Code (Supplier Side)
 
 ![image](/assets/images/global/obtaining-invite-code.webp)
 
 Before sending the invite, ensure the supplier is **registered** on the JMS portal.
 
-### Supplier registration
+### Supplier Registration
 
 ![image](/assets/images/global/supplier-enrollment.webp)
 
@@ -59,14 +59,14 @@ Once registration is complete:
 
 ![image](/assets/images/global/copy-supplier-invite-code.webp)
 
-### Submitting the supplier invitation
+### Submitting the Supplier Invitation
 
     - Paste the invite code into the designated field in JMS.
     - Click **Submit** to send the invitation to the supplier.
 
 ![image](/assets/images/global/submitting-supplier-code.webp)
 
-### Accepting an invitation (Supplier Steps)
+### Accepting an Invitation (Supplier Steps)
 
 1. **Log in** to the JMS supplier portal.
 2. Click the **Settings** icon.
@@ -81,7 +81,7 @@ Once accepted, the supplier becomes an active member of your publishing house wi
 
 ![image](/assets/images/global/once-accepted-supplier.webp)
 
-### Post-acceptance actions
+### Post-Acceptance Actions
 
     - The supplier’s details will appear on the **Administrator Dashboard**.
     - Administrators can **enable** or **disable** suppliers as needed.

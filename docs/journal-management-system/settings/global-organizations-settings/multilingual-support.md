@@ -4,9 +4,9 @@ sidebar: jmsSidebar
 sidebar_label: Multilingual Support
 ---
 
-# Global organizations settings
+# Global Organizations Settings
 
-## Multilingual support
+## Multilingual Support
 
 ![image](/assets/images/global/multilingual-support.webp)
 
@@ -23,11 +23,11 @@ The organization settings section in the JMS is an important feature that offers
  These settings apply to the entire JMS, not to individual journals.
 :::
 
-### Key features
+### Key Features
 
-    - **Role-based access control:**
+    - **Role-Based Access Control:**
 Define and assign specific roles to control who can access or modify different aspects of the system.
 
-    - **Customizable permissions:**
+    - **Customizable Permissions:**
 Tailor access levels for each role, ensuring that only authorized users can perform certain actions, which helps maintain system security and operational efficiency.
 How to Access Global Settings:

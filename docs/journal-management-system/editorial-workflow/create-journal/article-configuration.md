@@ -5,31 +5,31 @@ sidebar_label: Article Configuration
 ---
 #
 
-## Article configuration
+## Article Configuration
 
 ![image](/assets/images/create/article-config.webp)
 
-### Article configuration overview
+### Article Configuration Overview
 
 The **Article Configuration** section is essential for customizing and managing the journal submission process efficiently. It allows journal administrators to set key parameters that define how articles are submitted, reviewed, and tracked within the system.
 
-**Key benefits:**
+**Key Benefits:**
 
-    - **Enhanced submission control:** Configure article and review types to align with journal requirements.
-    - **Accurate tracking:** Set unique tracking IDs and numbering formats for better organization.
-    - **Editorial flexibility:** Enable specific permissions for editors, such as overriding review type rules.
-    - **Compliance & transparency:** Ensure submissions meet ethical and quality standards with similarity checks and conflict of interest declarations.
-    - **Custom workflow:** Tailor submission settings, including co-author verification and color figure pricing, for a smooth process.
+    - **Enhanced Submission Control:** Configure article and review types to align with journal requirements.
+    - **Accurate Tracking:** Set unique tracking IDs and numbering formats for better organization.
+    - **Editorial Flexibility:** Enable specific permissions for editors, such as overriding review type rules.
+    - **Compliance & Transparency:** Ensure submissions meet ethical and quality standards with similarity checks and conflict of interest declarations.
+    - **Custom Workflow:** Tailor submission settings, including co-author verification and color figure pricing, for a smooth process.
 
 Here’s how to configure articles.
 
-### Select the article type
+### Select the Article Type
 
 ![image](/assets/images/create/select-article-type.webp)
 
 Administrators can choose from a predefined list of article types relevant to the journal, such as _Case Study, Editorial, Review Article,_ and more. Additionally, they have the flexibility to create custom article types as needed.
 
-### Create new article type
+### Create New Article Type
 
 ![image](/assets/images/create/create-new-article-type.webp)
 
@@ -43,19 +43,19 @@ To add a custom article type:
 
 This feature provides flexibility to accommodate various submission categories based on the journal’s scope.
 
-### Select the review type
+### Select the Review Type
 
 ![image](/assets/images/create/article-review-type.webp)
 
 Once an article type has been selected, administrators must assign an appropriate review process to ensure a structured and fair evaluation of submissions. The review type determines the level of anonymity maintained between authors and reviewers.
 
-    - **Open review** – Author and reviewer identities are visible to each other.
+    - **Open Review** – Author and reviewer identities are visible to each other.
 
-    - **Single-blind review** – Reviewer identity is hidden from the author.
+    - **Single-Blind Review** – Reviewer identity is hidden from the author.
 
-    - **Double-blind review** – Both author and reviewer identities remain anonymous.
+    - **Double-Blind Review** – Both author and reviewer identities remain anonymous.
 
-### Assigning a review type
+### Assigning a Review Type
 
 ![image](/assets/images/create/assigning-review-type.webp)
 
@@ -73,7 +73,7 @@ Administrators can assign multiple articles and review types based on the journa
 
 :::
 
-### Select the similarity proof
+### Select the Similarity Proof
 
 Similarity proof refers to a document (usually a report from a plagiarism detection tool like Turnitin or iThenticate) that shows the originality of the submitted manuscript by comparing it against published sources.
 
@@ -83,27 +83,27 @@ The available options are
 
     - **Mandatory** – A similarity report must be submitted along with the manuscript.
     - **Optional** – Submission of the similarity report is allowed but not enforced.
-    - **Not required** – No similarity report is needed for this configuration
+    - **Not Required** – No similarity report is needed for this configuration
 
-### Adding additional configurations
+### Adding Additional Configurations
 
 To define more article-review-similarity combinations, click the **“Add New +”** link and repeat the configuration process.
 
-### Tracking ID configuration
+### Tracking ID Configuration
 
 Tracking ID configuration is a crucial step in efficiently organizing and managing journal submissions. This feature allows administrators to assign a customized tracking format, ensuring consistency across submissions and simplifying the identification process.
 
-### Purpose of tracking ID configuration
+### Purpose of Tracking ID Configuration
 
-    - **Consistency cross submissions** – Maintain a standardized tracking system for all journal submissions.
-    - **Seamless continuity** – Align new submissions with an existing tracking format for easier record-keeping.
-    - **Efficient monitoring** – Quickly locate and manage submissions using unique tracking IDs.
+    - **Consistency Cross Submissions** – Maintain a standardized tracking system for all journal submissions.
+    - **Seamless Continuity** – Align new submissions with an existing tracking format for easier record-keeping.
+    - **Efficient Monitoring** – Quickly locate and manage submissions using unique tracking IDs.
 
-### How to configure a tracking ID for a journal
+### How to Configure a Tracking ID for a Journal
 
 ![image](/assets/images/create/config-track-id.webp)
 
-### 1. Submission tracking ID prefix
+#### 1. Submission Tracking ID Prefix
 
 ![image](/assets/images/create/track-id-prefix.webp)
 
@@ -112,7 +112,7 @@ Tracking ID configuration is a crucial step in efficiently organizing and managi
 
 **Example:** If the prefix is **JOLIT**, a submission ID will appear as **JOLIT-001**.
 
-### 2. Sequence starting number
+#### 2. Sequence Starting Number
 
 ![image](/assets/images/create/seq-starting-number.webp)
 
@@ -122,7 +122,7 @@ Tracking ID configuration is a crucial step in efficiently organizing and managi
 
 **Example:** If the sequence starts at **001**, the first submission ID will be **JOLIT-001**.
 
-### 3. Tracking number digits
+#### 3. Tracking Number Digits
 
 ![image](/assets/images/create/tracking-number-digits.webp)
 
@@ -135,21 +135,21 @@ Tracking ID configuration is a crucial step in efficiently organizing and managi
     - **4-digit format:** JOLIT-0001
     - **6-digit format:** JOLIT-000001
 
-### Finalizing the settings
+### Finalizing the Settings
 
 :::warning
-**⚠ Important:** Once the tracking ID configuration is saved, it **cannot** be changed.
+**Important:** Once the tracking ID configuration is saved, it **cannot** be changed.
 :::
 
 Double-check all entries before finalizing to ensure accuracy and alignment with journal requirements.
 
-### Checkbox options
+### Checkbox Options
 
 This section allows customization of various settings using checkbox options to align with your journal’s specific workflow needs. These options offer flexibility while maintaining control over essential processes within the Journal Management System (JMS).
 
-![image](/assets/images/create/checkbox-options.webp)
-
 #### Allow editorial users to override the review type rule while assigning reviewers
+
+![image](/assets/images/create/checkbox-options.webp)
 
 This setting determines whether editorial users can bypass predefined review type rules when assigning reviewers.
 
@@ -159,9 +159,9 @@ This setting determines whether editorial users can bypass predefined review typ
 
 **Recommendation:** Enable this option if your journal requires adaptability in the review process. Disable it if maintaining uniformity in reviewer assignments is a priority.
 
-![image](/assets/images/create/editiorial-override-type.webp)
-
 #### Allow to accept submission even all the co-authors verification is not completed
+
+![image](/assets/images/create/editiorial-override-type.webp)
 
 This option controls whether submissions can proceed before all co-authors have completed verification.
 
@@ -171,9 +171,9 @@ This option controls whether submissions can proceed before all co-authors have 
 
 **Recommendation:** Enable this setting if speed is a priority. Disable it if full co-author verification is necessary to maintain submission integrity.
 
-![image](/assets/images/create/co-authors-verfication.webp)
-
 #### Do you want to include color figure information(for pricing calculation)to be collected in submission?
+
+![image](/assets/images/create/co-authors-verfication.webp)
 
 This setting determines whether authors must provide details about colour figures during the submission process. Collecting this information helps calculate additional costs and ensures authors are informed in advance about any applicable charges.
 
@@ -182,11 +182,9 @@ This setting determines whether authors must provide details about colour figure
 
 **Recommendation:** Enable this setting if your journal charges for color figures to maintain transparency with authors regarding potential costs. Disable it if color figures are included at no additional charge.
 
-### Next option is
+**Would you like to integrate the production system (Post-Acceptance Tracking) with the Journal Management System (JMS)?**
 
 ![image](/assets/images/create/next-option-is-yes.webp)
-
-**Would you like to integrate the production system (Post-Acceptance Tracking) with the Journal Management System (JMS)?**
 
 Administrators can choose whether to integrate the production system (Post-Acceptance Tracking) with JMS.
 
