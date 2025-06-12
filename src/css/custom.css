@@ -695,3 +695,20 @@ img.img_ev3q{
   font-size: 16px;
   font-weight: 700;
 }
+
+.hash-link::before {
+    display: none;
+}
+
+img.img_ev3q[title="registeremail"],
+img.img_ev3q[title="otpverify"],
+img.img_ev3q[title="resendcode"],
+img.img_ev3q[title="enterotp"],
+img.img_ev3q[title="finishreg"],
+img.img_ev3q[title="orcidlink"],
+img.img_ev3q[title="terms"],
+img.img_ev3q[title="signin"],
+img.img_ev3q[title="copyotp"],
+img.img_ev3q[title="orcidpass"]{
+  width: 45%;
+}

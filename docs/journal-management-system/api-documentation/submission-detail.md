@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 sidebar: jmsSidebar
+sidebar_label: Submission Detail
 ---
 
 ## **Overview**

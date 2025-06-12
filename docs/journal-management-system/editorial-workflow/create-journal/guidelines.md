@@ -8,23 +8,23 @@ sidebar_label: Guidelines
 
 ## Guidelines
 
-![image](/assets/images/create/guidelines.webp)
+    ![image](/assets/images/create/guidelines.webp)
 
 ### Overview
 
 This section is crucial for setting clear expectations for both authors and reviewers within the Journal Management System (JMS). It ensures that everyone follows the journal’s standards, leading to higher quality and consistency throughout the editorial process. Administrators can define and manage these guidelines to maintain compliance with journal policies.
 
-### Author guidelines or attachments
+### Author Guidelines or Attachments
 
-![image](/assets/images/create/author-guideless-or.webp)
+    ![image](/assets/images/create/author-guideless-or.webp)
 
 Outline the requirements for manuscript submissions, including formatting rules, length limits, and specific content criteria.
 
 You can simply copy-paste the author guidelines or attach the file for additional clarity.
 
-**Steps to upload an author guidelines attachment:**
+**Steps to Upload an Author Guidelines Attachment:**
 
-![image](/assets/images/create/steps-to.webp)
+    ![image](/assets/images/create/steps-to.webp)
 
 1. Click the **‘Upload Author Guidelines Attachment’** button.
 
@@ -32,15 +32,15 @@ You can simply copy-paste the author guidelines or attach the file for additiona
 
 3. The document will then be available to all authors during the submission process.
 
-### Reviewer guidelines or attachments
+### Reviewer Guidelines or Attachments
 
-![image](/assets/images/create/revivewer-guide-attach.webp)
+    ![image](/assets/images/create/revivewer-guide-attach.webp)
 
 Specify the criteria for reviewers, such as evaluation standards, review timelines, and any additional resources or templates that can support their assessments. You can simply copy-paste the reviewer guidelines or attach relevant documents to help guide reviewers.
 
-**To upload a reviewer gidelines attachment:**
+**To Upload a Reviewer GUidelines Attachment:**
 
-![image](/assets/images/create/upload-reviewer-guidelines.webp)
+    ![image](/assets/images/create/upload-reviewer-guidelines.webp)
 
     - Click the **‘Upload Reviewer Guidelines Attachments’** button.
 
@@ -48,14 +48,14 @@ Specify the criteria for reviewers, such as evaluation standards, review timelin
 
     - Once uploaded, the document becomes accessible to reviewers.
 
-### Why guidelines matter
+### Why Guidelines Matter
 
-    - **Improve submission quality:** Clear instructions help authors prepare well-structured manuscripts.
+    - **Improve Submission Quality:** Clear instructions help authors prepare well-structured manuscripts.
 
-    - **Enhance reviewer efficiency:** Detailed guidelines enable reviewers to evaluate submissions more effectively.
+    - **Enhance Reviewer Efficiency:** Detailed guidelines enable reviewers to evaluate submissions more effectively.
 
-    - **Ensure consistency:** Standardized processes lead to smoother workflows and fewer delays.
+    - **Ensure Consistency:** Standardized processes lead to smoother workflows and fewer delays.
 
-    - **Promote transparency:** Clearly communicated expectations foster a collaborative publishing environment.
+    - **Promote Transparency:** Clearly communicated expectations foster a collaborative publishing environment.
 
 By keeping guidelines up-to-date and easily accessible, your journal can ensure that both authors and reviewers meet the necessary standards for high-quality publications.

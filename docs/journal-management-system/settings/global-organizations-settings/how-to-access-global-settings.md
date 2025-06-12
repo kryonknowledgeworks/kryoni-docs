@@ -1,13 +1,15 @@
 ---
 sidebar_position: 2
 sidebar: jmsSidebar
-sidebar_label: How to Access Global Settings
+sidebar_label: Global Settings
 ---
 #
 
-## How to Access Global Settings
+## Global Settings
 
-![image](/assets/images/global/access-global.webp)
+### How to Access Global Settings
+
+    ![image](/assets/images/global/access-global.webp)
 
 1. Navigate to the **Settings** menu.
 2. Select **Manage** to access the Global Settings options.

@@ -92,7 +92,7 @@ const config = {
     ],
   ],
 
-  themeConfig:
+  themeConfig: 
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
@@ -144,8 +144,16 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      },
-    }),
+      },   
+      zoom: {
+          selector: '.markdown :not(em) > img',
+          background: {
+            light: 'rgb(255, 255, 255)',
+            dark: 'rgb(50, 50, 50)'
+          },   
+      },       
+    }),   
+    plugins: [ require.resolve('docusaurus-plugin-image-zoom') ],
 };
 
 export default config;
