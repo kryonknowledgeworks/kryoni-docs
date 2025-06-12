@@ -53,11 +53,11 @@ Built for scalability, security, and flexibility, Kryoni JMS is your all-in-one 
 
 ### 6. Security, Compliance & Accessibility
 
-    - **Data encryption:** Protect user data and research content through end-to-end encryption.
+    - **Data Encryption:** Protect user data and research content through end-to-end encryption.
 
-    - **Regulatory compliance:** GDPR-ready and aligned with global data protection standards.
+    - **Regulatory Compliance:** GDPR-ready and aligned with global data protection standards.
 
-    - **Multi-language support:** Enable access for a global audience with built-in language options.
+    - **Multi-Language Support:** Enable access for a global audience with built-in language options.
 
 ### 7. Real-Time Communication and Collaboration
 

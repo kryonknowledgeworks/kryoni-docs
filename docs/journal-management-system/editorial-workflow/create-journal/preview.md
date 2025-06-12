@@ -8,7 +8,7 @@ sidebar_label: Preview
 
 ## Journal Preview
 
-![image](/assets/images/create/journal-preview.webp)
+    ![image](/assets/images/create/journal-preview.webp)
 
 ### The Final Step in Creating the Journal
 
@@ -17,12 +17,12 @@ The journal preview section allows you to review and confirm all the information
 To finalize the journal setup:
     - **Review:** Verify that all the journal configurations are correct.
 
-![image](/assets/images/create/click-create-journal.webp)
+    ![image](/assets/images/create/click-create-journal.webp)
 
     - **Click "Create":** Once you are satisfied with the preview, click the “Create” button to complete the setup.
 Your journal will now be officially established within the JMS and ready for use.
 
-![image](/assets/images/create/created-success.webp)
+    ![image](/assets/images/create/created-success.webp)
 
 Once your journal is officially created, you'll be directed to the Journal Dashboard where all your journals are listed. Here, you'll see essential details for each journal, including:
 

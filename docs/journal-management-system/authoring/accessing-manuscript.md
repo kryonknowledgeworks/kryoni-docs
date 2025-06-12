@@ -15,7 +15,7 @@ sidebar_label: Accessing The Manuscript Submission Page
 
 #### 2. Register or Log In
 
-![image](/assets/images/authoring/author-submission.webp)
+    ![image](/assets/images/authoring/author-submission.webp)
 
     - If you are a new user, complete the quick registration process.
     - Existing users can log in using their credentials.

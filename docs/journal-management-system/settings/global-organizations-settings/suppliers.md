@@ -20,36 +20,36 @@ The **Journal Management System (JMS)** simplifies this process by allowing you 
 
 ### How to Add a Supplier
 
-![image](/assets/images/global/add-supplier.webp)
+    ![image](/assets/images/global/add-supplier.webp)
 
 1. **Click "Add Supplier"**
 
     - Begin the onboarding process for a new production service provider.
 2. **Enter the Invite Code**
 
-![image](/assets/images/global/add-supplier-invite-code.webp)
+    ![image](/assets/images/global/add-supplier-invite-code.webp)
 
  This code is generated from the supplier’s account (see below for how to obtain it).
 
 ### Obtaining the Invite Code (Supplier Side)
 
-![image](/assets/images/global/obtaining-invite-code.webp)
+    ![image](/assets/images/global/obtaining-invite-code.webp)
 
 Before sending the invite, ensure the supplier is **registered** on the JMS portal.
 
 ### Supplier Registration
 
-![image](/assets/images/global/supplier-enrollment.webp)
+    ![image](/assets/images/global/supplier-enrollment.webp)
 
-![image](/assets/images/global/service-expertise.webp)
+    ![image](/assets/images/global/service-expertise.webp)
 
-![image](/assets/images/global/certificates.webp)
+    ![image](/assets/images/global/certificates.webp)
 
-![image](/assets/images/global/certificate-full-name.webp)
+    ![image](/assets/images/global/certificate-full-name.webp)
 
-![image](/assets/images/global/save-and-next.webp)
+    ![image](/assets/images/global/save-and-next.webp)
 
-![image](/assets/images/global/weekdays-leavedays.webp)
+    ![image](/assets/images/global/weekdays-leavedays.webp)
 
 Once registration is complete:
     - The supplier should log in to their JMS dashboard.
@@ -57,14 +57,14 @@ Once registration is complete:
     - Go to **Supplier Enrolment Details.**
     - Copy the **Invite Code** and share it with the journal administrator.
 
-![image](/assets/images/global/copy-supplier-invite-code.webp)
+    ![image](/assets/images/global/copy-supplier-invite-code.webp)
 
 ### Submitting the Supplier Invitation
 
     - Paste the invite code into the designated field in JMS.
     - Click **Submit** to send the invitation to the supplier.
 
-![image](/assets/images/global/submitting-supplier-code.webp)
+    ![image](/assets/images/global/submitting-supplier-code.webp)
 
 ### Accepting an Invitation (Supplier Steps)
 
@@ -73,13 +73,13 @@ Once registration is complete:
 3. Navigate to **Publishing House** in the settings menu.
 4. Under the **Requests** tab, review the invitation details.
 
-![image](/assets/images/global/appling-invites.webp)
+    ![image](/assets/images/global/appling-invites.webp)
 
 5. Click **Accept** to confirm, or **Reject** to decline.
 
 Once accepted, the supplier becomes an active member of your publishing house within JMS.
 
-![image](/assets/images/global/once-accepted-supplier.webp)
+    ![image](/assets/images/global/once-accepted-supplier.webp)
 
 ### Post-Acceptance Actions
 
@@ -87,4 +87,4 @@ Once accepted, the supplier becomes an active member of your publishing house wi
     - Administrators can **enable** or **disable** suppliers as needed.
     - You can assign them to specific production tasks to support your publishing workflow.
 
-![image](/assets/images/global/post-acceptance.webp)
+    ![image](/assets/images/global/post-acceptance.webp)
