@@ -71,8 +71,6 @@ After submitting the revised file, notify the editor to ensure they review the u
     - You will receive an email confirming that the revision has been accepted.
     - The submission status will update to **“Moved to Production” ** on your dashboard.
 
-Revisions Accepted
-
 ### Use Case Example
 
 **Scenario:**

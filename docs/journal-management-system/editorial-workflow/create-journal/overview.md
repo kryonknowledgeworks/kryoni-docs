@@ -28,4 +28,4 @@ This information helps authors understand your journal’s scope and policies, e
 
     ![image](/assets/images/create/getting-started-ew.webp)
 
-To begin creating your journal, click on the **"# Journal"** button. This will initiate the journal setup process, guiding you step-by-step through a series of configurations that will define your journal’s settings and operational framework.
+To begin creating your journal, click on the **"Journal"** button. This will initiate the journal setup process, guiding you step-by-step through a series of configurations that will define your journal’s settings and operational framework.
