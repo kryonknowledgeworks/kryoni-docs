@@ -19,16 +19,13 @@ decision-making. It offers real-time reports and statistics, tracking key metric
 
     - **In Review:** Represents articles that have been approved and assigned for peer review. 
 
-    - **In Production:** Tracks the number of manuscripts that have successfully completed the review stage and are now undergoing final
-     formatting and production.
+    - **In Production:** Tracks the number of manuscripts that have successfully completed the review stage and are now undergoing final formatting and production.
 
     - **Decision Pending:** Lists submissions awaiting an editorial decision on acceptance or rejection.
 
-    - **Declined Articles @ Submission:** Represents articles that were rejected during the initial submission stage due to non-compliance
-     with journal requirements.
+    - **Declined Articles @ Submission:** Represents articles that were rejected during the initial submission stage due to non-compliance with journal requirements.
 
-    - **Declined Articles @ Review:** Highlights manuscripts that were rejected after undergoing peer review, based on editorial or 
-    reviewer feedback.
+    - **Declined Articles @ Review:** Highlights manuscripts that were rejected after undergoing peer review, based on editorial or  reviewer feedback.
 
     - **Published Articles:** Displays the number of successfully published articles, having completed all editorial and production stages.
 

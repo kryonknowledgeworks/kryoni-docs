@@ -13,43 +13,43 @@ Now let's see how to edit journal information
 
 ### Editing Journal Information
 
-    **Select the Journal:**
+#### Select the Journal
 
     Navigate to the journal you want to edit.
 
-    **Access Journal Settings:**
+#### Access Journal Settings
 
     Click on **Journal Settings > Configuration > Journal Configuration.**
 
-![image](/assets/images/journal/access-journal-settings.webp)
+    ![image](/assets/images/journal/access-journal-settings.webp)
 
-    **Modify Journal Details:**
-    
+#### Modify Journal Details
+
     Choose the section you want to edit (e.g., journal title, article type, file type, etc.).
 
-     Journal Configuration
+    **Journal Configuration**
 
-![image](/assets/images/journal/journal-configuration.webp)
+    ![image](/assets/images/journal/journal-configuration.webp)
 
-     Article Configuration 
+    **Article Configuration** 
 
-![image](/assets/images/journal/article-configuration.webp)
+    ![image](/assets/images/journal/article-configuration.webp)
 
-     File Types 
+    **File Types** 
 
-![image](/assets/images/journal/file-types.webp)
+    ![image](/assets/images/journal/file-types.webp)
 
-     Subjects 
+    **Subjects** 
 
-![image](/assets/images/journal/subjects.webp)
+    ![image](/assets/images/journal/subjects.webp)
 
-     Language
+    **Language**
 
-![image](/assets/images/journal/language.webp)
+    ![image](/assets/images/journal/language.webp)
 
     Update the fields by typing new information or selecting options from dropdown menus and checkboxes.
 
-    **Save Changes:** 
+    **Save Changes:**
 
     Click **Save and Update** to apply modifications.
 
@@ -59,39 +59,39 @@ Now let's see how to edit journal information
     - Review form 
     - Production workflow 
 
-### Submission Checklist
+#### Submission Checklist
 
 ![image](/assets/images/journal/submission-checklist.webp)
 
 The **Submission Checklist** ensures that authors meet all necessary submission requirements before proceeding, helping maintain quality and compliance with journal guidelines. This guide explains how to edit, remove, or create new checklist items for seamless journal submissions.
 
-### Editing a Checklist Item
-
-![image](/assets/images/journal/editing-checklist.webp)
+#### Editing a Checklist Item
 
     - **Locate the Item:** Find the existing checklist and click **Edit** next to the item you wish to modify.
 
+        ![image](/assets/images/journal/editing-checklist.webp)
+
     - **Update Content:** Adjust the text or change its display position.
 
-![image](/assets/images/journal/update-content.webp)
+        ![image](/assets/images/journal/update-content.webp)
 
     - **Save Changes:** Click **Submit** to apply modifications.
 
-### Deleting a Checklist Item
+#### Deleting a Checklist Item
 
     - **Find the Item:** Identify the checklist item to remove.
 
-![image](/assets/images/journal/find-the-item.webp)
+        ![image](/assets/images/journal/find-the-item.webp)
 
     - **Delete the Item:** Click **Delete**, confirm the action if prompted.
 
-![image](/assets/images/journal/delete-the-item.webp)
+        ![image](/assets/images/journal/delete-the-item.webp)
 
-### *Creating a New Checklist Item*
+#### Creating a New Checklist Item
 
     - **Add a New Item:** Click **Add Item.**
 
-![image](/assets/images/journal/add-the-new-item.webp)
+        ![image](/assets/images/journal/add-the-new-item.webp)
 
     - **Set Display Position:** Assign a position number to determine the item’s placement in the checklist. (For example, if you enter “4,” it will be the first item in the list.)
 
@@ -99,7 +99,7 @@ The **Submission Checklist** ensures that authors meet all necessary submission 
 
     - **Finalize the Checklist Item:** Once you have entered all required information, click submit to save the new item. The item will now appear in the checklist based on the specified display position.
 
-![image](/assets/images/journal/finalize-the-checklist.webp)
+        ![image](/assets/images/journal/finalize-the-checklist.webp)
 
     - **Save the Item:** Click **Submit** to finalize.
 
@@ -107,17 +107,17 @@ The **Submission Checklist** ensures that authors meet all necessary submission 
 
 To edit the author and reviewer guidelines, follow these steps:
 
-    - Click on the "Edit" button. 
+    - Click on the **"Edit"** button. 
 
     - Make the necessary changes to the guidelines. 
 
-    - Once done, click "Save and Update" to save your changes. 
+    - Once done, click **"Save and Update"** to save your changes. 
 
-![image](/assets/images/journal/save-and-update.webp)
+        ![image](/assets/images/journal/save-and-update.webp)
 
 ### Review Form
 
-![image](/assets/images/journal/review-form.webp)
+    ![image](/assets/images/journal/review-form.webp)
 
 The Review Form is important within the Journal Management System (JMS), designed to standardize and streamline the evaluation process for submitted manuscripts. It ensures that reviewers provide structured, consistent, and comprehensive feedback, helping the editorial team make well-informed decisions about publication.
 
@@ -125,19 +125,19 @@ This section explains the importance of the review form, its customization optio
 
 ### Configuring the Review Form
 
-    **Is it necessary to include a reviewer form with every review request?**
+#### Is it necessary to include a reviewer form with every review request?
 
-![image](/assets/images/journal/configuring-reviewform.webp)
+    ![image](/assets/images/journal/configuring-reviewform.webp)
 
-*This allows editorial users to attach or use the preset review form when submitting review requests to reviewers.*
+This allows editorial users to attach or use the preset review form when submitting review requests to reviewers.
 
     - Select **Yes** to attach a predefined review form to reviewer invitations.
 
     - Select **No** to allow reviewers to provide feedback without a structured form.
 
-### Allow Editors to Modify Review Forms
+#### Allow Editors to Modify Review Forms
 
-![image](/assets/images/journal/modify-reviewforms.webp)
+    ![image](/assets/images/journal/modify-reviewforms.webp)
 
     - Select **Yes** to enable editorial users to change the review form before sending it to reviewers.
 
@@ -145,11 +145,11 @@ This section explains the importance of the review form, its customization optio
 
 ### Reviewer Form Attachments
 
-### Access the Reviewer Form Section
+#### Access the Reviewer Form Section
 
 Navigate to **Journal Settings > Review Form Configuration.**
 
-### Upload a Review Form
+#### Upload a Review Form
 
 ![image](/assets/images/journal/upload-review-form.webp)
 
@@ -157,7 +157,7 @@ Click on the **"Choose File"** option.
 
 Select the appropriate **review form** or **template** from your device.
 
-### Confirm & Save
+#### Confirm & Save
 
 ![image](/assets/images/journal/confirm-and-save.webp)
 
@@ -171,11 +171,11 @@ This feature ensures that reviewers receive standardized guidelines and evaluati
 
 The Production Workflow in the Journal Management System (JMS) enables seamless tracking of accepted manuscripts through the post-acceptance process. Administrators can configure the workflow system to streamline production and ensure efficient management of journal publications.
 
-### Enable Production System Integration
-
-![image](/assets/images/journal/enable-production-system.webp)
+#### Enable Production System Integration
 
 **Would you like to integrate the production system (Post-Acceptance Tracking) with the Journal Management System (JMS)?**
+
+![image](/assets/images/journal/enable-production-system.webp)
 
 This feature helps assign production task, track production status, manage proofing workflows, and streamline the publication process efficiently.
 
@@ -185,10 +185,8 @@ This feature helps assign production task, track production status, manage proof
 
 ![image](/assets/images/journal/track-production-status.webp)
 
-### Save and Apply Settings
+#### Save and Apply Settings
 
 Once configured, click **Save Changes** to activate the workflow settings.
 
 This feature helps journals efficiently manage the transition from acceptance to publication while maintaining clear oversight of each article’s production progress.
-
-Next option is the site info

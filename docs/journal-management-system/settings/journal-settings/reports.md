@@ -1,8 +1,10 @@
 ---
 sidebar_position: 11
 sidebar: jmsSidebar
-sidebar_label: Reports  
+sidebar_label: Reports
+title : Reports
 ---
+
 #
 
 ## Reports
@@ -13,7 +15,7 @@ sidebar_label: Reports
 
 The Reports section in the Journal Management System (JMS) provides a structured way to access and download detailed reports on various journal activities. These reports help track and analyze submission progress, review status, and production workflows, ensuring better management and decision-making.
 
-    **How to Download Reports**
+### How to Download Reports
 
 ![image](/assets/images/journal/report-3.webp)
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 sidebar: jmsSidebar
-sidebar_label: Production permissions  
+sidebar_label: Production Permissions  
 ---
 #
 
@@ -39,11 +39,11 @@ By assigning these permissions to different roles, administrators can ensure tha
 
 ### Use Case Example 1: Assigning an Assistant Editor-in-Chief (EIC) Role
 
-    ##### *Scenario*
+    ##### Scenario
 
         A journal's **Editor-in-Chief (EIC)** wants to delegate certain responsibilities to an **Assistant EIC** while maintaining control over final decisions. The Assistant EIC should have the ability to **manage submissions** and **oversee the review process** but should **not have decision-making authority** in the review stage.
 
-    ##### *Objective*
+    ##### Objective
 
         - The **Assistant EIC** should be able to **view, edit, and manage** manuscript submissions.
         - They should be able to **coordinate the review process**, assign reviewers, and provide feedback.
@@ -51,7 +51,7 @@ By assigning these permissions to different roles, administrators can ensure tha
 
 ### Step-by-Step Implementation
 
-    ##### *Step 1: Creating the Role*
+    ##### Step 1: Creating the Role
 
         - Navigate to **Role Management** in the journal's system.
 
@@ -59,7 +59,7 @@ By assigning these permissions to different roles, administrators can ensure tha
 
         - Enter the **Role Name:** Assistant EIC.
 
-    ##### *Step 2: Configuring Submission Permissions*
+    ##### Step 2: Configuring Submission Permissions
 
         The Assistant EIC needs full control over manuscript submissions. Assign the following permissions:
 
@@ -69,21 +69,21 @@ By assigning these permissions to different roles, administrators can ensure tha
 
         - **Decision Making** - Enables accepting or rejecting submissions.
 
-    ##### *Step 3: Configuring Review Permissions*
+    ##### Step 3: Configuring Review Permissions
 
         Since the Assistant EIC should only **oversee the review process** and not make final decisions, assign these permissions:
 
-        **Read** - Can access and read review documents, reviewer comments, and feedback.
+        - **Read** - Can access and read review documents, reviewer comments, and feedback.
 
-        **Manage** - Can assign reviewers, provide comments, and track the review process.
+        - **Manage** - Can assign reviewers, provide comments, and track the review process.
 
-        **Decision Making (Do Not Select)** - Prevents the Assistant EIC from accepting or rejecting submissions at this stage.
+        - **Decision Making (Do Not Select)** - Prevents the Assistant EIC from accepting or rejecting submissions at this stage.
 
-**Do you want to auto-Include as participant to stages?**
+### Do you want to auto-Include as participant to stages?
 
 When setting up roles in the journal management system, there is an option to **automatically include** the user in specific workflow stages. This feature determines whether the user holding a particular role (e.g., Assistant Editor-in-Chief) will be **automatically assigned** to submissions at each stage or whether they need to be **manually added** each time.
 
-    ##### *Option 1: Yes – Auto-Include in Stages*
+    ##### Option 1: Yes – Auto-Include in Stages
 
         - When selected, the **Assistant EIC** will be automatically added to the assigned stage for every new manuscript submission.
 
@@ -97,7 +97,7 @@ When setting up roles in the journal management system, there is an option to **
 
 If an Assistant EIC is responsible for overseeing the review process, selecting **Yes** will ensure that they are automatically included whenever a manuscript reaches the review stage. They won’t need to be manually assigned each time.
 
-    ##### *No – Manual Inclusion in Stages*
+    ##### No – Manual Inclusion in Stages
 
         - If this option is selected, the **Assistant EIC must be manually added** to each submission at the relevant stage.
 
@@ -109,13 +109,13 @@ If an Assistant EIC is responsible for overseeing the review process, selecting 
 
 If some submissions require a senior editor's direct oversight while others don’t, selecting **No** means that the Assistant EIC will only be added when needed, rather than being automatically included.
 
-    ##### *Step 4: Saving the Role*
+    ##### Step 4: Saving the Role
 
         - Click **"Save"** to apply the permissions.
 
     **Assigning the Role to a User** 
 
-    ##### *Step 5: Adding an Existing User*
+    ##### Step 5: Adding an Existing User
 
         - Go to **User Management** and click **"Add User."**
 
@@ -123,7 +123,7 @@ If some submissions require a senior editor's direct oversight while others don�
 
         - Click **"Assign Role"** to confirm.
 
-    ##### *Step 6: Inviting a New User (If required)*
+    ##### Step 6: Inviting a New User (If required)
 
         - Click **"Invite User."**
 

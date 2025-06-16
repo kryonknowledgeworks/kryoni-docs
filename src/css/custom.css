@@ -356,7 +356,7 @@ li {
 }
 .theme-doc-markdown.markdown h2 {
     font-size: 28px !important;
-    font-weight: 600 !important; 
+    /* font-weight: 600 !important;  */
 }
 .theme-doc-markdown.markdown h3 {
     font-size: 24px; 

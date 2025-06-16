@@ -17,17 +17,17 @@ These settings allow you to customize and manage automated email notifications t
 
 - **Pre-Review Stage** - Notifications related to manuscript submission, initial screening, and editorial review initiation.
 
-![image](/assets/images/journal/developer-settings-2.webp)
+    ![image](/assets/images/journal/developer-settings-2.webp)
 
 - **Review Stage** - Emails sent for review invitations, feedback submission, and reviewer reminders.
 
-![image](/assets/images/journal/developer-settings-3.webp)
+    ![image](/assets/images/journal/developer-settings-3.webp)
 
 - **Production Stage** - Notifications regarding final proofing, production completion, and publication updates.
 
-![image](/assets/images/journal/developer-settings-4.webp)
+    ![image](/assets/images/journal/developer-settings-4.webp)
 
-    **Editing Email Templates**
+### Editing Email Templates
 
         To modify the content of an email template:
 
@@ -41,15 +41,15 @@ These settings allow you to customize and manage automated email notifications t
 
             Example variables:
 
-            [[JOURNAL_NAME]] – Automatically inserts the journal’s name. 
+            - [[JOURNAL_NAME]] – Automatically inserts the journal’s name. 
 
-            [[JOURNAL_ID]] – Inserts the unique journal ID. 
+            - [[JOURNAL_ID]] – Inserts the unique journal ID. 
 
-            [[JOURNAL_ACRONYM]] – Displays the journal's acronym. 
+            - [[JOURNAL_ACRONYM]] – Displays the journal's acronym. 
 
         - Save the changes to apply updates to the selected email template. 
 
-    **Email Configuration Options**
+### Email Configuration Options
 
 ![image](/assets/images/journal/developer-settings-5.webp)
 
@@ -63,7 +63,7 @@ Each email template includes the following fields:
 
 - **Mail Template:** The main body of the email, which can be customized.
 
-    **Activating or Deactivating Emails**
+### Activating or Deactivating Emails
 
 ![image](/assets/images/journal/developer-settings-6.webp)
 
@@ -79,11 +79,11 @@ By properly configuring these settings, you ensure **clear, consistent, and auto
 
 ![image](/assets/images/journal/developer-settings-7.webp)
 
-**Scenario:**
+### Scenario
 
 The journal wants to send an **automatic email invitation** to reviewers when they are assigned a manuscript for peer review.
 
-**Steps to Configure:**
+#### Steps to Configure
 
 - Go to **Developer Settings → Email Templates.**
 
@@ -93,17 +93,17 @@ The journal wants to send an **automatic email invitation** to reviewers when th
 
 - Customize the subject and message body, ensuring it includes relevant details like:
 
-    **[[JOURNAL_NAME]]** – Inserts the journal's name dynamically.
+        - **[[JOURNAL_NAME]]** – Inserts the journal's name dynamically.
 
-    **[[MANUSCRIPT_TITLE]]** – Automatically includes the manuscript title.
+        - **[[MANUSCRIPT_TITLE]]** – Automatically includes the manuscript title.
 
-    **[[REVIEW_DEADLINE]]** – Displays the review submission deadline.
+        - **[[REVIEW_DEADLINE]]** – Displays the review submission deadline.
 
-- Enable the email by checking the **Active Status box.**
+- Enable the email by checking the **Active Status** box.
 
 - Click **Save** to apply the changes.
 
-**Outcome:**
+#### Outcome
 
 Whenever a reviewer is assigned a manuscript, they will automatically receive a personalized email **inviting them to review the submission**, ensuring a **streamlined and efficient review process.**
 

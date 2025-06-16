@@ -5,7 +5,7 @@ sidebar_label: Status Board
 ---
 #
 
-## STATUS BOARD
+## Status Board
 
 ![image](/assets/images/journal/status-board.webp)
 

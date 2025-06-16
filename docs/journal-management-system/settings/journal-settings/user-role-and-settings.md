@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 sidebar: jmsSidebar
-sidebar_label: User role and settings   
+sidebar_label: User Role and Settings   
 ---
 #
 
@@ -13,9 +13,11 @@ sidebar_label: User role and settings
 
 The **User Roles and Settings** section in the **Journal Management System (JMS)** plays a crucial role in managing user access and responsibilities. It allows administrators to **define roles, assign permissions, and manage users** efficiently, ensuring a secure and structured workflow within the journal.
 
-**Note: User roles and settings apply specifically to each individual journal and must be configured per journal basis.**
+:::warning
+User roles and settings apply specifically to each individual journal and must be configured per journal basis.
+:::
 
-With this feature, you can:
+### With this feature, you can
 
 ![image](/assets/images/journal/user-roles-settings.webp)
 
@@ -33,7 +35,7 @@ By configuring user roles appropriately, journal administrators can streamline e
 
 - Enter the **Role Name** in the designated field.
 
-![image](/assets/images/journal/new-role.webp)
+    ![image](/assets/images/journal/new-role.webp)
 
 - Assign relevant permissions based on the required access level.
 
