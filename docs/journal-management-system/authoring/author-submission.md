@@ -4,9 +4,9 @@ sidebar: jmsSidebar
 sidebar_label: Overview
 ---
 
-# AUTHORING
+# Authoring
 
-## AUTHOR SUBMISSION
+## Author Submission
 
 Now let's see how author submit the manuscript.
 Authors are required to submit their manuscripts through the **journal’s official website**, where they can select the appropriate journal for submission. The submission process is designed to be user-friendly and ensures that all necessary details and documents are provided to facilitate an efficient review.

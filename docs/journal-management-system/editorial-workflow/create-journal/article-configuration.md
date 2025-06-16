@@ -27,7 +27,7 @@ Here’s how to configure articles.
 
     ![image](/assets/images/create/select-article-type.webp)
 
-Administrators can choose from a predefined list of article types relevant to the journal, such as _Case Study, Editorial, Review Article,_ and more. Additionally, they have the flexibility to create custom article types as needed.
+Administrators can choose from a predefined list of article types relevant to the journal, such as Case Study, Editorial, Review Article, and more. Additionally, they have the flexibility to create custom article types as needed.
 
 ### Create New Article Type
 
@@ -206,7 +206,7 @@ This setting determines whether authors must submit a conflict of interest (COI)
 
 **Yes (Enabled):** Authors are required to declare any conflicts of interest before submission.
 
-**_Click to upload conflict of interest file_**
+**Click to upload conflict of interest file**
 
     ![image](/assets/images/create/upload-conflict-file.webp)
 

@@ -23,12 +23,12 @@ For security and transparency, all actions performed within our Journal Manageme
 
     - **Filter:**
 
-    ![image](/assets/images/global/filter-logs.webp)
+        ![image](/assets/images/global/filter-logs.webp)
 
 Easily narrow down logs by specific criteria, such as dates, to quickly locate the information you need.
 
     - **Export:**
 
-    ![image](/assets/images/global/export-log.webp)
+        ![image](/assets/images/global/export-log.webp)
 
 To download or share your logs, simply click the **"Export"** button located on the right-hand side.

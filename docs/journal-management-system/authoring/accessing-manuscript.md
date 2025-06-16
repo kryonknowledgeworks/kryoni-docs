@@ -20,6 +20,8 @@ sidebar_label: Accessing The Manuscript Submission Page
     - If you are a new user, complete the quick registration process.
     - Existing users can log in using their credentials.
 
+    Refer [Registering in JMS](/journal-management-system/kryoni-jms-onboarding/registering-in-jms)
+
 #### 3. OTP Verification
 
     - Enter the One-Time Password (OTP) sent to your registered email.

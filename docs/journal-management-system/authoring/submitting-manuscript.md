@@ -38,37 +38,37 @@ After completing the submission checklist, proceed to enter the basic details of
 
     ![image](/assets/images/authoring/enter-basic-details.webp)
 
-#### 1. Submission Title
+###### 1. Submission Title
 
     - Enter the manuscript title.
 
-#### 2. Subtitle (Optional)
+###### 2. Subtitle (Optional)
 
     - Provide a subtitle if applicable.
 
-#### 3. Keywords/Tags
+###### 3. Keywords/Tags
 
     - Enter multiple keywords separated by **commas (,) or semicolons (;)** (e.g., Machine Learning, Deep Learning; Artificial Intelligence).
 
-#### 4. Submission Language
+###### 4. Submission Language
 
     - Select the **primary language** of the manuscript from the dropdown list.
 
-#### 5. Subject Selection
+###### 5. Subject Selection
 
     - Choose the most relevant **subject** for your submission.
 
-#### 6. Discipline Selection
+###### 6. Discipline Selection
 
     - Specify the **discipline** related to your manuscript.
     
     ![image](/assets/images/authoring/discipline-selection.webp)
 
-#### 7. Article Type
+###### 7. Article Type
 
     - Select the **type of article** (e.g., Research Article, Review Paper, Case Study, Short Communication).
 
-#### 8. Abstract
+###### 8. Abstract
 
     - Provide a concise summary of your manuscript.
     - Ensure it meets the journal’s word limit and formatting guidelines.
@@ -77,7 +77,7 @@ Once all details are entered correctly, click save and next.
 
     ![image](/assets/images/authoring/abstract-save-next.webp)
 
-## CONTRIBUTORS
+## Contributors
 
 In this step, you need to add all contributors associated with the manuscript.
 
@@ -157,7 +157,7 @@ You may recommend qualified reviewers who are experts in the subject area of you
     ![image](/assets/images/authoring/add-suggested-reviewer.webp)
 
     - Provide additional details such as Affiliation and Reason for Recommendation (optional but helpful for the editorial team).
-    - Click "add suggested reviewer" to add the reviewer to your list.
+    - Click **"Add Suggested Reviewer"** to add the reviewer to your list.
 
 ### Opposed Reviewers
 
@@ -173,7 +173,7 @@ If there are any individuals whom you prefer not to review your manuscript due t
 
     ![image](/assets/images/authoring/reason-for-exclusion.webp)
 
-4. Click **"add opposed reviewer"** to confirm your entry.
+4. Click **"Add Opposed Reviewer"** to confirm your entry.
 Once you have provided your reviewer preferences, you can proceed to the next step of the submission process.
 
     ![image](/assets/images/authoring/added-reviewer-submit.webp)
@@ -220,19 +220,19 @@ To request color printing for figures in your manuscript, enable the checkbox la
 
 ### Number of Display Figures
 
-Enter the total number of figures included in your manuscript in the **"Number of display figures"** field.
+Enter the total number of figures included in your manuscript in the **"Number of Display Figures"** field.
  For each figure listed:
     - Provide a label (e.g., Figure 1).
     - Choose the preferred print format: **Black & White** or **Color** by selecting the appropriate option.
 
 ### Number of Tables
 
-Specify the total number of tables in your manuscript in the **"Number of tables"** field.
+Specify the total number of tables in your manuscript in the **"Number of Tables"** field.
  For each table:
     - Enter the table label (e.g., Table 1, Table 2).
     - Select whether it should appear in Black & White or Color in the final print version.
 
-*This information ensures accurate processing of your manuscript for both digital and print formats.*
+This information ensures accurate processing of your manuscript for both digital and print formats.
 
     ![image](/assets/images/authoring/number-tables-save.webp)
 
@@ -242,7 +242,7 @@ Specify the total number of tables in your manuscript in the **"Number of tables
 
 The license type will be preselected based on the journal’s publishing model, submission guidelines, and editorial policies.
 
-*You will not be required to select a license manually if it is predefined by the journal. Please review the license terms before proceeding with the submission.*
+You will not be required to select a license manually if it is predefined by the journal. Please review the license terms before proceeding with the submission.
 
 ## Conflict of Interest (COI) Form Submission
 
@@ -284,7 +284,7 @@ Once confirmed, your manuscript will be submitted successfully.
 
     ![image](/assets/images/authoring/after-confirmation.webp)
 
-Click **back to submission** to view your submission.
+Click **Back to Submission** to view your submission.
 
     ![image](/assets/images/authoring/view-submission.webp )
 

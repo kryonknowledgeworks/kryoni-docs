@@ -130,7 +130,7 @@ const config = {
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://www.kryoni.com/",
-            label: "Go To Kryoni Website",
+            label: "Kryoni Website",
             position: "right",
           },
         ],

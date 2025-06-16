@@ -19,7 +19,7 @@ To finalize the journal setup:
 
     ![image](/assets/images/create/click-create-journal.webp)
 
-    - **Click "Create":** Once you are satisfied with the preview, click the “Create” button to complete the setup.
+    - **Click "Create":** Once you are satisfied with the preview, click the **“Create”** button to complete the setup.
 Your journal will now be officially established within the JMS and ready for use.
 
     ![image](/assets/images/create/created-success.webp)

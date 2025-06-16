@@ -28,7 +28,7 @@ The **Journal Management System (JMS)** is designed to streamline the editorial 
 
 This section of the user manual provides step-by-step guidance on handling new manuscript submissions, from accessing the system to conducting an AI-assisted evaluation.
 
-### *Steps to Manage a New Submission*
+### Steps to Manage a New Submission
 
 #### 1. Login to Kryoni JMS
 
@@ -40,7 +40,7 @@ This section of the user manual provides step-by-step guidance on handling new m
 
 #### 3. View the Submission List
 
-![image](/assets/images/submissions/managing-new-submission.webp)
+    ![image](/assets/images/submissions/managing-new-submission.webp)
 
 The **Submission List** displays all newly submitted manuscripts along with key details, including
 
@@ -75,7 +75,7 @@ Once you click on a specific manuscript, the system will present a new interface
 
 Click **"Submission Details"** to access comprehensive information about the manuscript, including:
 
-![image](/assets/images/submissions/submission-details-managing.webp)
+    ![image](/assets/images/submissions/submission-details-managing.webp)
 
 | Field                 | Description                                                 |
 |-----------------------|-----------------------------------------------------------------|
@@ -90,13 +90,13 @@ Click **"Submission Details"** to access comprehensive information about the man
 
     - **Additional Checks** 
 
-    ![image](/assets/images/submissions/abstarct-review.webp)
+        ![image](/assets/images/submissions/abstarct-review.webp)
 
     - **Abstract Review:** Ensure that the abstract is well-structured and aligns with the journal’s scope and submission guidelines.
 
     - **Contributor Details:** Check the list of authors and contributors, including their affiliations and roles.
 
-    ![image](/assets/images/submissions/contributer-details.webp)
+        ![image](/assets/images/submissions/contributer-details.webp)
 
 #### 3. AI- Review
 
@@ -132,7 +132,7 @@ The **Out-of-Scope (OOS) Score Checker** is an AI-powered tool designed to asses
 
 This guide explains the three key sections available in the **Workflow section:**
 
-![image](/assets/images/submissions/workflow-section.webp)
+    ![image](/assets/images/submissions/workflow-section.webp)
 
  1️. **Submission Files** – Where you access and review the manuscript files.
 
@@ -142,13 +142,13 @@ This guide explains the three key sections available in the **Workflow section:*
 
 ### Submission Files
 
-![image](/assets/images/submissions/submission-files.webp)
+    ![image](/assets/images/submissions/submission-files.webp)
 
 The **Submission Files** section contains all files related to the manuscript under review. These files may include the main manuscript, supplementary materials, figures, and any additional documents required for the review process.
 
 ### Pre-Review Discussion
 
-![image](/assets/images/submissions/pre-review-discussion.webp)
+    ![image](/assets/images/submissions/pre-review-discussion.webp)
 
 The **Pre-Review Discussion** section allows journal managers, editors, and other participants to communicate about the submission **before finalizing the review process.**
 
@@ -158,15 +158,15 @@ The **Pre-Review Discussion** section allows journal managers, editors, and othe
     - Discuss specific issues **before** submitting the final review.
     - Request additional materials or information from the editor.
 
-![image](/assets/images/submissions/manuscript-changes.webp)
+    ![image](/assets/images/submissions/manuscript-changes.webp)
 
-![image](/assets/images/submissions/manuscript-change-details.webp)
+    ![image](/assets/images/submissions/manuscript-change-details.webp)
 
 ### Participants
 
 The **Participants** section provides a list of all individuals involved in the workflow.
 
-![image](/assets/images/submissions/participants.webp)
+    ![image](/assets/images/submissions/participants.webp)
 
 ### Summary of Key Actions in Each Section
 
@@ -182,14 +182,14 @@ a. The list of uploaded files will be displayed, including the **manuscript, sup
 
 ### Download Individual Files
 
-![image](/assets/images/submissions/download-individual-files.webp)
+    ![image](/assets/images/submissions/download-individual-files.webp)
 
     - Click the **"Download"** button next to each file to download them separately.
     - Open and review the content to ensure completeness and correctness.
 
 ### Download All Files
 
-![image](/assets/images/submissions/download-all-files.webp)
+    ![image](/assets/images/submissions/download-all-files.webp)
 
     - Click **"Download All"** to download all submitted files as a **ZIP archive.**
     - This allows for quick access to all necessary materials in one step.
@@ -202,35 +202,35 @@ If a manuscript is missing essential files or requires corrections, editors or j
 
 #### Step 1: Click “Request Changes”
 
-![image](/assets/images/submissions/request-changes.webp)
+    ![image](/assets/images/submissions/request-changes.webp)
 
     - Navigate to the manuscript’s submission page.
     - Click the **“Request Changes”** button to initiate the request.
 
 #### Step 2: Add Notes to the Author
 
-![image](/assets/images/submissions/addnotes-author.webp)
+    ![image](/assets/images/submissions/addnotes-author.webp)
 
     - Provide clear and specific instructions on the changes required.
 
-![image](/assets/images/submissions/add-description-author.webp)
+    ![image](/assets/images/submissions/add-description-author.webp)
 
     - Mention any missing files or supporting materials that need to be added.
     - Highlight formatting issues or content that must be corrected.
 
 #### Step 3: Attach Reference Files (if applicable)
 
-![image](/assets/images/submissions/attach-reference-file.webp)
+    ![image](/assets/images/submissions/attach-reference-file.webp)
 
     - If needed, upload relevant documents that will help the author understand the requested changes (e.g., marked-up files, examples, or templates).
 
 #### Step 4: Submit the Request
 
-![image](/assets/images/submissions/submit-request-changes.webp)
+    ![image](/assets/images/submissions/submit-request-changes.webp)
 
     - Once all required details and files are added, click **“Submit”** to send the request to the author.
 
-![image](/assets/images/submissions/requested-changes-tab.webp)
+    ![image](/assets/images/submissions/requested-changes-tab.webp)
 
 ### What Happens Next
 
@@ -243,15 +243,15 @@ If a manuscript is missing essential files or requires corrections, editors or j
 
     - The author makes the necessary changes and uploads the updated file.
 
-![image](/assets/images/submissions/mail-manuscript.webp)
+    ![image](/assets/images/submissions/mail-manuscript.webp)
 
     - The revised submission will be available in the system for further processing.
 
-![image](/assets/images/submissions/revised-submission.webp)
+    ![image](/assets/images/submissions/revised-submission.webp)
 
-![image](/assets/images/submissions/updated-manuscripts-author.webp)
+    ![image](/assets/images/submissions/updated-manuscripts-author.webp)
 
-![image](/assets/images/submissions/changes-submitted-status.webp)
+    ![image](/assets/images/submissions/changes-submitted-status.webp)
 
 :::note
 The workflow will not proceed after the author accepts the change request **until the updated files are submitted.**  
@@ -261,13 +261,13 @@ The workflow will not proceed after the author accepts the change request **unti
 
 In some cases, editors or administrators may need to attach supplementary materials to a submission, such as review reports, editorial comments, or additional supporting documents. The **Additional Files** tab allows users to upload and manage these files efficiently.
 
-#### *Steps to Add Additional Files*
+#### Steps to Add Additional Files
 
 ##### 1. Navigate to the Additional Files Tab
 
     a. Click on the **"Additional Files"** tab within the submission workflow.
 
-![image](/assets/images/submissions/additional-upload-files.webp)
+    ![image](/assets/images/submissions/additional-upload-files.webp)
 
 ##### 2. Select File Type
 
@@ -284,13 +284,13 @@ In some cases, editors or administrators may need to attach supplementary materi
     a. Once uploaded, verify that the file appears in the list.
     b. Click **"Save"** to confirm the addition of the file.
 
-![image](/assets/images/submissions/save-submission-additional.webp)
+    ![image](/assets/images/submissions/save-submission-additional.webp)
 
 ## Action Tab
 
 The **Action Tab** is where editors make decisions about the manuscript's next steps. This tab provides different options depending on the review process and editorial guidelines.
 
-![image](/assets/images/submissions/actions-tab.webp)
+    ![image](/assets/images/submissions/actions-tab.webp)
 
     - **Accept & Send to Review** - Assign reviewers for peer evaluation.
     - **Accept & Skip Review** - Directly move the manuscript to production (used for editor-approved content).
@@ -304,7 +304,7 @@ The **Pre-Review Discussion** section in the Journal Management System (JMS) all
 
 An editor reviews a newly submitted manuscript and has a few clarifications regarding formatting and missing details. Instead of requesting a revision immediately, the editor decides to start a **Pre-Review Discussion** with the author.
 
-#### *Steps to Initiate a Pre-Review Discussion*
+#### Steps to Initiate a Pre-Review Discussion
 
 ##### 1. Navigate to the Submission Page
 
@@ -315,7 +315,7 @@ An editor reviews a newly submitted manuscript and has a few clarifications rega
 
     - Click on the **"Add Discussion"** button.
 
-![image](/assets/images/submissions/add-discussion-window.webp)
+    ![image](/assets/images/submissions/add-discussion-window.webp)
 
     - A **new discussion window** will appear, allowing you to enter details.
 
@@ -323,9 +323,9 @@ An editor reviews a newly submitted manuscript and has a few clarifications rega
 
 Select participants for the discussion:
 
-    a. Author(s) – If you need clarifications from the submitting author.
+    a. **Author(s)** – If you need clarifications from the submitting author.
 
-    b. Editorial Team – If internal discussion is required before reaching out to the author.
+    b. **Editorial Team** – If internal discussion is required before reaching out to the author.
 
 ##### 3. Enter the Discussion Details
 
@@ -361,9 +361,9 @@ Discussions are for clarification and instant communication only. Please do not 
 
 The **Participants Tab** in the Kryoni Journal Management System (JMS) allows editors and administrators to manage the individuals involved in the manuscript submission process. This tab displays a list of participants currently assigned to a submission, along with their **role name, username, and email address.**
 
-![image](/assets/images/submissions/assign-participants.webp)
+    ![image](/assets/images/submissions/assign-participants.webp)
 
-### *Understanding the Participants Tab*
+### Understanding the Participants Tab
 
 The **Participants Tab** provides an overview of all users associated with a submission, including their responsibilities within the editorial workflow. Common participant roles include:
 
@@ -377,7 +377,7 @@ The **Participants Tab** provides an overview of all users associated with a sub
 
 A common scenario in journal management is when an **Editor-in-Chief** or **Handling Editor** needs to assign a **Co-Editor** to assist in the editorial process.
 
-##### *Steps to Assign a New Participant*
+##### Steps to Assign a New Participant
 
 ###### 1. Access the Submission
 
@@ -401,18 +401,18 @@ a. **Role Name:** Choose the predefined role for the new participant (e.g., "Co-
 
 b. **Assign User:** Select the appropriate user from the system’s registered participant list.
 
-![image](/assets/images/submissions/assign-users.webp)
+    ![image](/assets/images/submissions/assign-users.webp)
 
 ##### 5. Confirm the Assignment
 
 a. Click **"Assign"** to finalize the addition of the participant.
 
-![image](/assets/images/submissions/assign-assignments-cancel.webp)
+    ![image](/assets/images/submissions/assign-assignments-cancel.webp)
 
 ##### 6. Automatic Notification
 
 a. Once assigned, the **new participant receives an email notification** informing them of their role and responsibilities.
-b. The participant must **accept the assignment** to gain access to the manuscript.
+b. The participant must **Accept the Assignment** to gain access to the manuscript.
 
 #### Outcome
 
