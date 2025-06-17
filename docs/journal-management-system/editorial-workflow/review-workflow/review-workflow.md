@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 sidebar: jmsSidebar
-sidebar_label: Review Workflow
+sidebar_label: Managing Review Rounds in Kryoni JMS
 ---
 
 # Review Workflow
