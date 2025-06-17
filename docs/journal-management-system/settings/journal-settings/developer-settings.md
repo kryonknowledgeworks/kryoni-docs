@@ -1,7 +1,8 @@
 ---
 sidebar_position: 10
 sidebar: jmsSidebar
-sidebar_label: Developer Settings  
+sidebar_label: Developer Settings
+title: Developer Settings  
 ---
 #
 

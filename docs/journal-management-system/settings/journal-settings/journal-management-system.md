@@ -2,6 +2,7 @@
 sidebar_position: 2
 sidebar: jmsSidebar
 sidebar_label: Journal Management System (JMS) Dashboard Overview
+title: Journal Management System (JMS) Dashboard Overview
 ---
 #
 

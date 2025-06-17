@@ -14,47 +14,47 @@ Once a manuscript is accepted, it enters the Review Workflow, where reviewers ar
 
 ![image](/assets/images/review-workflow/left-side-menu.webp)
 
-###### Reviewers Invited
+    ###### Reviewers Invited
 
     - Represents the total number of review invitations sent to potential reviewers.
     - Helps track how many experts have been approached for evaluating the manuscript.
 
-###### Invitation Accepted
+    ###### Invitation Accepted
 
     - Displays the number of reviewers who have accepted the review invitation.
     - Once a reviewer accepts, they gain access to the manuscript and can proceed with their evaluation.
 
-###### Not Responded
+    ###### Not Responded
 
     - Indicates the number of reviewers who have not yet responded to the invitation.
     - Helps editors follow up with pending reviewers to ensure timely progress.
 
-###### Invitation Declined
+    ###### Invitation Declined
 
     - Tracks the number of reviewers who have declined the review invitation.
     - This allows editors to reassign the manuscript to new reviewers if needed.
 
-###### Invitation Cancelled
+    ###### Invitation Cancelled
 
     - Reflects invitations that were withdrawn before the reviewer could accept or decline.
     - Common reasons for cancellation include assigning a different reviewer or reaching the reviewer limit.
     
-###### Overdue Reviews
+    ###### Overdue Reviews
 
     - Shows reviews that have exceeded the response deadline without submission.
     - Helps editors identify delays and send reminders to reviewers.
 
-###### Revision Requested
+    ###### Revision Requested
 
     - Represents the number of reviews where the reviewer has suggested changes to the manuscript.
     - A manuscript with requested revisions is sent back to the author for modification.
 
-###### Revised Review
+    ###### Revised Review
 
     - Counts the number of revised manuscripts that have been resubmitted by the author in response to reviewer comments.
     - Allows editors to track the progress of revision rounds efficiently.
 
-###### Review Completed
+    ###### Review Completed
 
     - Shows the number of fully finalized reviews where the reviewer has submitted their recommendations.
     - A completed review may lead to manuscript acceptance, revision, or rejection.
@@ -156,7 +156,6 @@ This section allows **editorial user, and authors** to communicate regarding the
         ![image](/assets/images/review-workflow/upload-file-box.webp)
 
 5. Click **"Add Discussion"** to submit.
-
 
         ![image](/assets/images/review-workflow/click-add-submission.webp)
 

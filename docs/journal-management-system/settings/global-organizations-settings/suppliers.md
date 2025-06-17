@@ -2,6 +2,7 @@
 sidebar_position: 8
 sidebar: jmsSidebar
 sidebar_label: Suppliers
+title: Suppliers
 ---
 #
 

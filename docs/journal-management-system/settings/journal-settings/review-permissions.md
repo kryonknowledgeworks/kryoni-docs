@@ -1,7 +1,8 @@
 ---
 sidebar_position: 8
 sidebar: jmsSidebar
-sidebar_label: Review Permissions  
+sidebar_label: Review Permissions
+title: Review Permissions  
 ---
 #
 

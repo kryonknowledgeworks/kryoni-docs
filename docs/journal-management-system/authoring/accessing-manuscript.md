@@ -1,7 +1,8 @@
 ---
 sidebar_position: 2
 sidebar: jmsSidebar
-sidebar_label: Accessing The Manuscript Submission Page 
+sidebar_label: Accessing The Manuscript Submission Page
+title: Accessing The Manuscript Submission Page 
 ---
 #
 

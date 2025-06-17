@@ -1,7 +1,8 @@
 ---
 sidebar_position: 5
 sidebar: jmsSidebar
-sidebar_label: Site Info  
+sidebar_label: Site Info
+title: Site Info  
 ---
 #
 
