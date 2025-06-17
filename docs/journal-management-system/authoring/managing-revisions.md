@@ -28,7 +28,7 @@ Once the review process is complete, the author will be notified via email regar
 
 ##### Steps to Access the Revision Details
 
-**To view the editor’s comments and revision instructions:**
+To view the editor’s comments and revision instructions:
 
     - Open the submission by clicking on it.
     - Navigate to the **“Revision Details”** tab.
@@ -69,9 +69,7 @@ After submitting the revised file, notify the editor to ensure they review the u
 
     - After the editor reviews and approves the revised manuscript, the submission will be accepted.
     - You will receive an email confirming that the revision has been accepted.
-    - The submission status will update to **“Moved to Production” ** on your dashboard.
-
-Revisions Accepted
+    - The submission status will update to **“Moved to Production”** on your dashboard.
 
 ### Use Case Example
 

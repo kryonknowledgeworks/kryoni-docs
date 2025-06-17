@@ -61,20 +61,23 @@ This comprehensive approach to user management helps ensure a secure and efficie
 
 Once a user is invited, their invitation appears in the pending invites section.
 
-    ![image](/assets/images/global/user-invited.webp)
-
     - **Pending Invites:**
-Any user who has been invited but has not yet accepted the invitation will be listed here. A notification email is sent to them, and their status remains "pending" until they complete the registration process.
+
+        ![image](/assets/images/global/user-invited.webp)
+
+        Any user who has been invited but has not yet accepted the invitation will be listed here. A notification email is sent to them, and their status remains "pending" until they complete the registration process.
+
     - **Resend Invite:**
 
-    ![image](/assets/images/global/resend-invite.webp)
+        ![image](/assets/images/global/resend-invite.webp)
 
-If needed, you can resend the invitation to ensure that the user receives the necessary information to join the system.
+        If needed, you can resend the invitation to ensure that the user receives the necessary information to join the system.
+
     - **Pending Due Date:**
 
-    ![image](/assets/images/global/pending-due-date.webp)
+        ![image](/assets/images/global/pending-due-date.webp)
 
-The due date for pending actions is clearly displayed, providing a timeline for the user to accept their invite and complete registration.
+        The due date for pending actions is clearly displayed, providing a timeline for the user to accept their invite and complete registration.
 
 ### Bulk Import Users
 

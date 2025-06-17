@@ -75,14 +75,14 @@ In the Journal Management System (JMS), accurately categorizing submissions with
     ![image](/assets/images/create/select-subject-type.webp)
 
     - **Select an existing subject:** Choose the subject that best represents the journal's focus.
-    - **Add a new subject:** If the desired subject is not listed, enter the subject name and click "Enter" to add it.
+    - **Add a new subject:** If the desired subject is not listed, enter the subject name and click **"Enter"** to add it.
     
 #### Discipline
 
     ![image](/assets/images/create/select-discipline.webp)
 
     - **Select an existing discipline:** Assign the discipline that corresponds to the chosen subject to ensure accurate classification.
-    - **Add a new discipline:** If the appropriate discipline is missing, type the discipline name and click "Enter" to include it.
+    - **Add a new discipline:** If the appropriate discipline is missing, type the discipline name and click **"Enter"** to include it.
 
 ### Adding Additional Subject-Discipline Pairs
 

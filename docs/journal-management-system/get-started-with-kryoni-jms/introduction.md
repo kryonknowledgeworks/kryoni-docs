@@ -21,7 +21,7 @@ Built for scalability, security, and flexibility, Kryoni JMS is your all-in-one 
 
     - **Centralized Document Management:** All manuscript-related files and communications are stored in a unified location for editors, reviewers, and authors.
 
-### 2. Plagiarism Detection and OOS Checker
+### 2. OOS Checker
 
     - **Out-of-Scope (OOS) Checks:** Submissions are automatically screened to match journal scope criteria, reducing editorial workload. 
 
@@ -31,9 +31,9 @@ Built for scalability, security, and flexibility, Kryoni JMS is your all-in-one 
 
     - **Reviewer Matching Algorithm:** Matches manuscripts to reviewers based on subject expertise, availability, and past performance.
 
-    - **Reviewer Dashboard:** Reviewers have access to an organized dashboard for managing tasks and submitting feedback promptly.
+    - **Reviewer Dashboard:** Reviewers have access to an organized dashboard for managing tasks and submitting comments promptly.
 
-    - **Automatic Reviewer Cancellation:**  Automatically prevents further assignments once a reviewer reaches their limit.
+    - **Automatic Reviewer Cancellation:**  When enough reviewers accept, the system closes remaining invitations automatically.
 
 ### 4. Production Workflow Automation
 

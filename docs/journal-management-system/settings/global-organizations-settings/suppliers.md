@@ -20,16 +20,16 @@ The **Journal Management System (JMS)** simplifies this process by allowing you 
 
 ### How to Add a Supplier
 
-    ![image](/assets/images/global/add-supplier.webp)
-
 1. **Click "Add Supplier"**
+
+    ![image](/assets/images/global/add-supplier.webp)
 
     - Begin the onboarding process for a new production service provider.
 2. **Enter the Invite Code**
 
     ![image](/assets/images/global/add-supplier-invite-code.webp)
 
- This code is generated from the supplier’s account (see below for how to obtain it).
+This code is generated from the supplier’s account (see below for how to obtain it).
 
 ### Obtaining the Invite Code (Supplier Side)
 

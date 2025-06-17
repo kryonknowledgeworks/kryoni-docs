@@ -46,12 +46,12 @@ The **Manage Users** permission allows authorized users to oversee all aspects o
 
 The **Manage Roles** permission allows administrators to define, modify, and assign user roles within JMS. This ensures that users have access only to the features they need.
 
-    - **Create New Roles** – Define roles such as "Editor," "Reviewer," or "Journal Manager."
+    - **Create New Roles** – Define roles such as **"Editor,"** **"Reviewer,"** or **"Journal Manager."**
     - **Assign Permissions** – Grant appropriate access based on role responsibilities.
     - **Add Users to Roles** – Assign users to specific roles after creation.
     - **Modify or Delete Roles**– Adjust existing roles or remove outdated ones.
 
-Example: If a journal needs a new "Production Manager" role, a user with **Journal Manager** permissions can create it and assign relevant permissions, such as managing journal submissions.
+Example: If a journal needs a new **"Production Manager"** role, a user with **Journal Manager** permissions can create it and assign relevant permissions, such as managing journal submissions.
 
 ### Manage Journal
 
@@ -123,7 +123,7 @@ Now, let’s create a new role and assign specific permissions.
 
     - Navigate to **Settings > Manage > Role Management**.
 
-    ![image](/assets/images/global/create-role-click.webp)
+        ![image](/assets/images/global/create-role-click.webp)
 
     - Click Create Role
 
@@ -131,7 +131,7 @@ Now, let’s create a new role and assign specific permissions.
 
     - In the **Role Name** field, enter the name of the role (e.g., **"User Management"**).
 
-    ![image](/assets/images/global/role-name.webp)
+        ![image](/assets/images/global/role-name.webp)
 
 #### 3. Select Permissions
 
@@ -169,7 +169,7 @@ Once a role has been created, the next step is to assign users to it. Follow the
 
     - From the dropdown menu, choose the appropriate role you created (e.g., User Management).
 
-    ![image](/assets/images/global/select-role.webp)
+        ![image](/assets/images/global/select-role.webp)
 
 #### 2. Select User
 

@@ -38,7 +38,7 @@ You can simply copy-paste the author guidelines or attach the file for additiona
 
 Specify the criteria for reviewers, such as evaluation standards, review timelines, and any additional resources or templates that can support their assessments. You can simply copy-paste the reviewer guidelines or attach relevant documents to help guide reviewers.
 
-**To Upload a Reviewer GUidelines Attachment:**
+**To Upload a Reviewer Guidelines Attachment:**
 
     ![image](/assets/images/create/upload-reviewer-guidelines.webp)
 
