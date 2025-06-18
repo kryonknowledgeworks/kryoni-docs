@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 sidebar: jmsSidebar
 sidebar_label: Managing Review Rounds in Kryoni JMS
 ---
