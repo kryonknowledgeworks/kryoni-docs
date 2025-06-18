@@ -4,7 +4,9 @@ sidebar: jmsSidebar
 sidebar_label: Reviewer Submits Final Decision on Revised Manuscript
 ---
 
-# Reviewer Submits Final Decision on Revised Manuscript
+#
+
+## Reviewer Submits Final Decision on Revised Manuscript
 
     **Step 1: Reviewer Receives Notification**
 
@@ -28,7 +30,7 @@ sidebar_label: Reviewer Submits Final Decision on Revised Manuscript
 
     **Example:**
 
-    ** Accept Submission** - The reviewer is satisfied with the changes and recommends acceptance.
+    **Accept Submission** - The reviewer is satisfied with the changes and recommends acceptance.
 
     **Step 3: Final Review Submission (EDITORIAL USER TAB)**
 
@@ -40,7 +42,7 @@ sidebar_label: Reviewer Submits Final Decision on Revised Manuscript
 
             - The manuscript appears under the **Review Completed** tab.
 
-            ### To View the Final Review
+### To View the Final Review
 
 ![image](/assets/images/sending-revised-files/to-view-final-review.webp)
 
@@ -56,7 +58,7 @@ sidebar_label: Reviewer Submits Final Decision on Revised Manuscript
 
             - **Status: Review Completed**
 
-     ### Editorial Action – Change Reviewer Recommendation (If Needed)
+### Editorial Action – Change Reviewer Recommendation (If Needed)
 
         - If the editorial team needs to update or override the reviewer’s recommendation:
 
@@ -74,17 +76,17 @@ sidebar_label: Reviewer Submits Final Decision on Revised Manuscript
 
         - Click **Submit** to apply the updated recommendation.
 
-    ### Reviewer Rating (Optional)
+### Reviewer Rating (Optional)
 
-        Editors can evaluate the reviewer’s performance for internal tracking.
+    Editors can evaluate the reviewer’s performance for internal tracking.
 
-    ##### Rate Reviewer
+#### Rate Reviewer
 
-        - Click **Reviewer Rating** in the **Review Completed** section.
+    - Click **Reviewer Rating** in the **Review Completed** section.
 
-        - Select a rating from **1 to 5 stars**.
+    - Select a rating from **1 to 5 stars**.
 
-        - Click **Submit** to save.
+    - Click **Submit** to save.
 
     ##### Edit Reviewer Rating
 
@@ -106,7 +108,7 @@ sidebar_label: Reviewer Submits Final Decision on Revised Manuscript
 
 This message appears to **prevent premature transition** to the production stage while active review processes are still ongoing.
 
-    ##### What to Do Next
+#### What to Do Next
 
     **Option 1: Wait for the Reviewer to Complete the Review**
 

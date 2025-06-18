@@ -4,11 +4,13 @@ sidebar: jmsSidebar
 sidebar_label: Sending Revised Files to Reviewers and Finalizing Manuscript Decisions in Kryoni JMS
 ---
 
-# Sending Revised Files to Reviewers and Finalizing Manuscript Decisions in Kryoni JMS
+#
+
+## Sending Revised Files to Reviewers and Finalizing Manuscript Decisions in Kryoni JMS
 
 Once the author submits the revised manuscript, the editorial team can decide whether to send it for another round of peer review. Kryoni JMS supports a structured workflow to manage resubmissions, reviewer evaluations, and final editorial decisions seamlessly.
 
-    **Steps to Send the Revised File to the Reviewer**
+### Steps to Send the Revised File to the Reviewer
 
     **Step 1: Download the Revised File**
 
