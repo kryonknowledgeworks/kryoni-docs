@@ -2,10 +2,11 @@
 sidebar_position: 5
 sidebar: jmsSidebar
 sidebar_label: Publishing House Details
+title: Publishing House Details
 ---
 #
 
-## Publishing DHouse etails
+## Publishing House Details
 
 This section allows you to view and edit all essential information related to your publishing house as provided during the registration process. Keeping these details accurate ensures smooth operations and efficient management of publishing workflows within the platform.
 

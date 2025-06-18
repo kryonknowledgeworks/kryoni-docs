@@ -2,6 +2,7 @@
 sidebar_position: 6
 sidebar: jmsSidebar
 sidebar_label: Preview
+title: Preview
 ---
 
 #

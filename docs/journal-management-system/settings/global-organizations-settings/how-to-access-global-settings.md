@@ -2,6 +2,7 @@
 sidebar_position: 2
 sidebar: jmsSidebar
 sidebar_label: How to Access Global Settings
+title: How to Access Global Settings
 ---
 #
 

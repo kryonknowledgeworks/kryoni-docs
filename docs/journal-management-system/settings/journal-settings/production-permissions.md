@@ -1,7 +1,8 @@
 ---
 sidebar_position: 9
 sidebar: jmsSidebar
-sidebar_label: Production Permissions  
+sidebar_label: Production Permissions
+title: Production Permissions  
 ---
 #
 

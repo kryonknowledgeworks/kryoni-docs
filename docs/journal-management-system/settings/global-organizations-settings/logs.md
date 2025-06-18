@@ -2,6 +2,7 @@
 sidebar_position: 7
 sidebar: jmsSidebar
 sidebar_label: Logs
+title: Logs
 ---
 #
 

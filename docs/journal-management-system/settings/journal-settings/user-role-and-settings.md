@@ -1,7 +1,8 @@
 ---
 sidebar_position: 6
 sidebar: jmsSidebar
-sidebar_label: User Role and Settings   
+sidebar_label: User Role and Settings
+title: User Role and Settings
 ---
 #
 

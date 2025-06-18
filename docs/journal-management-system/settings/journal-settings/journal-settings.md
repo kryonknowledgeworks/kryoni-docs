@@ -1,7 +1,8 @@
 ---
 sidebar_position: 4
 sidebar: jmsSidebar
-sidebar_label: Journal Settings  
+sidebar_label: Journal Settings
+title: Journal Settings
 ---
 #
 

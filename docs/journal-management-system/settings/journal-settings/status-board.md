@@ -2,6 +2,7 @@
 sidebar_position: 3
 sidebar: jmsSidebar
 sidebar_label: Status Board
+title: Status Board
 ---
 #
 

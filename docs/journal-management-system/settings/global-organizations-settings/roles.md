@@ -2,6 +2,7 @@
 sidebar_position: 4
 sidebar: jmsSidebar
 sidebar_label: Roles
+title: Roles
 ---
 
 #
@@ -181,7 +182,7 @@ Once a role has been created, the next step is to assign users to it. Follow the
     ![image](/assets/images/global/add-org-invite-user.webp)
 
     - If the user is not registered yet, click **"Invite User"** to send an invitation.
-    - Refer to Page 16 for detailed instructions on inviting new users.
+    - [Refer](/journal-management-system/settings/global-organizations-settings/users) to Page for detailed instructions on inviting new users.
 
 #### 4. Save the Assignment
 
