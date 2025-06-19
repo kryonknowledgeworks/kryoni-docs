@@ -2,6 +2,7 @@
 sidebar_position: 10
 sidebar: jmsSidebar
 sidebar_label: Reviewer Submits Final Decision on Revised Manuscript
+title : Reviewer Submits Final Decision on Revised Manuscript
 ---
 
 #

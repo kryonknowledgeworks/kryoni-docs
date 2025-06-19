@@ -2,6 +2,7 @@
 sidebar_position: 9
 sidebar: jmsSidebar
 sidebar_label: Sending Revised Files to Reviewers and Finalizing Manuscript Decisions in Kryoni JMS
+title: Sending Revised Files to Reviewers and Finalizing Manuscript Decisions in Kryoni JMS
 ---
 
 #
