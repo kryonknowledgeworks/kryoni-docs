@@ -2,6 +2,7 @@
 sidebar_position: 5
 sidebar: jmsSidebar
 sidebar_label: Managing Revisions in Review Stage 
+title: Managing Revisions in Review Stage
 ---
 #
 

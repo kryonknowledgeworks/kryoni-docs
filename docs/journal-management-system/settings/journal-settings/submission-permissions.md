@@ -1,7 +1,8 @@
 ---
 sidebar_position: 7
 sidebar: jmsSidebar
-sidebar_label: Submission Permissions  
+sidebar_label: Submission Permissions
+title: Submission Permissions  
 ---
 #
 

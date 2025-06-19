@@ -1,7 +1,8 @@
 ---
 sidebar_position: 3
 sidebar: jmsSidebar
-sidebar_label: Submitting a Manuscript 
+sidebar_label: Submitting a Manuscript
+title: Submitting a Manuscript 
 ---
 #
 
@@ -38,37 +39,37 @@ After completing the submission checklist, proceed to enter the basic details of
 
     ![image](/assets/images/authoring/enter-basic-details.webp)
 
-###### 1. Submission Title
+    ###### 1. Submission Title
 
     - Enter the manuscript title.
 
-###### 2. Subtitle (Optional)
+    ###### 2. Subtitle (Optional)
 
     - Provide a subtitle if applicable.
 
-###### 3. Keywords/Tags
+    ###### 3. Keywords/Tags
 
     - Enter multiple keywords separated by **commas (,) or semicolons (;)** (e.g., Machine Learning, Deep Learning; Artificial Intelligence).
 
-###### 4. Submission Language
+    ###### 4. Submission Language
 
     - Select the **primary language** of the manuscript from the dropdown list.
 
-###### 5. Subject Selection
+    ###### 5. Subject Selection
 
     - Choose the most relevant **subject** for your submission.
 
-###### 6. Discipline Selection
+    ###### 6. Discipline Selection
 
     - Specify the **discipline** related to your manuscript.
     
     ![image](/assets/images/authoring/discipline-selection.webp)
 
-###### 7. Article Type
+    ###### 7. Article Type
 
     - Select the **type of article** (e.g., Research Article, Review Paper, Case Study, Short Communication).
 
-###### 8. Abstract
+    ###### 8. Abstract
 
     - Provide a concise summary of your manuscript.
     - Ensure it meets the journal’s word limit and formatting guidelines.

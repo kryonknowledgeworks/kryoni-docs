@@ -2,6 +2,7 @@
 sidebar_position: 3
 sidebar: jmsSidebar
 sidebar_label: Users
+title: Users
 ---
 
 #

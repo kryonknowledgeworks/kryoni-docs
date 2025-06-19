@@ -2,6 +2,7 @@
 sidebar_position: 4
 sidebar: jmsSidebar
 sidebar_label: Managing Change Requests in the Submission Stage 
+title: Managing Change Requests in the Submission Stage
 ---
 #
 
