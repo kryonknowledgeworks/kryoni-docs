@@ -67,7 +67,7 @@ Let’s first explore
 
     ![image](/assets/images/new-review/setting-reviewer-limit.webp)
 
-**Reviewer Limit** allows you to define the maximum number of reviewers required for a manuscript. Once that number of reviewers **accepts** the invitation, all remaining **pending invitations will be automatically cancelled.**
+**Reviewer Limit** allows you to define the maximum number of reviewers required for a manuscript. Once that number of reviewers **accepts** the invitation, all remaining **pending invitations will be automatically canceled.**
 
 #### Example
 
@@ -380,5 +380,5 @@ If you need to withdraw a review invitation before the reviewer responds or begi
 
     ![image](/assets/images/new-review/invited-cancelled.webp)
 
-    - Once cancelled, the reviewer will not be able to accept or review the manuscript.
-    - Cancelled invitations will be recorded under **Invitation Cancelled** in the **Status Indicators**.
+    - Once canceled, the reviewer will not be able to accept or review the manuscript.
+    - canceled invitations will be recorded under **Invitation canceled** in the **Status Indicators**.

@@ -34,7 +34,7 @@ Once a manuscript is accepted, it enters the Review Workflow, where reviewers ar
     - Tracks the number of reviewers who have declined the review invitation.
     - This allows editors to reassign the manuscript to new reviewers if needed.
 
-    ###### Invitation Cancelled
+    ###### Invitation canceled
 
     - Reflects invitations that were withdrawn before the reviewer could accept or decline.
     - Common reasons for cancellation include assigning a different reviewer or reaching the reviewer limit.
