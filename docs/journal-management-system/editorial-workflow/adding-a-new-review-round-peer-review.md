@@ -54,7 +54,8 @@ All actions performed in JMS, such as adding reviewers or making editorial decis
         - **Create New Queue** – Used to initiate a batch-based or phase-wise review.
         - **Add Individual Reviewer** – Used to directly assign a specific reviewer to the manuscript.
 
-Let’s first explore **Option 1: Creating a New Queue**
+Let’s first explore
+    **Option 1: Creating a New Queue**
 
 1. Select **“Create New Queue”** from the dropdown
 
@@ -168,7 +169,7 @@ Select the appropriate **Review Type** based on the journal’s review process.
 
     ![image](/assets/images/new-review/set-important-deadlines.webp)
 
-    ###### Define key dates to keep the review timeline on track
+    Define key dates to keep the review timeline on track
 
     - **Response Due Date** – The deadline for the reviewer to accept or decline the review request.
 
@@ -233,7 +234,7 @@ If you're starting a second phase of review or want to isolate reviewer sets, cl
 
 Use this option when you want **direct control** over reviewer assignment.
 
-1. Click “Add Individual Reviewer.”
+1. Click **“Add Individual Reviewer.”**
 
     ![image](/assets/images/new-review/add-individual-reviewer.webp)
 
