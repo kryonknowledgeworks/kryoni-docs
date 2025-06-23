@@ -15,7 +15,7 @@ The peer review process is a cornerstone of maintaining academic quality and int
 
 #### Steps to Add Reviewers
 
-    - To assign reviewers, Go to all reviews
+    - To assign reviewers, Go to **all reviews**
     - Click on add reviewer
     - If no reviewers are currently assigned to the journal, you’ll see the message: "No reviewers have been assigned to this journal yet – Click here to add reviewers." This link will direct you to the **Add Reviewer** page.
 
@@ -29,7 +29,7 @@ If the reviewer is already registered in the system, you can simply add them by 
 
 #### Inviting New Reviewers
 
-    - For unregistered reviewers, click Invite User. An invitation link will be sent to their email address. [Refer](/journal-management-system/settings/global-organizations-settings/users)
+    - For unregistered reviewers, click Invite User. An invitation link will be sent to their email address. Refer [Inviting New Reviewers](/journal-management-system/settings/global-organizations-settings/users)
     - Once they accept the invitation, they will officially become part of the JMS system as a reviewer.
 
 :::note
@@ -67,7 +67,7 @@ Let’s first explore
 
     ![image](/assets/images/new-review/setting-reviewer-limit.webp)
 
-**Reviewer Limit** allows you to define the maximum number of reviewers required for a manuscript. Once that number of reviewers **accepts** the invitation, all remaining **pending invitations will be automatically canceled.**
+**Reviewer Limit** allows you to define the maximum number of reviewers required for a manuscript. Once that number of reviewers **accepts** the invitation, all remaining **pending invitations will be automatically cancelled.**
 
 #### Example
 
@@ -302,7 +302,7 @@ This category applies when a **Reviewer Limit** is set, meaning only a specific 
 ###### Total Accepted
 
     - Displays the **number of reviewers who have accepted the invitation** within the set limit.
-    - Once the **limit is reached**, remaining pending invitations are automatically canceled.
+    - Once the **limit is reached**, remaining pending invitations are automatically cancelled.
 
 #### Example Scenario
 
@@ -314,7 +314,7 @@ This category applies when a **Reviewer Limit** is set, meaning only a specific 
 |Queue -2  |    KJMS-008  |               2| 2/2           | 0 (limit reached) |
 
     - Queue -1 still has **one more slot** available before reaching the limit.
-    - Queue –2 has already **filled its reviewer slots**, so any remaining **pending invitations are canceled.**
+    - Queue –2 has already **filled its reviewer slots**, so any remaining **pending invitations are cancelled.**
     - Editors can track and manage multiple queues efficiently using **Queue ID and Total Accepted reviewers.**
 
 ##### Viewing the List of Reviewers in a Queue
@@ -380,5 +380,5 @@ If you need to withdraw a review invitation before the reviewer responds or begi
 
     ![image](/assets/images/new-review/invited-cancelled.webp)
 
-    - Once canceled, the reviewer will not be able to accept or review the manuscript.
-    - canceled invitations will be recorded under **Invitation canceled** in the **Status Indicators**.
+    - Once cancelled, the reviewer will not be able to accept or review the manuscript.
+    - cancelled invitations will be recorded under **Invitation cancelled** in the **Status Indicators**.

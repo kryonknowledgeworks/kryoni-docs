@@ -3,14 +3,13 @@ sidebar_position: 4
 sidebar: jmsSidebar
 sidebar_label: Managing Review Rounds in Kryoni JMS
 ---
-
 # Review Workflow
 
-Managing Review Rounds in Kryoni JMS
+## Managing Review Rounds in Kryoni JMS
 
 Once a manuscript is accepted, it enters the Review Workflow, where reviewers are assigned and evaluations take place.
 
-## Left-Side Menu Overview
+### Left-Side Menu Overview
 
 ![image](/assets/images/review-workflow/left-side-menu.webp)
 
@@ -34,7 +33,7 @@ Once a manuscript is accepted, it enters the Review Workflow, where reviewers ar
     - Tracks the number of reviewers who have declined the review invitation.
     - This allows editors to reassign the manuscript to new reviewers if needed.
 
-    ###### Invitation canceled
+    ###### Invitation cancelled
 
     - Reflects invitations that were withdrawn before the reviewer could accept or decline.
     - Common reasons for cancellation include assigning a different reviewer or reaching the reviewer limit.
@@ -95,7 +94,7 @@ In the **Review Files** tab, editorial users can access and manage files that ne
 
 If the journal follows a **Double-Blind Peer Review** model, it is mandatory to upload an anonymized version of the manuscript before sending it to reviewers.
 
-![image](/assets/images/review-workflow/warning-uploading.webp  )
+![image](/assets/images/review-workflow/warning-uploading.webp)
 
 #### Steps to Upload an Anonymous Manuscript
 
@@ -104,8 +103,6 @@ If the journal follows a **Double-Blind Peer Review** model, it is mandatory to 
     ![image](/assets/images/review-workflow/upload-anonymous.webp)
 
 2. **Prepare the Manuscript for Anonymity** by removing all identifiable information:
-
-    ![image](/assets/images/review-workflow/prepare-upload.webp)
 
     ![image](/assets/images/review-workflow/list-upload-anaonymous.webp)
 

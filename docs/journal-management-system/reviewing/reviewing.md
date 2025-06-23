@@ -32,7 +32,7 @@ This guide provides step-by-step instructions for reviewers on how to access, ma
 
     **b. Country**
 
-#### Secure Login via ORCID (Optional but Recommended) - [Refer](/journal-management-system/kryoni-jms-onboarding/registering-in-jms#register-using-orcid)
+#### Secure Login via ORCID (Optional but Recommended) - Refer [Register Using ORCID](/journal-management-system/kryoni-jms-onboarding/registering-in-jms#register-using-orcid)
 
     - **Link your ORCID ID** for secure and easy login.
     - Benefits of using ORCID:

@@ -342,6 +342,7 @@ li {
   text-decoration: none !important;
   font-size: .875rem !important;
   font-weight: 500 !important;
+  line-height: 1.5;
 }
 
 
@@ -422,6 +423,12 @@ p {
 .menu.thin-scrollbar {
     /* margin-left: 30px; */
     padding: 1.5rem;
+    scrollbar-color: #F2F2F2 white ;
+}
+.menu.thin-scrollbar:hover {
+    /* margin-left: 30px; */
+    padding: 1.5rem;
+    scrollbar-color: #F2F2F2 white ;
 }
 .title_node_modules {
   font-size: 40px; 
@@ -684,6 +691,7 @@ img.img_ev3q{
   width: 80%;
   object-fit: contain;
   border: 1px solid black;
+  margin: 10px 0px 20px;
 }
 
 .table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
@@ -711,4 +719,17 @@ img.img_ev3q[title="signin"],
 img.img_ev3q[title="copyotp"],
 img.img_ev3q[title="orcidpass"]{
   width: 45%;
+  margin: 10px 0px 20px;
+}
+
+.docMainContainer_TBSr {
+  padding-left: 4%;
+}
+
+.theme-doc-sidebar-item-category-level-2 .menu__list{
+  border-left: 1px solid #DBDBDB;
+}
+
+.theme-doc-sidebar-item-category-level-1 .menu__list {
+  border-left: 1px solid #DBDBDB;
 }
