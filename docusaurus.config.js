@@ -41,9 +41,9 @@ const config = {
       tagName: "link",
       attributes: {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+        href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css",
         integrity:
-          "sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN",
+          "sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr",
         crossorigin: "anonymous",
       },
     },
@@ -61,6 +61,15 @@ const config = {
         src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",
         crossorigin: "anonymous",
         defer: "true",
+      },
+    },   
+    {
+      tagName: "script",
+      attributes: {
+        src: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js",
+        crossorigin: "anonymous",
+        defer: "true",
+        integrity:"sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q",
       },
     },   
   ],

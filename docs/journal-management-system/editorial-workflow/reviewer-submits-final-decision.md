@@ -99,7 +99,7 @@ title : Reviewer Submits Final Decision on Revised Manuscript
 
     - Scroll to the **Review and Rating** section.
         
-    - Click the **Edit ()** icon to update the rating.
+    - Click the **Edit** icon to update the rating.
 
     **Note on Pending Revisions**
 
@@ -154,11 +154,3 @@ This message appears to **prevent premature transition** to the production stage
 ![image](/assets/images/sending-revised-files/submit.webp)
 
         Now the files are moved to production.
-
-![image](/assets/images/sending-revised-files/submit-1.webp)
-
-![image](/assets/images/sending-revised-files/submit-2.webp)
-
-![image](/assets/images/sending-revised-files/submit-3.webp)
-
-![image](/assets/images/sending-revised-files/submit-4.webp)

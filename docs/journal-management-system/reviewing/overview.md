@@ -75,7 +75,7 @@ The **Journal Management System (JMS)** is designed to automate and simplify the
     - Automatic reviewer **notifications** are sent once an assignment is made.
     - **Smart invitation handling:**
 
-            - Once the maximum reviewer limit is reached, all **pending reviewer invitations are automatically canceled**, ensuring optimal reviewer management.
+            - Once the maximum reviewer limit is reached, all **pending reviewer invitations are automatically cancelled**, ensuring optimal reviewer management.
 
 ##### 2. Status Tracking
 
