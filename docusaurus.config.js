@@ -117,30 +117,39 @@ const config = {
         },
       ],
       // Replace with your project's social card
+      announcementBar: {
+        id: 'announcement',
+        content: 'Announcement: We construct an integrated, real-time, and cost-effective platform that is accessible to all.',
+        isCloseable: false,
+      },
       image: "img/Kryoni_logo.png",
       navbar: {
         title: "",
         logo: {
           alt: "My Site Logo",
           src: "https://cdn.kryoni.com/kryoni/images/version-1/kryoni-website-logo.webp",
+          width:"220px",
+          height:"auto",
+          href:"/",
+          target:"_self",
         },
         // ------------navbar-----------
         items: [
           {
             to: "/journal-management-system/get-started-with-kryoni-jms/introduction",
             label: "JMS",
-            position: "left",
+            position: "right",
           },
 
           // uncommand after adding  jobnest and stream space
           // {to: '/job-nest/intro', label: 'Job Nest', position: 'left'},
-          // {to:'/stream-space/intro',label:'Stream Space',position:'left'},
+          {to:'/stream-space/intro',label:'Stream Space',position:'right'},
 
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://www.kryoni.com/",
-            label: "Kryoni Website",
-            position: "right",
+            label: "Home",
+            position: "right",          
           },
         ],
       },
@@ -163,6 +172,16 @@ const config = {
       },       
     }),   
     plugins: [ require.resolve('docusaurus-plugin-image-zoom') ],
+    themes: [
+      [
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        ({         
+          // `hashed` is recommended as long-term-cache of index file is possible.
+          hashed: true,
+          indexPages: true,          
+        }),
+      ]
+    ]
 };
 
 export default config;
