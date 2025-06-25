@@ -209,7 +209,7 @@ Click **“Assign Reviewer”** to finalize the assignment.
 
     **Now all the reviewer is assigned.**
 
-### Reviewer Assignment Options in Kryoni JMS
+### Reviewer Assignment Options
 
 Kryoni JMS provides flexible methods to assign reviewers to a manuscript, ensuring that editorial users can manage review workflows efficiently and with full control.
 
@@ -292,7 +292,7 @@ To access **additional details** about an assigned reviewer, follow these steps:
 
 This category applies when a **Reviewer Limit** is set, meaning only a specific number of reviewers are allowed to proceed.
 
-##### Queue ID and Total Accepted in Kryoni JMS
+##### Queue ID and Total Accepted
 
 ###### Queue ID
 
@@ -342,7 +342,7 @@ To see the list of reviewers assigned to a specific **Queue**, follow these step
 
 The **Individual** category is used when reviewers are assigned manually, without placing them in a queue or setting a **Reviewer Limit**. This method offers complete flexibility and is ideal for targeted assignments where specific reviewers are chosen for their expertise.
 
-##### Canceling a Reviewer Invitation in Kryoni JMS
+##### Cancelling a Reviewer Invitation
 
 If you need to withdraw a review invitation before the reviewer responds or begins the review process, you can easily cancel the invitation using the following steps:
 
@@ -367,7 +367,7 @@ If you need to withdraw a review invitation before the reviewer responds or begi
         b. **Enter Cancellation Reason**
 
         A popup window titled **Cancel Reviewer** will appear.
-            - Enter the reason for cancellation in the **"Reason for Canceling Reviewer"** field (mandatory).
+            - Enter the reason for cancellation in the **"Reason for Cancelling Reviewer"** field (mandatory).
             - Optionally, customize the message to be emailed to the reviewer.
 
     ###### 4. Confirm the Cancellation 

@@ -4,7 +4,7 @@ sidebar: jmsSidebar
 sidebar_label: Decision-Making on a Manuscript Submission
 ---
 
-# Decision-Making on a Manuscript Submission in Kryoni JMS
+# Decision-Making on a Manuscript Submission
 
 The **Decision-Making Process** in **Kryoni Journal Management System (JMS)** enables journal manager or editors to efficiently evaluate manuscript submissions and determine the appropriate course of action. This ensures a **Structured and Transparent Editorial Workflow** while maintaining journal quality standards.
 

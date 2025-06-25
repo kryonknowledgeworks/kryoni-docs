@@ -5,10 +5,6 @@ import SearchBar from '@theme/SearchBar';
 export default function Home() {
   const history = useHistory();
 
-  const handleClick = () => {
-    history.push("/journal-management-system/get-started-with-kryoni-jms/introduction");
-  };
-
   return (
     <Layout>
       <main>
@@ -16,82 +12,207 @@ export default function Home() {
           <div className="container-fluid container-lg">
             <div className="row w-100 m-auto">
               <div className="col-3">
-                {/* <img src="/assets/images/landing/web-left.png" alt="group image"/> */}
+                <img src="/assets/images/landing/web-left.png" alt="group image"/>
               </div>
               <div className="col-6">
-                <div class="mb-3">                  
+                <div className="mt-3">
+                   <div className="section-one px-4 px-lg-3">
+                    <div className="section-one-wrapper">
+                      <div className="text-center">
+                        <div className="mb-3">
+                          <span className="badge badge-blue text-uppercase">Easy to find your queries</span>
+                        </div>
+                        <div className="heading">
+                          <h1 className="font-40-700">
+                            <span>Get a technical documentation </span>that's easy to find answers in
+                          </h1>                        
+                        </div>
+                      </div>
+                    </div>                    
+                  </div>
+                </div>
+                <div className="mb-3">                  
                   <SearchBar/>             
                 </div>                
               </div>
               <div className="col-3">
-                {/* <img src="/assets/images/landing/web-right.png" alt="group image"/> */}
+                <img src="/assets/images/landing/web-right.png" alt="group image"/>
               </div>
             </div>
           </div>
-        </section>   
+        </section>
 
-        <section id="quicklinks"> 
-          <div class="chips mt-5">
-            <div class="custom-card py-2 px-3">
-              <div class="d-flex align-items-center">
-                <img
-                  class="img-fluid done-ring-img"
-                  src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
-                  alt="Blue checkmark icon"
-                />
-                <div class="font-16-600 ms-2">Pay-As-You-Use</div>
+        <section id="products">
+          <div className="container-fluid container-lg">
+             <div className="row g-4 mt-4">
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="custom-card p-4 exploreThemesCard">
+                  <div><img src="/assets/images/landing/max.png" className="img-fluid" alt="image representes analytics"/></div>
+                  <div className="d-flex align-items-center justify-content-start pt-4">                                        
+                      <img
+                        className="img-fluid jmsimg me-4"
+                        src="https://cdn.kryoni.com/kryoni/images/version-1/journal-management.webp"
+                        alt="Icon representing the JournalManagement System (JMS) for streamlined publication processes"
+                      />
+                      <div className="font-28-700">Journal Management System (JMS)</div>                                      
+                  </div>
+                  <div className="mt-4">
+                    <p className="font-17-400">
+                      Our Journal Management System offers an integrated solution to manage the entire editorial process—from manuscript submission and peer review to publication. Designed for easy collaboration among authors, reviewers, and editors, it ensures a streamlined, efficient, and transparent workflow. 
+                    </p>
+                  </div>                  
+                </div>
               </div>
-            </div>
-            <div class="custom-card py-2 px-3">
-              <div class="d-flex align-items-center">
-                <img
-                  class="img-fluid done-ring-img"
-                  src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
-                  alt="Blue checkmark icon"
-                />
-                <div class="font-16-600 ms-2">Zero Setup Time</div>
-              </div>
-            </div>
-            <div class="custom-card py-2 px-3">
-              <div class="d-flex align-items-center">
-                <img
-                  class="img-fluid done-ring-img"
-                  src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
-                  alt="Blue checkmark icon"
-                />
-                <div class="font-16-600 ms-2">Cloud-Based & Secure</div>
-              </div>
-            </div>
-            <div class="custom-card py-2 px-3">
-              <div class="d-flex align-items-center">
-                <img
-                  class="img-fluid done-ring-img"
-                  src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
-                  alt="Blue checkmark icon"
-                />
-                <div class="font-16-600 ms-2">
-                  Scalable for any Journal Size
+              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div className="custom-card p-4 exploreThemesCard">
+                  <div><img src="/assets/images/landing/min.png" className="img-fluid" alt="image represents laptop cloud"/></div>
+                  <div className="d-flex align-items-center justify-content-start pt-4">                                        
+                    <img
+                      className="img-fluid jmsimg me-4"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/stream-space.webp"
+                      alt="Icon symbolizing Stream Space for secure content hosting and global research sharing"
+                    />
+                      <div className="font-28-700">Stream Space</div>                                       
+                  </div>
+                  <div className="mt-4">
+                    <p className="font-17-400">
+                      Stream Space offers a robust content-hosting platform with reliable infrastructure, top-tier security, and customizable templates, making it easy to launch your journal without technical complexity 
+                    </p>
+                  </div>                 
                 </div>
               </div>
             </div>
-            <div class="custom-card py-2 px-3">
-              <div class="d-flex align-items-center">
-                <img
-                  class="img-fluid done-ring-img"
-                  src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
-                  alt="Blue checkmark icon"
-                />
-                <div class="font-16-600 ms-2">Complete Editorial Control</div>
-              </div>
+          </div>
+        </section> 
+
+        <section id="quicklinks"> 
+          <div className="container-fluid container-lg">            
+            <div className="row w-100 m-auto chips mt-5">
+              <div className="col-12">
+                <h3 className="font-28-700">Quick Links </h3>
+              </div>            
+                <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
+                  <div className="d-flex align-items-center">
+                    <img
+                      className="img-fluid done-ring-img"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
+                      alt="Blue checkmark icon"
+                    />
+                    <a href="/journal-management-system/kryoni-jms-onboarding/registering-publishing-house" className="font-16-500 ms-2">How to Create a Publishing House</a>
+                  </div>
+                </div>
+                <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
+                  <div className="d-flex align-items-center">
+                    <img
+                      className="img-fluid done-ring-img"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
+                      alt="Blue checkmark icon"
+                    />
+                    <a href="/journal-management-system/settings/journal-settings/user-role-and-settings" className="font-16-500 ms-2">User Roles & Settings</a>
+                  </div>
+                </div>
+                <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
+                  <div className="d-flex align-items-center">
+                    <img
+                      className="img-fluid done-ring-img"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
+                      alt="Blue checkmark icon"
+                    />
+                    <a href="/journal-management-system/editorial-workflow/create-journal" className="font-16-500 ms-2">Journal Creation</a>
+                  </div>
+                </div>
+                <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
+                  <div className="d-flex align-items-center">
+                    <img
+                      className="img-fluid done-ring-img"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
+                      alt="Blue checkmark icon"
+                    />
+                    <a href="journal-management-system/authoring/author-submission" className="font-16-500 ms-2">Author Submission</a>
+                  </div>
+                </div>
+                <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
+                  <div className="d-flex align-items-center">
+                    <img
+                      className="img-fluid done-ring-img"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
+                      alt="Blue checkmark icon"
+                    />
+                    <a href="journal-management-system/reviewing/overview" className="font-16-500 ms-2">Peer Review</a>
+                  </div>
+                </div>
+                <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
+                  <div className="d-flex align-items-center">
+                    <img
+                      className="img-fluid done-ring-img"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
+                      alt="Blue checkmark icon"
+                    />
+                    <a href="/" className="font-16-500 ms-2">Production Configuration</a>
+                  </div>
+                </div>
+                <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
+                  <div className="d-flex align-items-center">
+                    <img
+                      className="img-fluid done-ring-img"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
+                      alt="Blue checkmark icon"
+                    />
+                    <a href="journal-management-system/settings/global-organizations-settings/roles#supplier-management" className="font-16-500 ms-2"> Supplier Management </a>
+                  </div>
+                </div>
+                <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
+                  <div className="d-flex align-items-center">
+                    <img
+                      className="img-fluid done-ring-img"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
+                      alt="Blue checkmark icon"
+                    />
+                    <a href="/journal-management-system/settings/global-organizations-settings/billing-management" className="font-16-500 ms-2"> Billing Management </a>
+                  </div>
+                </div>
+                <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
+                  <div className="d-flex align-items-center">
+                    <img
+                      className="img-fluid done-ring-img"
+                      src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
+                      alt="Blue checkmark icon"
+                    />
+                    <a href="/" className="font-16-500 ms-2">Production Jobs</a>
+                  </div>
+                </div>              
             </div>
-            <div class="custom-card py-2 px-3">
-              <div class="d-flex align-items-center">
-                <img
-                  class="img-fluid done-ring-img"
-                  src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
-                  alt="Blue checkmark icon"
-                />
-                <div class="font-16-600 ms-2">Enhanced Workflow Automation</div>
+          </div>
+        </section>
+
+        <section id="help">
+          <div className="container-fluid">
+            <div className="row w-100 m-auto">
+              <div className="col-12 pb-3">
+                <p className="font-38-700 text-center">Still need help?</p>
+              </div>
+              <div className="section-wrapper d-flex justify-content-between align-items-center flex-column flex-md-row">
+                <div className="box-content d-flex align-items-start justify-content-center flex-column flex-md-row">
+                  <img src="/assets/images/landing/comment-perspective.png" className="img-fluid helpicons" alt="Raise a support ticket"/>
+                  <div className="px-3">
+                    <h5 className="font-20-700">Raise a support ticket</h5>
+                    <p className="font-17-500 text-white m-0">Our dedicated support team is available around the clock to assist you. </p>
+                  </div>
+                </div>
+                <div className="box-content d-flex align-items-start justify-content-center flex-column flex-md-row">
+                  <img src="/assets/images/landing/faq-perspective.png" className="img-fluid helpicons" alt="Icon of Frequently Asked Questions"/>
+                  <div className="px-3">
+                    <h5 className="font-20-700">Frequently Asked Questions</h5>
+                    <p className="font-17-500 text-white m-0">Have technical questions? Check out our FAQ section for quick answers and helpful information. </p>
+                  </div>
+                </div>
+                <div className="box-content d-flex align-items-start justify-content-center flex-column flex-md-row">
+                  <img src="/assets/images/landing/code-perspective.png" className="img-fluid helpicons" alt="Icon of API Reference Guide"/>
+                  <div className="px-3">
+                    <h5 className="font-20-700">API Reference Guide</h5>
+                    <p className="font-17-500 text-white m-0">Our comprehensive documentation simplifies integration and maximizes functionality within your applications. </p>
+                  </div>
+                </div>                
               </div>
             </div>
           </div>

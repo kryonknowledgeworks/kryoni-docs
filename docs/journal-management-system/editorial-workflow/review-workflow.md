@@ -1,11 +1,11 @@
 ---
 sidebar_position: 4
 sidebar: jmsSidebar
-sidebar_label: Managing Review Rounds in Kryoni JMS
+sidebar_label: Managing Review Rounds
 ---
 # Review Workflow
 
-## Managing Review Rounds in Kryoni JMS
+## Managing Review Rounds
 
 Once a manuscript is accepted, it enters the Review Workflow, where reviewers are assigned and evaluations take place.
 

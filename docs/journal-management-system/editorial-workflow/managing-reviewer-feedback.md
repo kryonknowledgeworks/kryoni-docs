@@ -7,7 +7,7 @@ title: Managing Reviewer Feedback and Revisions
 
 #
 
-## Managing Reviewer Feedback and Revisions in Kryoni JMS
+## Managing Reviewer Feedback and Revisions
 
 The reviewer feedback workflow in Kryoni JMS is designed to streamline the editorial process following a review submission. This guide outlines how editorial users can view reviewer recommendations, manage requested changes, and communicate efficiently with reviewers.
 

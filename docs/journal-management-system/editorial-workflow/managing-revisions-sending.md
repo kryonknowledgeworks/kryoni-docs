@@ -7,7 +7,7 @@ title: Managing Revisions Sending Feedback to the Author
 
 #
 
-## Managing Revisions: Sending Feedback to the Author in Kryoni JMS
+## Managing Revisions: Sending Feedback to the Author
 
 After a reviewer has submitted feedback—especially if a revision is recommended—the editorial team must determine whether the author needs to revise the manuscript and whether a new review cycle is required. Kryoni JMS provides a streamlined Request Revision workflow to manage this process efficiently.
 
