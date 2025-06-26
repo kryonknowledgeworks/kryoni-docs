@@ -1,20 +1,44 @@
 import Layout from "@theme/Layout";
-import { useHistory } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import SearchBar from '@theme/SearchBar';
+import { useEffect } from "react";
 
 export default function Home() {
-  const history = useHistory();
+  const location = useLocation();
 
+   useEffect(() => {
+    const toggle = document.getElementsByClassName('toggle_vylO colorModeToggle_DEke');
+    const SearchNavBar = document.getElementsByClassName('navbarSearchContainer_Bca1')
+
+    if (toggle.length > 0 ) {
+      const element = toggle[0];      
+
+
+      if (location.pathname === "/") {
+        element.classList.add('d-none');
+        element.classList.remove('d-block');
+        SearchNavBar[0].classList.add('d-none');
+        SearchNavBar[0].classList.remove('d-block');
+      } else {
+        element.classList.remove('d-none');
+        element.classList.add('d-block');
+        SearchNavBar[0].classList.remove('d-none');
+        SearchNavBar[0].classList.add('d-block');
+      }
+    }
+  }, []);
+  
   return (
     <Layout>
       <main>
         <section id="home">
           <div className="container-fluid container-lg">
             <div className="row w-100 m-auto">
-              <div className="col-3">
-                <img src="/assets/images/landing/web-left.png" alt="group image"/>
+              <div className="col-6 col-md-3 order-0 order-md-0">
+                <img src="/assets/images/landing/web-left.png" alt="group image" className="d-none d-md-block"/>
+                <img src="/assets/images/landing/mob-left.png" alt="group image" className="d-block d-md-none"/>
               </div>
-              <div className="col-6">
+              <div className="col-12 col-md-6 order-2 order-md-1">
                 <div className="mt-3">
                    <div className="section-one px-4 px-lg-3">
                     <div className="section-one-wrapper">
@@ -35,8 +59,9 @@ export default function Home() {
                   <SearchBar/>             
                 </div>                
               </div>
-              <div className="col-3">
-                <img src="/assets/images/landing/web-right.png" alt="group image"/>
+              <div className="col-6 col-md-3 order-1 order-md-2">
+                <img src="/assets/images/landing/web-right.png" alt="group image" className="d-none d-md-block"/>
+                <img src="/assets/images/landing/mob-right.png" alt="group image" className="d-block d-md-none"/>
               </div>
             </div>
           </div>
@@ -191,22 +216,22 @@ export default function Home() {
               <div className="col-12 pb-3">
                 <p className="font-38-700 text-center">Still need help?</p>
               </div>
-              <div className="section-wrapper d-flex justify-content-between align-items-center flex-column flex-md-row">
-                <div className="box-content d-flex align-items-start justify-content-center flex-column flex-md-row">
+              <div className="section-wrapper row justify-content-between align-items-start flex-column flex-md-row w-100 m-auto">
+                <div className="box-content col-12 col-sm-10 col-md-6 col-lg-4 d-flex align-items-start justify-content-center flex-column flex-md-row px-2 py-3">
                   <img src="/assets/images/landing/comment-perspective.png" className="img-fluid helpicons" alt="Raise a support ticket"/>
                   <div className="px-3">
                     <h5 className="font-20-700">Raise a support ticket</h5>
                     <p className="font-17-500 text-white m-0">Our dedicated support team is available around the clock to assist you. </p>
                   </div>
                 </div>
-                <div className="box-content d-flex align-items-start justify-content-center flex-column flex-md-row">
+                <div className="box-content col-12 col-sm-10 col-md-6 col-lg-4 d-flex align-items-start justify-content-center flex-column flex-md-row px-2 py-3">
                   <img src="/assets/images/landing/faq-perspective.png" className="img-fluid helpicons" alt="Icon of Frequently Asked Questions"/>
                   <div className="px-3">
                     <h5 className="font-20-700">Frequently Asked Questions</h5>
                     <p className="font-17-500 text-white m-0">Have technical questions? Check out our FAQ section for quick answers and helpful information. </p>
                   </div>
                 </div>
-                <div className="box-content d-flex align-items-start justify-content-center flex-column flex-md-row">
+                <div className="box-content col-12 col-sm-10 col-md-6 col-lg-4 d-flex align-items-start justify-content-center flex-column flex-md-row px-2 py-3">
                   <img src="/assets/images/landing/code-perspective.png" className="img-fluid helpicons" alt="Icon of API Reference Guide"/>
                   <div className="px-3">
                     <h5 className="font-20-700">API Reference Guide</h5>
