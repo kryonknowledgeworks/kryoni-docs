@@ -3,28 +3,29 @@ sidebar_position: 3
 sidebar: jmsSidebar
 sidebar_label: Submission List
 ---
+# Submission List
 
-## **Overview**
+## Overview
 
 The Submission List API allows you to retrieve a list of journal submissions with pagination and search capabilities. The following documentation outlines authentication, request methods, and response handling.
 
-### **Base URL**
+### Base URL
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/submissions
 ```
 
-**Endpoint**
+### Endpoint
 
 - **URL:** `https://jms.kryoni.com/api/v1/external/submissions`
 - **Method:** `GET`
 - **Description:** Retrieves a list of submissions, filtered by journal ID, with pagination and search options.
 
-## **Authentication**
+### Authentication
 
 To access this API, include the following headers in your request:
 
-### **Request Headers**
+### Request Headers
 
 | Header         | Value                                             | Description                             |
 | -------------- | ------------------------------------------------- | --------------------------------------- |
@@ -43,17 +44,18 @@ To access this API, include the following headers in your request:
 
 </details>
 
-**Journal Filter**
+### Journal Filter
 
 - Required: `journal_id` parameter in the URL to filter submissions by journal.
 
-**Example**
+#### Example
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/journals?journal_id=1
 ```
 
-**Pagination Parameters**
+### Pagination Parameters
+
 Add value in url param
 
 | Parameter | Type    | Required | Description                    | Default |
@@ -61,27 +63,27 @@ Add value in url param
 | `page`    | integer | No       | Page of the list               | `1`     |
 | `size`    | integer | No       | Number of submissions per page | `20`    |
 
-**Example**
+#### Example
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&page=1&size=20
 ```
 
-**Search Parameter**
+### Search Parameter
 
 - Optional: `search_text` to filter by search term.
 
-**Example**
+#### Example
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/submissions?journal_id=1&search_text=science
 ```
 
-## **Response**
+### Response
 
 The API response is a JSON object that contains the requested journal submissions data, along with pagination details and any search criteria applied. Below is a sample response structure with an explanation of each field.
 
-### **Response Body**
+### Response Body
 
 <details className="response-success">
   <summary>200 Success</summary>
@@ -108,7 +110,7 @@ The API response is a JSON object that contains the requested journal submission
 
   </details>
 
-**Response**
+#### Response
 
     ```javascript
     {
@@ -135,7 +137,7 @@ The API response is a JSON object that contains the requested journal submission
   </div>
 </details>
 
-### **Error Handling**
+### Error Handling
 
 Possible error responses might include:
 

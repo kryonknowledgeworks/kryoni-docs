@@ -8,26 +8,49 @@ export default function Home() {
 
    useEffect(() => {
     const toggle = document.getElementsByClassName('toggle_vylO colorModeToggle_DEke');
-    const SearchNavBar = document.getElementsByClassName('navbarSearchContainer_Bca1')
+    const SearchNavBar = document.getElementsByClassName('navbarSearchContainer_Bca1');    
 
-    if (toggle.length > 0 ) {
-      const element = toggle[0];      
-
+    if (toggle.length > 0 && SearchNavBar.length > 0) {
+      const element = toggle[0];
 
       if (location.pathname === "/") {
         element.classList.add('d-none');
         element.classList.remove('d-block');
+
         SearchNavBar[0].classList.add('d-none');
         SearchNavBar[0].classList.remove('d-block');
+
       } else {
         element.classList.remove('d-none');
         element.classList.add('d-block');
+
         SearchNavBar[0].classList.remove('d-none');
         SearchNavBar[0].classList.add('d-block');
+                
       }
     }
+    
+    let intervalId;
+
+    const applyShadow = () => {
+      const input = document.querySelector('.navbar__search-input.searchInput_YFbd');
+      if (input) {
+        if (location.pathname === '/') {
+          console.log('running')
+          input.style.boxShadow = '0px 13px 61px 0px rgba(0, 0, 0, 0.15)';
+        } else {
+          input.style.boxShadow = 'none';
+        }
+        clearInterval(intervalId); // Element found, stop checking
+      }
+    };
+
+    intervalId = setInterval(applyShadow, 200); // Check every 200ms
+
+    return () => clearInterval(intervalId); // Cleanup if component unmounts
+
   }, []);
-  
+
   return (
     <Layout>
       <main>
@@ -123,7 +146,7 @@ export default function Home() {
                       src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
                       alt="Blue checkmark icon"
                     />
-                    <a href="/journal-management-system/kryoni-jms-onboarding/registering-publishing-house" className="font-16-500 ms-2">How to Create a Publishing House</a>
+                    <a href="/journal-management-system/onboarding/registering-publishing-house" className="font-16-500 ms-2">How to Create a Publishing House</a>
                   </div>
                 </div>
                 <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">

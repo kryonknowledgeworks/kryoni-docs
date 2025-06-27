@@ -32,7 +32,7 @@ This guide provides step-by-step instructions for reviewers on how to access, ma
 
     **b. Country**
 
-#### Secure Login via ORCID (Optional but Recommended) - Refer [Register Using ORCID](/journal-management-system/kryoni-jms-onboarding/registering#register-using-orcid)
+#### Secure Login via ORCID (Optional but Recommended) - Refer [Register Using ORCID](/journal-management-system/onboarding/registering#register-using-orcid)
 
     - **Link your ORCID ID** for secure and easy login.
     - Benefits of using ORCID:
@@ -208,7 +208,7 @@ The **Peer Review Discussion** section in Kryoni JMS provides a space for quick 
 3. **Download the Review Form** – Click **“Download Review Form”.**
 4. **Complete the Form** – Provide feedback and fill out all required fields.
 
-## Making Decision
+### Making Decision
 
 ### Flow 1: Request for Revision
 

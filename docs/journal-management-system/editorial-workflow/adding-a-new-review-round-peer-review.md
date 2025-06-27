@@ -252,7 +252,7 @@ Ideal for high-priority manuscripts or when a specific reviewer’s input is ess
     - Best suited for **targeted or high-value assignments.**
     - Ensures **direct delivery** of the review invitation, avoiding queue rules.
 
-## Now All Reviewers Are Assigned – Understanding Review Categories
+### Now All Reviewers Are Assigned – Understanding Review Categories
 
 Once reviewers are assigned to a manuscript, they are categorized based on their status and the review process setup. The system ensures smooth tracking and management of each reviewer’s progress.
 

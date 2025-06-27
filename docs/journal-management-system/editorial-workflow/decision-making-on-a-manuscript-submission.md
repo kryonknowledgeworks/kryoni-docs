@@ -81,7 +81,7 @@ If the submission requires changes before it can proceed, use the **“Request C
 
 ![image](/assets/images/decision-making/notify-author.webp)
 
-## Use Case: Accepting a Manuscript for Peer Review
+### Use Case: Accepting a Manuscript for Peer Review
 
 ### Scenario
 

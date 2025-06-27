@@ -7,7 +7,7 @@ sidebar: jmsSidebar
 
 ## Onboard and Engage
 
-## Before You Begin
+### Before You Begin
 
 Welcome to Kryoni, the all-in-one publishing platform that simplifies and enhances the entire publishing process. Whether you are an author, editor, or publisher, Kryoni provides an end-to-end workflow that integrates all aspects of scholarly and publishing into a single, efficient ecosystem.
 
@@ -38,7 +38,7 @@ This comprehensive guide is designed to help you register, onboard, and engage w
 
 Our system is designed for a simple and efficient login process using your email address, ensuring quick access.
 
-## OTP Verification and Profile Setup
+### OTP Verification and Profile Setup
 
 ###
 
@@ -84,7 +84,7 @@ To proceed, check the box indicating that you agree to the **Terms of Service** 
 
 Once all steps are completed, you’ll be ready to access the full features of the system.
 
-## Register Using ORCID
+### Register Using ORCID
 
 ### Sign in with ORCID
 

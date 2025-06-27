@@ -143,13 +143,14 @@ const config = {
 
           // uncommand after adding  jobnest and stream space
           // {to: '/job-nest/intro', label: 'Job Nest', position: 'left'},
-          {to:'/stream-space/intro',label:'Stream Space',position:'right'},
+          // {to:'/stream-space/intro',label:'Stream Space',position:'right'},
 
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://www.kryoni.com/",
             label: "Home",
-            position: "right",          
+            position: "right",
+            className:"navbar__item navbar__link navbar-home-icon"         
           },
         ],
       },
