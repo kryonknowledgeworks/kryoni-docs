@@ -3,8 +3,9 @@ sidebar_position: 2
 sidebar: jmsSidebar
 sidebar_label: Journal Detail
 ---
+# Journal Detail
 
-## **Overview**
+## Overview
 
 The Journal Details API allows you to retrieve detailed information about a specific journal, including metadata, guidelines, disciplines, and author-related data. This documentation provides the necessary details on authentication, request structure, and response interpretation.
 
@@ -14,7 +15,7 @@ The Journal Details API allows you to retrieve detailed information about a spec
 https://jms.kryoni.com/api/v1/external/journals/{journal_id}
 ```
 
-**Endpoint**
+### Endpoint
 
 - **URL:** `https://jms.kryoni.com/api/v1/external/journals/{journal_id}`
 - **Method:** `GET`
@@ -22,11 +23,11 @@ https://jms.kryoni.com/api/v1/external/journals/{journal_id}
 
 ---
 
-## **Authentication**
+### Authentication
 
 To access this API, you must include the following headers in your request:
 
-### **Request Headers**
+### Request Headers
 
 | Header         | Value                                             | Description                             |
 | -------------- | ------------------------------------------------- | --------------------------------------- |
@@ -47,11 +48,11 @@ To access this API, you must include the following headers in your request:
 
 ---
 
-## **URL Parameters**
+### URL Parameters
 
 - **journal_id** `(integer, required)`: The unique identifier of the journal for which you want to retrieve detailed information.
 
-### **Example Request**
+### Example Request
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/journals/101
@@ -59,11 +60,11 @@ https://jms.kryoni.com/api/v1/external/journals/101
 
 This request fetches the journal details for the journal with ID 101.
 
-## **Response**
+### Response
 
 The API response is a JSON object that provides detailed journal information, including metadata, disciplines, and attachments. Below is an example response structure:
 
-### **Response Body**
+### Response Body
 
 <details className="response-success">
   <summary>200 Success</summary>
@@ -195,7 +196,7 @@ Possible error responses might include:
   </div>
 </details>
 
-**Example Requests**
+#### Example Requests
 
 **Fetching Journal Details by ID:**
 

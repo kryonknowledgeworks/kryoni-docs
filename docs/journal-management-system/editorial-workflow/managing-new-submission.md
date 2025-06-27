@@ -4,11 +4,9 @@ sidebar: jmsSidebar
 sidebar_label: Managing New Submission
 ---
 
-# Adminstrator View / Editorial Workflow (JM)
+# Adminstrator View / Editorial Workflow
 
 ## Editorial Workflow – Managing New Submissions  
-
-##
 
 Once an author submits a manuscript, it enters the **editorial workflow**, where it is managed by the journal’s editorial team, including administrators and users with **Manage Journal** permissions. This stage is crucial in ensuring that submitted manuscripts go through a structured and transparent evaluation process before being considered for publication.
 
@@ -57,7 +55,7 @@ The **Submission List** displays all newly submitted manuscripts along with key 
 
 By following these steps, administrators and editors can efficiently track and manage new manuscript submissions, ensuring a smooth and organized editorial workflow.
 
-## Evaluating the Submission
+### Evaluating the Submission
 
 ### Open the Submission Details Page
 
@@ -128,7 +126,7 @@ The **Out-of-Scope (OOS) Score Checker** is an AI-powered tool designed to asses
     - **Improves Decision Accuracy:** Editors receive a **data-driven assessment** to support their decision on whether to accept or reject a submission based on scope alignment.
     - **Enhances Author Guidance:** If a manuscript is flagged as out of scope, authors can be provided with **early feedback,** reducing unnecessary review cycle.
 
-## Workflow
+### Workflow
 
 This guide explains the three key sections available in the **Workflow section:**
 
@@ -286,7 +284,7 @@ In some cases, editors or administrators may need to attach supplementary materi
 
     ![image](/assets/images/submissions/save-submission-additional.webp)
 
-## Action Tab
+### Action Tab
 
 The **Action Tab** is where editors make decisions about the manuscript's next steps. This tab provides different options depending on the review process and editorial guidelines.
 
@@ -357,7 +355,7 @@ The author receives an email notification and can respond directly within **Kryo
 Discussions are for clarification and instant communication only. Please do not use this space for revision requests or other workflow actions. Use the appropriate options instead.
 :::
 
-## Participants Tab
+### Participants Tab
 
 The **Participants Tab** in the Kryoni Journal Management System (JMS) allows editors and administrators to manage the individuals involved in the manuscript submission process. This tab displays a list of participants currently assigned to a submission, along with their **role name, username, and email address.**
 

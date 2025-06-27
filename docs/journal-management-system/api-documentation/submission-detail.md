@@ -3,28 +3,29 @@ sidebar_position: 4
 sidebar: jmsSidebar
 sidebar_label: Submission Detail
 ---
+# Submission Detail
 
-## **Overview**
+## Overview
 
 The Submission Detail API allows you to retrieve specific submission details. This documentation provides the request details, headers, and response structure.
 
-### **Base URL**
+### Base URL
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/submissions/{submission_id}
 ```
 
-**Endpoint**
+#### Endpoint
 
 - **URL:** `https://jms.kryoni.com/api/v1/external/submissions/{submission_id}`
 - **Method:** `GET`
 - **Description:** Retrieves details of a submission using its unique ID.
 
-## **Authentication**
+### Authentication
 
 To access this API, include the following headers in your request:
 
-### **Request Headers**
+### Request Headers
 
 | Header         | Value                                             | Description                    |
 | -------------- | ------------------------------------------------- | ------------------------------ |
@@ -43,11 +44,11 @@ To access this API, include the following headers in your request:
 
 </details>
 
-## **Response**
+### Response
 
 The API response provides submission data including details on the authors, files, review rounds, and production status.
 
-### **Response Body**
+### Response Body
 
 <details className="response-success">
   <summary>200 Success</summary>
@@ -77,7 +78,7 @@ The API response provides submission data including details on the authors, file
 
   </details>
 
-**Response**
+#### Response
 
     ```javascript
 
@@ -167,7 +168,7 @@ The API response provides submission data including details on the authors, file
   </div>
 </details>
 
-### **Error Handling**
+### Error Handling
 
 Possible error responses might include:
 

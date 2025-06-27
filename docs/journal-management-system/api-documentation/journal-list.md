@@ -3,28 +3,29 @@ sidebar_position: 1
 sidebar: jmsSidebar
 sidebar_label: Journal List
 ---
+# Journal List
 
-## **Overview**
+## Overview
 
 The Journal List API allows you to fetch a list of journals with pagination and search functionality. This documentation provides details on how to authenticate, make requests, and interpret responses.
 
-### **Base URL**
+### Base URL
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/journals
 ```
 
-**Endpoint**
+### Endpoint
 
 - URL: `https://jms.kryoni.com/api/v1/external/journals`
 - Method: GET
 - Description: Fetches a list of journals with pagination and search functionality.
 
-## **Authentication**
+### Authentication
 
 To access this API, you must include the following headers in your request:
 
-### **Request Headers**
+### Request Headers
 
 | Header         | Value                                             | Description                             |
 | -------------- | ------------------------------------------------- | --------------------------------------- |
@@ -43,16 +44,16 @@ To access this API, you must include the following headers in your request:
 
 </details>
 
-### **Query Parameters**
+### Query Parameters
 
-**1. Pagination Parameters**
+#### 1. Pagination Parameters
 
 | Parameter | Type    | Required | Description                                    | Default |
 | --------- | ------- | -------- | ---------------------------------------------- | ------- |
 | `page`    | integer | No       | Page number to retrieve from the journal list. | `1`     |
 | `size`    | integer | No       | Number of journals per page.                   | `20`    |
 
-**Example**
+#### Example
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/journals?page=2&size=10
@@ -60,11 +61,11 @@ https://jms.kryoni.com/api/v1/external/journals?page=2&size=10
 
 This request will retrieve the second page of journals, with a page size of 10 journals per page.
 
-**2.** **Search Parameter:**
+#### 2. Search Parameter
 
 - `search_text` (string, optional): Use this parameter to filter the journals by title or relevant keywords.
 
-**Example**
+#### Example
 
 ```plaintext
 https://jms.kryoni.com/api/v1/external/journals?search_text=science
@@ -72,11 +73,11 @@ https://jms.kryoni.com/api/v1/external/journals?search_text=science
 
 This will return journals that contain "science" in the title or description.
 
-## **Response**
+### Response
 
 The API response is a JSON object that provides the requested journal data, pagination details, and any search information. Below is an example response structure:
 
-### **Response Body**
+### Response Body
 
 <details className="response-success">
   <summary>200 Success</summary>
@@ -103,7 +104,7 @@ The API response is a JSON object that provides the requested journal data, pagi
 
 ---
 
-**Response**
+#### Response
 
     ```javascript  title="API KEY"
     {
@@ -152,7 +153,7 @@ Possible error responses might include:
 
 ---
 
-**Response**
+#### Response
 
 ```javascript
 {
@@ -166,21 +167,21 @@ Possible error responses might include:
   </div>
 </details>
 
-**Example Requests**
+#### Example Requests
 
-**1.** Fetching the First Page with Default Page Size:
+##### 1. Fetching the First Page with Default Page Size
 
 ```plaintext
 GET https://jms.kryoni.com/api/v1/external/journals
 ```
 
-**2.** Fetching the Third Page with a Page Size of 15:
+##### 2. Fetching the Third Page with a Page Size of 15
 
 ```plaintext
 GET https://jms.kryoni.com/api/v1/external/journals?page=3&size=15
 ```
 
-**3.** Searching for Journals with "technology" in Title:
+##### 3. Searching for Journals with "technology" in Title
 
 ```plaintext
 GET https://jms.kryoni.com/api/v1/external/journals?search_text=technology

@@ -78,7 +78,7 @@ Once all details are entered correctly, click save and next.
 
     ![image](/assets/images/authoring/abstract-save-next.webp)
 
-## Contributors
+### Contributors
 
 In this step, you need to add all contributors associated with the manuscript.
 
@@ -139,7 +139,7 @@ After entering all the necessary details, click **"Submit"** to add the contribu
 
     ![image](/assets/images/authoring/import-contributors.webp)
 
-## Reviewer Preference
+### Reviewer Preference
 
     ![image](/assets/images/authoring/review-preference.webp)
 
@@ -179,7 +179,7 @@ Once you have provided your reviewer preferences, you can proceed to the next st
 
     ![image](/assets/images/authoring/added-reviewer-submit.webp)
 
-## Upload File
+### Upload File
 
     ![image](/assets/images/authoring/upload-files.webp)
 
@@ -237,7 +237,7 @@ This information ensures accurate processing of your manuscript for both digital
 
     ![image](/assets/images/authoring/number-tables-save.webp)
 
-## Licence Agreement
+### Licence Agreement
 
     ![image](/assets/images/authoring/licence-agreement.webp)
 
@@ -245,7 +245,7 @@ The license type will be preselected based on the journal’s publishing model, 
 
 You will not be required to select a license manually if it is predefined by the journal. Please review the license terms before proceeding with the submission.
 
-## Conflict of Interest (COI) Form Submission
+### Conflict of Interest (COI) Form Submission
 
 As part of the manuscript submission process, all authors are required to submit a **Conflict of Interest (COI) Form** to disclose any potential conflicts that could influence the research or its publication.
 
@@ -267,7 +267,7 @@ Once uploaded, the COI form will be reviewed as part of the manuscript evaluatio
 
     ![image](/assets/images/authoring/coi-save.webp)
 
-## Final Confirmation
+### Final Confirmation
 
 ### Important Notes
 
