@@ -476,7 +476,7 @@ img.img_ev3q[title="orcidpass"]{
   font-weight: 700;
   color: rgba(255, 255, 255, 1);
 }
-.font-28-700{
+.font-28-700,.font-28-700:hover,.font-28-700:active{
   font-size: 28px;
   font-weight: 700;
   color: transparent;
@@ -789,6 +789,16 @@ body #footer .footer-menu-wrapper {
   .chips .custom-card .img-fluid {
     height: 24px;
   }
+  .navbar__search .navbar__search-input:not(:focus) {
+    width: 10%;  
+  }
+  .navbar__search .navbar__search-input:focus {
+    width: 100%;
+  } 
+  .navbarSearchContainer_Bca1 .navbar__search.searchBarContainer_NW3z ,.navbarSearchContainer_Bca1 .navbar__search.searchBarContainer_NW3z span.searchBar_RVTs, .navbar__search-input.searchInput_YFbd.input_FOTf{
+    display: flex !important;
+    justify-content: end;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   #footer .footer-menu-wrapper {
@@ -810,6 +820,12 @@ body #footer .footer-menu-wrapper {
   }
   .font-40-700 {
     font-size: 26px;
+  }
+  .navbar__search .navbar__search-input:not(:focus) {
+    width: 44%;  
+  }
+  .navbar__search .navbar__search-input:focus {
+    width: 100%;
   }
 }
 @media (min-width:992px) and (max-width:1199.98px) {
@@ -844,6 +860,12 @@ body #footer .footer-menu-wrapper {
     width: 80%;
     max-width: 275px;
     height: auto;
+  }
+  .navbar__search .navbar__search-input:not(:focus) {
+    width: 44%;  
+  }
+  .navbar__search .navbar__search-input:focus {
+    width: 100%;
   }
 }
 @media (min-width:992px) and (max-width:1200px) {
@@ -880,7 +902,6 @@ html[data-theme='dark'] .navbar-home-icon::before {
   background: transparent url('/static/assets/images/landing/light-home.png') no-repeat center center;
   background-size: 16px;
 }
-
 
 .toggle_vylO.colorModeToggle_DEke{
   display: none;

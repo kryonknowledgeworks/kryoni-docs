@@ -102,7 +102,7 @@ export default function Home() {
                         src="https://cdn.kryoni.com/kryoni/images/version-1/journal-management.webp"
                         alt="Icon representing the JournalManagement System (JMS) for streamlined publication processes"
                       />
-                      <div className="font-28-700">Journal Management System (JMS)</div>                                      
+                      <a href="/journal-management-system/get-started/introduction" className="font-28-700 text-decoration-none" target="_self">Journal Management System (JMS)</a>                                      
                   </div>
                   <div className="mt-4">
                     <p className="font-17-400">
