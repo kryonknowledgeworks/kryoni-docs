@@ -8,9 +8,9 @@ title: User Role and Settings
 
 ## User Role and Settings
 
-![image](/assets/images/journal/user-role-1.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/user-role-1.webp)
 
-![image](/assets/images/journal/user-role-2.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/user-role-2.webp)
 
 The **User Roles and Settings** section in the **Journal Management System (JMS)** plays a crucial role in managing user access and responsibilities. It allows administrators to **define roles, assign permissions, and manage users** efficiently, ensuring a secure and structured workflow within the journal.
 
@@ -20,7 +20,7 @@ User roles and settings apply specifically to each individual journal and must b
 
 ### With this feature, you can
 
-![image](/assets/images/journal/user-roles-settings.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/user-roles-settings.webp)
 
 - **Create new roles** tailored to different editorial responsibilities.
 
@@ -36,7 +36,7 @@ By configuring user roles appropriately, journal administrators can streamline e
 
 - Enter the **Role Name** in the designated field.
 
-    ![image](/assets/images/journal/new-role.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/journal/new-role.webp)
 
 - Assign relevant permissions based on the required access level.
 
@@ -48,9 +48,9 @@ Below is a detailed explanation of the key permission categories
 
 ### Journal-Level Permissions
 
-![image](/assets/images/journal/journal-level-1.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/journal-level-1.webp)
 
-![image](/assets/images/journal/journal-level-2.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/journal-level-2.webp)
 
 These permissions control access to the journal’s core settings, configurations, and management features.
 
@@ -66,7 +66,7 @@ These permissions control access to the journal’s core settings, configuration
 
 ### Journal & Production Configuration
 
-![image](/assets/images/journal/journal-and-production-cofiguration.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/journal-and-production-cofiguration.webp)
 
 - **Permission to view journal configurations:** Allows users to view general journal settings.
 
@@ -78,7 +78,7 @@ These permissions control access to the journal’s core settings, configuration
 
 ### Submission & Editorial Management
 
-![image](/assets/images/journal/submission-and-editorial-management.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/submission-and-editorial-management.webp)
 
 - **Permission to view author submission URL:** Provides access to view the submission link used by authors.
 
@@ -90,7 +90,7 @@ These permissions control access to the journal’s core settings, configuration
 
 ### Reviewer & Email Settings
 
-![image](/assets/images/journal/reviewer-&-email-Settings.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/reviewer-&-email-Settings.webp)
 
 - **Permission to view reviewers inside the journal:** Allows visibility into the list of assigned reviewers.
 

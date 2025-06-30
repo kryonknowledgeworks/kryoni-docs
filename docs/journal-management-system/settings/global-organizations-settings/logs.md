@@ -16,7 +16,7 @@ For security and transparency, all actions performed within our Journal Manageme
 
 **Detailed Tracking:** Every activity—such as submissions, user management, or publishing—is recorded, giving you a full history of events.
 
-    ![image](/assets/images/global/detailed-tracking.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/detailed-tracking.webp)
 
 **Security and Reference:** These logs help maintain security and can be used for future reference, ensuring smooth and clear communication within the system.
 
@@ -24,12 +24,12 @@ For security and transparency, all actions performed within our Journal Manageme
 
     - **Filter:**
 
-        ![image](/assets/images/global/filter-logs.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/global/filter-logs.webp)
 
 Easily narrow down logs by specific criteria, such as dates, to quickly locate the information you need.
 
     - **Export:**
 
-        ![image](/assets/images/global/export-log.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/global/export-log.webp)
 
 To download or share your logs, simply click the **"Export"** button located on the right-hand side.

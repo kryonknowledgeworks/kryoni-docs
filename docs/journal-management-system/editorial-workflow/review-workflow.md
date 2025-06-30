@@ -11,7 +11,7 @@ Once a manuscript is accepted, it enters the Review Workflow, where reviewers ar
 
 ### Left-Side Menu Overview
 
-![image](/assets/images/review-workflow/left-side-menu.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/left-side-menu.webp)
 
     ###### Reviewers Invited
 
@@ -64,7 +64,7 @@ In the **Review Files** tab, editorial users can access and manage files that ne
 
 #### File Details Displayed
 
-![image](/assets/images/review-workflow/file-details-displayed.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/file-details-displayed.webp)
 
     - **File Name** – The title of the manuscript or supporting document.
     - **Article Type** – Type of article submitted (e.g., Research Paper, Review Article).
@@ -76,35 +76,35 @@ In the **Review Files** tab, editorial users can access and manage files that ne
 
     - **Download** – Download an individual file.
 
-        ![image](/assets/images/review-workflow/download-file.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/download-file.webp)
 
     - **Delete** – Remove or replace a file if necessary.
 
-        ![image](/assets/images/review-workflow/delete-file.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/delete-file.webp)
 
     - **Download All** – Download all submission files as a **ZIP archive** for easy access.
 
-        ![image](/assets/images/review-workflow/download-all.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/download-all.webp)
 
     - **Additional Files** – Upload **figures, supplementary data, or other supporting documents** for reviewers.
 
-        ![image](/assets/images/review-workflow/additional-files.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/additional-files.webp)
 
 ### Uploading an Anonymous Manuscript (Double-Blind Review Process)
 
 If the journal follows a **Double-Blind Peer Review** model, it is mandatory to upload an anonymized version of the manuscript before sending it to reviewers.
 
-![image](/assets/images/review-workflow/warning-uploading.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/warning-uploading.webp)
 
 #### Steps to Upload an Anonymous Manuscript
 
 1. Click on **“Upload Anonymous Manuscript”** in the Review Files tab.
 
-    ![image](/assets/images/review-workflow/upload-anonymous.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/upload-anonymous.webp)
 
 2. **Prepare the Manuscript for Anonymity** by removing all identifiable information:
 
-    ![image](/assets/images/review-workflow/list-upload-anaonymous.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/list-upload-anaonymous.webp)
 
     - **Remove author names** from the title page and header/footer.
     - **Remove institutional affiliations** and funding information.
@@ -115,9 +115,9 @@ If the journal follows a **Double-Blind Peer Review** model, it is mandatory to 
 3. Ensure the file is in **PDF format**. This is the only format accepted for anonymous manuscript uploads.
 4. Upload the sanitized PDF using the **Upload** option.
 
-    ![image](/assets/images/review-workflow/after-file-uploaded.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/after-file-uploaded.webp)
 
-    ![image](/assets/images/review-workflow/display-anonymous.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/display-anonymous.webp)
 
 ### Revision Details
 
@@ -138,35 +138,35 @@ This section allows **editorial user, and authors** to communicate regarding the
 
 1. Click **"Add Discussion"** to start a new conversation.
 
-        ![image](/assets/images/review-workflow/add-discussion.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/add-discussion.webp)
 
 2. Select the participants involved in the discussion.
 
-        ![image](/assets/images/review-workflow/select-participants.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/select-participants.webp)
 
 3. Enter a subject and message.
 
-        ![image](/assets/images/review-workflow/entersubject-message.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/entersubject-message.webp)
 
 4. (Optional) Click **"Upload File"** to attach any relevant files for reference.
 
-        ![image](/assets/images/review-workflow/upload-file-box.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/upload-file-box.webp)
 
 5. Click **"Add Discussion"** to submit.
 
-        ![image](/assets/images/review-workflow/click-add-submission.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/click-add-submission.webp)
 
 6. Discussion is now added to the list
 
-        ![image](/assets/images/review-workflow/discussion-added.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/discussion-added.webp)
 
 7. If you open the File name dropdown, two tabs named chat and Discussion details in which when you click Chat, messages will be shown in the list.
 
-        ![image](/assets/images/review-workflow/chat-box.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/chat-box.webp)
 
 8. If you click Discussion detail, detailed message of attachments, date and created person name will be shown.
 
-        ![image](/assets/images/review-workflow/discussion-details.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-workflow/discussion-details.webp)
 
 :::warning
 Do not use this space for submitting revision requests or editorial decisions—use the designated workflow actions instead.

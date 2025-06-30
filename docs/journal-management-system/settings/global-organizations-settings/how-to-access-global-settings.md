@@ -10,7 +10,7 @@ title: How to Access Global Settings
 
 ### How to Access Global Settings
 
-    ![image](/assets/images/global/access-global.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/access-global.webp)
 
 1. Navigate to the **Settings** menu.
 2. Select **Manage** to access the Global Settings options.

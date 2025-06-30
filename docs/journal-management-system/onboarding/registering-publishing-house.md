@@ -14,7 +14,7 @@ To complete the registration of your publishing house within our Journal Managem
 
 ### 1. Publisher Name
 
-    ![image](/assets/images/register/register-publishing-house.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/register/register-publishing-house.webp)
 
     Enter the **Official Name** of your publishing house. This name will be used throughout the system for identification and correspondence.
 
@@ -28,7 +28,7 @@ To complete the registration of your publishing house within our Journal Managem
 
 ### 4. Contact Information
 
-    ![image](/assets/images/register/contact-info.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/register/contact-info.webp)
 
 Provide the primary contact details, including a phone number and email address.
 
@@ -36,13 +36,13 @@ Click **Save and Next** to proceed.
 
 ### 5. Mailing Address
 
-    ![image](/assets/images/register/mailing-address.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/register/mailing-address.webp)
 
 Enter the physical address where correspondence and documents should be sent.
 
 ### 6. Billing Address
 
-    ![image](/assets/images/register/billing-address.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/register/billing-address.webp)
 
 Specify the address for billing and invoicing.
 

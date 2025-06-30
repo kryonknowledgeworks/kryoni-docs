@@ -9,17 +9,17 @@ title : Reports
 
 ## Reports
 
-![image](/assets/images/journal/report-1.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/report-1.webp)
 
-![image](/assets/images/journal/report-2.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/report-2.webp)
 
 The Reports section in the Journal Management System (JMS) provides a structured way to access and download detailed reports on various journal activities. These reports help track and analyze submission progress, review status, and production workflows, ensuring better management and decision-making.
 
 ### How to Download Reports
 
-![image](/assets/images/journal/report-3.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/report-3.webp)
 
-![image](/assets/images/journal/report-4.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/report-4.webp)
 
 - **Navigate to the Reports Section** in JMS.
 

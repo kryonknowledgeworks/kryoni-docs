@@ -47,21 +47,21 @@ Once the manuscript has been evaluated, take an editorial decision using the **A
 
     - **Accept & Send to Review**
 
-        ![image](/assets/images/decision-making/accept-send-review.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/decision-making/accept-send-review.webp)
 
         - Choose this option to initiate the **peer-review process**.
         - Proceed to assign appropriate reviewers to evaluate the manuscript.
 
     - **Accept & Skip Review**
 
-        ![image](/assets/images/decision-making/accept-skip-review.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/decision-making/accept-skip-review.webp)
 
         - Use this option when no peer review is needed.
         - The manuscript will move **directly to production**.
 
     - **Decline Submission**
 
-        ![image](/assets/images/decision-making/decline-submission.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/decision-making/decline-submission.webp)
 
         - Select this if the manuscript:
             - Falls **outside the scope** of the journal.
@@ -79,7 +79,7 @@ Once the manuscript has been evaluated, take an editorial decision using the **A
 If the submission requires changes before it can proceed, use the **“Request Changes”** option to provide feedback and ask the author to update the manuscript accordingly.
 :::
 
-![image](/assets/images/decision-making/notify-author.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/decision-making/notify-author.webp)
 
 ### Use Case: Accepting a Manuscript for Peer Review
 
@@ -89,9 +89,9 @@ An **editor receives a manuscript submission** and needs to determine whether it
 
 ### Accept and send to review
 
-![image](/assets/images/decision-making/scenario-accept.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/decision-making/scenario-accept.webp)
 
-![image](/assets/images/decision-making/tab-checklist.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/decision-making/tab-checklist.webp)
 
 If a manuscript aligns with the journal’s guidelines, follow these steps to proceed with the review process:
 
@@ -99,7 +99,7 @@ Click **"Accept and Send to Review"** to initiate the review process.
 
 This action will open a new tab with a checklist to complete before proceeding.
 
-    ![image](/assets/images/decision-making/tab-proccedings.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/decision-making/tab-proccedings.webp)
 
     - **Administrative Check** – Ensure the submission meets all journal requirements, including formatting, length, and completeness.
     - **Scope and Relevance Check** – Confirm that the manuscript falls within the journal’s focus and is suitable for its audience.
@@ -108,7 +108,7 @@ This action will open a new tab with a checklist to complete before proceeding.
     - **Select Files for Review** – Choose the necessary files to share with reviewers.
     - **Submit** – Click **"Send to Review"** to move the manuscript to the review stage.
 
-    ![image](/assets/images/decision-making/send-to-review.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/decision-making/send-to-review.webp)
 
 ### Outcome
 

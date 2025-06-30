@@ -8,7 +8,7 @@ title: Review Permissions
 
 ## Review Permissions
 
-![image](/assets/images/journal/review-permissions.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/review-permissions.webp)
 
 Review permissions control how users interact with the peer-review workflow, ensuring a smooth and transparent evaluation process.
 

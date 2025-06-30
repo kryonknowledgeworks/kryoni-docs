@@ -9,13 +9,13 @@ sidebar_label: Accessing Journal Submissions
 
 ### Accessing Journal Submissions
 
-![image](/assets/images/journal/accessing-journal-submissions.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/accessing-journal-submissions.webp)
 
 ### 1. Select the Journal
 
     - Click on the specific journal you want to manage. 
 
-![image](/assets/images/journal/select-journal.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/select-journal.webp)
 
 ### 2. View Submission List
 

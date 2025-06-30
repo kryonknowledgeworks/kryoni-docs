@@ -14,7 +14,7 @@ The site info is the section where you will find the link for author submission,
 
 To locate the submission link:
 
-![image](/assets/images/journal/submission-link.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/submission-link.webp)
 
 **Navigate to:** Journal Settings > Site Info.
 
@@ -24,7 +24,7 @@ The **Author Submission Link** will be displayed on this page.
 
 To integrate the link into your journal’s website:
 
-    ![image](/assets/images/journal/embedding-submission.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/journal/embedding-submission.webp)
 
 - Copy the **Author Submission Link** from the Site Info section.
 
@@ -32,13 +32,13 @@ To integrate the link into your journal’s website:
 
 Once authors click on this link, they will be redirected to the submission interface, where they can upload manuscripts, enter metadata, and submit supporting documents for editorial review.
 
-![image](/assets/images/journal/submission-interface.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/submission-interface.webp)
 
 ### Editing the Submission Link
 
 If modifications to the submission link are required:
 
-![image](/assets/images/journal/editing-the-submission-link.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/editing-the-submission-link.webp)
 
 - **Edit the Link** - Navigate to the **Site Info** section and locate the submission link.
 - **Adjust as Needed** - Update the link based on the journal’s specific requirements.
@@ -52,22 +52,22 @@ This section allows administrators to add helpful external or internal URLs to g
 
     - **For Authors**
 
-        ![image](/assets/images/journal/author.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/journal/author.webp)
 
         Add a link to your journal's Author Guidelines or Submission Instructions page. This helps prospective authors understand the submission process, formatting requirements, and policies.
 
 - **For Reviewers**
 
-        ![image](/assets/images/journal/reviewer.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/journal/reviewer.webp)
 
  Provide a link to Reviewer Guidelines or review instructions. This supports assigned reviewers with standards, evaluation criteria, and timelines.
 
 - **More About Journal**
 
-        ![image](/assets/images/journal/more-about-journal.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/journal/more-about-journal.webp)
 
 Include a link that provides a broader overview of the journal—such as its scope, editorial board, aims, or indexing information.
 
 - After entering the URLs, click **Save** to apply.
 
-![image](/assets/images/journal/click-save.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/click-save.webp)

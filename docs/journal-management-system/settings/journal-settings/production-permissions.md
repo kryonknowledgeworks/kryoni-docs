@@ -8,7 +8,7 @@ title: Production Permissions
 
 ## Production Permissions
 
-![image](/assets/images/journal/production-permissions.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/production-permissions.webp)
 
 Production permissions oversee the finalization of accepted manuscripts before publication.
 
@@ -114,7 +114,7 @@ If some submissions require a senior editor's direct oversight while others donâ
 
         - Click **"Save"** to apply the permissions.
 
-    **Assigning the Role to a User** 
+        **Assigning the Role to a User** 
 
     ##### Step 5: Adding an Existing User
 

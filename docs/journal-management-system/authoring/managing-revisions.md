@@ -23,7 +23,7 @@ Once the review process is complete, the author will be notified via email regar
     - The submission status will be updated to **“Revision Requested.”**
     - Click on the submission to view the details.
 
-    ![image](/assets/images/authoring/revision-requested.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/authoring/revision-requested.webp)
 
 #### 2. Reviewing the Revision Request
 
@@ -40,7 +40,7 @@ You will find the following information:
     - **Request Date** – Date on which the revision was requested.
     - **Notes to Author** – Editor's comments and instructions for revising the manuscript.
 
-    ![image](/assets/images/authoring/revision-details.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/authoring/revision-details.webp)
 
 #### 3. Submitting the Revised Manuscript
 

@@ -122,7 +122,7 @@ const config = {
         content: 'Announcement: We construct an integrated, real-time, and cost-effective platform that is accessible to all.',
         isCloseable: false,
       },
-      image: "img/Kryoni_logo.png",
+      // image: "img/Kryoni_logo.png",
       navbar: {
         title: "",
         logo: {

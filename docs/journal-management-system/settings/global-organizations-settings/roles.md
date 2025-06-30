@@ -108,7 +108,7 @@ Now, let’s explore how each permission functions in real-time scenarios
 
 ### How to Create Role
 
-    ![image](/assets/images/global/create-role.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/create-role.webp)
 
 This interface displays the current roles. At present, only the Administrator role is available,
 
@@ -124,7 +124,7 @@ Now, let’s create a new role and assign specific permissions.
 
     - Navigate to **Settings > Manage > Role Management**.
 
-        ![image](/assets/images/global/create-role-click.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/global/create-role-click.webp)
 
     - Click Create Role
 
@@ -132,11 +132,11 @@ Now, let’s create a new role and assign specific permissions.
 
     - In the **Role Name** field, enter the name of the role (e.g., **"User Management"**).
 
-        ![image](/assets/images/global/role-name.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/global/role-name.webp)
 
 #### 3. Select Permissions
 
-    ![image](/assets/images/global/select-permissions.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/select-permissions.webp)
 
     - Check the box next to the appropriate permission(s) for the role.
     - Example: If creating a **User Management** role, select the **Manage Users** permission.
@@ -148,21 +148,21 @@ Now, let’s create a new role and assign specific permissions.
 
 #### 4. Save the Role
 
-    ![image](/assets/images/global/save-role.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/save-role.webp)
 
     - Click **Save** to finalize the role creation.
     - The new role is now available for user assignment.
 
 Once a role has been created, the next step is to assign users to it. Follow the steps below to add users to a specific role.
 
-    ![image](/assets/images/global/add-user.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/add-user.webp)
 
 ### Access User Management
 
 1. Navigate to the **User Management** section in the JMS dashboard.
 2. Click on **"Add User"** to begin the process.
 
-    ![image](/assets/images/global/access-user-manage.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/access-user-manage.webp)
 
 ### Assign a Role to a User
 
@@ -170,7 +170,7 @@ Once a role has been created, the next step is to assign users to it. Follow the
 
     - From the dropdown menu, choose the appropriate role you created (e.g., User Management).
 
-        ![image](/assets/images/global/select-role.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/global/select-role.webp)
 
 #### 2. Select User
 
@@ -179,14 +179,14 @@ Once a role has been created, the next step is to assign users to it. Follow the
 
 #### 3. Invite a New User (If Needed)
 
-    ![image](/assets/images/global/add-org-invite-user.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/add-org-invite-user.webp)
 
     - If the user is not registered yet, click **"Invite User"** to send an invitation.
     - Refer [Inviting New Reviewers](/journal-management-system/settings/global-organizations-settings/users) to Page for detailed instructions on inviting new users.
 
 #### 4. Save the Assignment
 
-    ![image](/assets/images/global/save-assignment.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/save-assignment.webp)
 
     - Click **Submit** to finalize the process.
     - The selected user is now assigned to the specified role and will have the associated permissions.

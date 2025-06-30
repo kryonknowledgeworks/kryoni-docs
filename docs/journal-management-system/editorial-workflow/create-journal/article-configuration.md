@@ -8,7 +8,7 @@ title: Article Configuration
 
 ## Article Configuration
 
-    ![image](/assets/images/create/article-config.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/article-config.webp)
 
 ### Article Configuration Overview
 
@@ -26,13 +26,13 @@ Here’s how to configure articles.
 
 ### Select the Article Type
 
-    ![image](/assets/images/create/select-article-type.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/select-article-type.webp)
 
 Administrators can choose from a predefined list of article types relevant to the journal, such as Case Study, Editorial, Review Article, and more. Additionally, they have the flexibility to create custom article types as needed.
 
 ### Create New Article Type
 
-    ![image](/assets/images/create/create-new-article-type.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/create-new-article-type.webp)
 
 To add a custom article type:
 
@@ -46,7 +46,7 @@ This feature provides flexibility to accommodate various submission categories b
 
 ### Select the Review Type
 
-    ![image](/assets/images/create/article-review-type.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/article-review-type.webp)
 
 Once an article type has been selected, administrators must assign an appropriate review process to ensure a structured and fair evaluation of submissions. The review type determines the level of anonymity maintained between authors and reviewers.
 
@@ -58,7 +58,7 @@ Once an article type has been selected, administrators must assign an appropriat
 
 ### Assigning a Review Type
 
-    ![image](/assets/images/create/assigning-review-type.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/assigning-review-type.webp)
 
 1. Select the article type for which the review process is being assigned.
 
@@ -102,11 +102,11 @@ Tracking ID configuration is a crucial step in efficiently organizing and managi
 
 ### How to Configure a Tracking ID for a Journal
 
-    ![image](/assets/images/create/config-track-id.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/config-track-id.webp)
 
 #### 1. Submission Tracking ID Prefix
 
-    ![image](/assets/images/create/track-id-prefix.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/track-id-prefix.webp)
 
     - Enter a unique prefix that will be attached to all submission tracking IDs.
     - The prefix can represent the journal’s name, publishing house, or submission year.
@@ -115,7 +115,7 @@ Tracking ID configuration is a crucial step in efficiently organizing and managi
 
 #### 2. Sequence Starting Number
 
-    ![image](/assets/images/create/seq-starting-number.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/seq-starting-number.webp)
 
     - Set the initial number for the submission sequence.
 
@@ -125,7 +125,7 @@ Tracking ID configuration is a crucial step in efficiently organizing and managi
 
 #### 3. Tracking Number Digits
 
-    ![image](/assets/images/create/tracking-number-digits.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/tracking-number-digits.webp)
 
     - Define the number of digits in the tracking sequence (e.g., 4 or 6 digits).
 
@@ -150,7 +150,7 @@ This section allows customization of various settings using checkbox options to 
 
 #### Allow editorial users to override the review type rule while assigning reviewers
 
-    ![image](/assets/images/create/checkbox-options.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/checkbox-options.webp)
 
 This setting determines whether editorial users can bypass predefined review type rules when assigning reviewers.
 
@@ -162,7 +162,7 @@ This setting determines whether editorial users can bypass predefined review typ
 
 #### Allow to accept submission even all the co-authors verification is not completed
 
-    ![image](/assets/images/create/editiorial-override-type.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/editiorial-override-type.webp)
 
 This option controls whether submissions can proceed before all co-authors have completed verification.
 
@@ -174,7 +174,7 @@ This option controls whether submissions can proceed before all co-authors have 
 
 #### Do you want to include color figure information(for pricing calculation)to be collected in submission?
 
-    ![image](/assets/images/create/co-authors-verfication.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/co-authors-verfication.webp)
 
 This setting determines whether authors must provide details about colour figures during the submission process. Collecting this information helps calculate additional costs and ensures authors are informed in advance about any applicable charges.
 
@@ -185,7 +185,7 @@ This setting determines whether authors must provide details about colour figure
 
 **Would you like to integrate the production system (Post-Acceptance Tracking) with the Journal Management System (JMS)?**
 
-    ![image](/assets/images/create/next-option-is-yes.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/next-option-is-yes.webp)
 
 Administrators can choose whether to integrate the production system (Post-Acceptance Tracking) with JMS.
 
@@ -201,7 +201,7 @@ Administrators can choose whether to integrate the production system (Post-Accep
 
     **Should authors be mandated to provide conflict of interest declarations when submitting their articles?**
 
-    ![image](/assets/images/create/authors-provide-conflict.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/authors-provide-conflict.webp)
 
 This setting determines whether authors must submit a conflict of interest (COI) declaration when submitting their articles.
 
@@ -209,9 +209,9 @@ This setting determines whether authors must submit a conflict of interest (COI)
 
 **Click to upload conflict of interest file**
 
-    ![image](/assets/images/create/upload-conflict-file.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/upload-conflict-file.webp)
 
-    ![image](/assets/images/create/after-upload-yes-conflict.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/after-upload-yes-conflict.webp)
 
 The administrator will upload the **COI declaration form,** which authors must download, complete, and upload before finalizing their submission.
 
