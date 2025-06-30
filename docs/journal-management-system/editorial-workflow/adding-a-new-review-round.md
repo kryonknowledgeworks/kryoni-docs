@@ -21,21 +21,21 @@ A new review round is initiated when:
 
     ###### 1. Click on "Add Round"
 
-        ![image](/assets/images/review-round/add-round-review.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-round/add-round-review.webp)
 
         - Navigate to the **Review Workflow** section of the manuscript.
         - Click on the **“Add Round”** button to create a new review round.
 
     ###### 2. Select Review Files
 
-        ![image](/assets/images/review-round/select-review-files.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-round/select-review-files.webp)
 
         - Choose the updated manuscript or supplementary documents that need review.
         - Ensure that the correct version is uploaded to avoid confusion.
 
     ###### 3. Click “Add Review Round”
 
-        ![image](/assets/images/review-round/add-review-round.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/review-round/add-review-round.webp)
 
         - Confirm your selections and initiate the new review round.
         - The manuscript now moves to **Round 2**, ready for a fresh evaluation cycle.
@@ -46,7 +46,7 @@ The **Action Tab** provides essential options for editors to make decisions base
 
 ### Available Actions
 
-    ![image](/assets/images/review-round/available-actions.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/review-round/available-actions.webp)
 
     - **Request Revision** – Send revision feedback to the author for modifications.
     - **Accept and Move to Production** – Approve the manuscript and forward it to the production stage.

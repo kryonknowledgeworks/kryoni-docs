@@ -70,7 +70,7 @@ You will see a list of **journals you are associated with**, including details s
 
 #### View Pending Reviews
 
-![image](/assets/images/reviewing/view-pending-reviews.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/view-pending-reviews.webp)
 
 After accessing the journal dashboard, navigate to **Pending Reviews**, where you will see a list of manuscripts awaiting your review. The following details will be displayed:
     - **Submission Title** – The title of the manuscript assigned for review.
@@ -80,13 +80,13 @@ After accessing the journal dashboard, navigate to **Pending Reviews**, where yo
     - **Completion Date** – The date on which the review was completed (if applicable).
     - **Action(s):** (View Manuscript & Proceed to Review)
 
-![image](/assets/images/reviewing/view-pending-reviews.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/view-pending-reviews.webp)
 
 **Next Step:** Click **"View"** to open the manuscript and start the review process.
 
 ##### Step: 1 Request for Review
 
-![image](/assets/images/reviewing/request-for-review.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/request-for-review.webp)
 
 ###### Submission Details
 
@@ -112,9 +112,9 @@ Yes, I agree to have my data collected and stored according to the Privacy State
     - **Accept** – Proceed to the review process.
     - **Decline** – Inform the editor that you are unable to review this submission with the reject reason.
 
-![image](/assets/images/reviewing/confirmation-tab.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/confirmation-tab.webp)
 
-![image](/assets/images/reviewing/confirmation-mail.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/confirmation-mail.webp)
 
 ###### Accept Review & Proceed
 
@@ -123,13 +123,13 @@ Yes, I agree to have my data collected and stored according to the Privacy State
 
 ##### Step 2: Review Guidelines
 
-![image](/assets/images/reviewing/reviewer-guidelines.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/reviewer-guidelines.webp)
 
     - Carefully read the **Reviewer Guidelines** provided by the journal.
     - These guidelines outline evaluation criteria and expectations.
     - Click **“Accept and Next”** to continue.
 
-![image](/assets/images/reviewing/reviewer-confirmation.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/reviewer-confirmation.webp)
 
 ##### Step 3:  Download & Review
 
@@ -139,13 +139,13 @@ After accepting the review, you will see the **Review Files** section.
 
 The files are listed under the **"Download & Reviews"** section.
 
-![image](/assets/images/reviewing/download-review.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/download-review.webp)
 
 #### File Information Provided
 
 Each manuscript file will be displayed with the following details:
 
-![image](/assets/images/reviewing/file-information.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/file-information.webp)
 
     - **Article Type** – Type of submission (e.g., Research Paper, Review Article).
     - **File Type** – Type of file submitted (e.g., Manuscript, Figures, Supplementary Data).
@@ -154,12 +154,12 @@ Each manuscript file will be displayed with the following details:
 
 #### How to Download Files
 
-![image](/assets/images/reviewing/individual-download.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/individual-download.webp)
 
     - **Individual File Download** – Click the **Download** button next to each file.
     - **Download All Files** – Click **"Download All"** to download all files as a ZIP archive.
 
-![image](/assets/images/reviewing/download-all.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/download-all.webp)
 
 #### How to Review the Content
 
@@ -170,15 +170,15 @@ Each manuscript file will be displayed with the following details:
 
 The **Peer Review Discussion** section in Kryoni JMS provides a space for quick clarifications and discussions between authors, editors, and reviewers during the manuscript evaluation process.
 
-![image](/assets/images/reviewing/peer-review-discussion.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/peer-review-discussion.webp)
 
     - Click on the **Chat Section** to start or continue discussions with the editorial team.
 
-        ![image](/assets/images/reviewing/chat-section.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/chat-section.webp)
 
     - Go to the **"Discussion Details"** tab to review all discussion records, including:
 
-        ![image](/assets/images/reviewing/discussion-details.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/discussion-details.webp)
 
     - Who initiated the discussion
     - Participants involved
@@ -218,15 +218,15 @@ If the manuscript requires improvements, you must request a revision.
 
     - **Click Request for Revision.**
 
-    ![image](/assets/images/reviewing/request-revision-tab.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/request-revision-tab.webp)
 
     - Add reviewer commets **to specify the changes** required.
     - **Upload Files** (if needed), such as annotated documents or review reports.
     - Click **"Submit"** to send your revision request to the editorial team.
 
-        ![image](/assets/images/reviewing/request-revision-submit.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/request-revision-submit.webp)
 
-        ![image](/assets/images/reviewing/revision-requested.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/revision-requested.webp)
 
 #### What Happens Next?
 
@@ -245,7 +245,7 @@ Once the author submits the **revised manuscript**, you must **review the change
 
     a. You will receive an email regarding the **revised submission**.
 
-    ![image](/assets/images/reviewing/revised-submission.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/revised-submission.webp)
 
 ##### 2. Login to the System
 
@@ -253,7 +253,7 @@ Once the author submits the **revised manuscript**, you must **review the change
 
 ##### 3. Download the Revised Manuscript
 
-    ![image](/assets/images/reviewing/download-revised-submission.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/download-revised-submission.webp)
 
     a. Locate the submission and **click the "Download" button** to access the revised files.
 
@@ -272,7 +272,7 @@ Once the author submits the **revised manuscript**, you must **review the change
 
 ### Flow 3: Accepting the Submission
 
-![image](/assets/images/reviewing/accept-sumission.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/accept-sumission.webp)
 
 If the manuscript meets all standards and requires no further changes, accept the submission.
 
@@ -280,13 +280,13 @@ If the manuscript meets all standards and requires no further changes, accept th
 
         - This option allows you to finalize the review process.
 
-![image](/assets/images/reviewing/make-decision.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/make-decision.webp)
 
 #### Upload the Reviewer Form
 
     - **Attach the completed reviewer form** before proceeding.
 
-    ![image](/assets/images/reviewing/upload-reviewer-form.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/upload-reviewer-form.webp)
 
 #### Provide Reviewer Comments
 
@@ -309,7 +309,7 @@ If the manuscript meets all standards and requires no further changes, accept th
 
 #### How to Submit the Decision?
 
-![image](/assets/images/reviewing/submit-decision.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/submit-decision.webp)
 
 ##### Click "Accept Submission"
 
@@ -329,14 +329,14 @@ You will see a confirmation message stating:
 
     **"Thank you for completing the review. Your feedback has been successfully submitted. The editor may contact you if further clarification is required."**
 
-![image](/assets/images/reviewing/conformation-message.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/conformation-message.webp)
 
 #### After Review
 
 Once you have submitted your review, follow these steps to confirm and track your completed review:
     - **Click "Go to Review"**
 
-        ![image](/assets/images/reviewing/go-to-review.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/go-to-review.webp)
 
         - After submission, click on the **"Go to Review"** button to verify your completed review.
 
@@ -346,4 +346,4 @@ Once you have submitted your review, follow these steps to confirm and track you
 
     - Your review process is now complete!
 
-![image](/assets/images/reviewing/review-process-complete.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/reviewing/review-process-complete.webp)

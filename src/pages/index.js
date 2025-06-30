@@ -35,8 +35,7 @@ export default function Home() {
     const applyShadow = () => {
       const input = document.querySelector('.navbar__search-input.searchInput_YFbd');
       if (input) {
-        if (location.pathname === '/') {
-          console.log('running')
+        if (location.pathname === '/') {         
           input.style.boxShadow = '0px 13px 61px 0px rgba(0, 0, 0, 0.15)';
         } else {
           input.style.boxShadow = 'none';
@@ -57,9 +56,9 @@ export default function Home() {
         <section id="home">
           <div className="container-fluid container-lg">
             <div className="row w-100 m-auto">
-              <div className="col-6 col-md-3 order-0 order-md-0">
-                <img src="/assets/images/landing/web-left.png" alt="group image" className="d-none d-md-block"/>
-                <img src="/assets/images/landing/mob-left.png" alt="group image" className="d-block d-md-none"/>
+              <div className="col-12 col-md-3 order-0 order-md-0 d-flex justify-content-center align-items-center">
+                <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/web-left.png" alt="group image" className="d-none d-md-block"/>
+                <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/mobile-responisve-banner.png" alt="group image" className="d-block d-md-none"/>
               </div>
               <div className="col-12 col-md-6 order-2 order-md-1">
                 <div className="mt-3">
@@ -83,8 +82,8 @@ export default function Home() {
                 </div>                
               </div>
               <div className="col-6 col-md-3 order-1 order-md-2">
-                <img src="/assets/images/landing/web-right.png" alt="group image" className="d-none d-md-block"/>
-                <img src="/assets/images/landing/mob-right.png" alt="group image" className="d-block d-md-none"/>
+                <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/web-right.png" alt="group image" className="d-none d-md-block"/>
+                {/* <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/mob-right.png" alt="group image" className="d-block d-md-none"/> */}
               </div>
             </div>
           </div>
@@ -95,7 +94,7 @@ export default function Home() {
              <div className="row g-4 mt-4">
               <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="custom-card p-4 exploreThemesCard">
-                  <div><img src="/assets/images/landing/max.png" className="img-fluid" alt="image representes analytics"/></div>
+                  <div><img src="https://cdn.kryoni.com/kryoni-docs/images/landing/max.png" className="img-fluid" alt="image representes analytics"/></div>
                   <div className="d-flex align-items-center justify-content-start pt-4">                                        
                       <img
                         className="img-fluid jmsimg me-4"
@@ -113,7 +112,7 @@ export default function Home() {
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="custom-card p-4 exploreThemesCard">
-                  <div><img src="/assets/images/landing/min.png" className="img-fluid" alt="image represents laptop cloud"/></div>
+                  <div><img src="https://cdn.kryoni.com/kryoni-docs/images/landing/min.png" className="img-fluid" alt="image represents laptop cloud"/></div>
                   <div className="d-flex align-items-center justify-content-start pt-4">                                        
                     <img
                       className="img-fluid jmsimg me-4"
@@ -133,7 +132,7 @@ export default function Home() {
           </div>
         </section> 
 
-        <section id="quicklinks"> 
+        <section id="quicklinks" className="pb-5"> 
           <div className="container-fluid container-lg">            
             <div className="row w-100 m-auto chips mt-5">
               <div className="col-12">
@@ -166,7 +165,7 @@ export default function Home() {
                       src="https://cdn.kryoni.com/kryoni/images/version-1/jms/done-ring-round.webp"
                       alt="Blue checkmark icon"
                     />
-                    <a href="/journal-management-system/editorial-workflow/create-journal" className="font-16-500 ms-2">Journal Creation</a>
+                    <a href="/journal-management-system/editorial-workflow/create-journal/overview" className="font-16-500 ms-2">Journal Creation</a>
                   </div>
                 </div>
                 <div className="custom-card py-2 px-3 col-12 col-sm-10 col-md-5 col-xl-3">
@@ -233,7 +232,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="help">
+        <section id="help" className="pb-4 pb-lg-0">
           <div className="container-fluid">
             <div className="row w-100 m-auto">
               <div className="col-12 pb-3">
@@ -241,21 +240,21 @@ export default function Home() {
               </div>
               <div className="section-wrapper row justify-content-between align-items-start flex-column flex-md-row w-100 m-auto">
                 <div className="box-content col-12 col-sm-10 col-md-6 col-lg-4 d-flex align-items-start justify-content-center flex-column flex-md-row px-2 py-3">
-                  <img src="/assets/images/landing/comment-perspective.png" className="img-fluid helpicons" alt="Raise a support ticket"/>
+                  <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/comment-perspective.png" className="img-fluid helpicons" alt="Raise a support ticket"/>
                   <div className="px-3">
                     <h5 className="font-20-700">Raise a support ticket</h5>
                     <p className="font-17-500 text-white m-0">Our dedicated support team is available around the clock to assist you. </p>
                   </div>
                 </div>
                 <div className="box-content col-12 col-sm-10 col-md-6 col-lg-4 d-flex align-items-start justify-content-center flex-column flex-md-row px-2 py-3">
-                  <img src="/assets/images/landing/faq-perspective.png" className="img-fluid helpicons" alt="Icon of Frequently Asked Questions"/>
+                  <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/faq-perspective.png" className="img-fluid helpicons" alt="Icon of Frequently Asked Questions"/>
                   <div className="px-3">
                     <h5 className="font-20-700">Frequently Asked Questions</h5>
                     <p className="font-17-500 text-white m-0">Have technical questions? Check out our FAQ section for quick answers and helpful information. </p>
                   </div>
                 </div>
                 <div className="box-content col-12 col-sm-10 col-md-6 col-lg-4 d-flex align-items-start justify-content-center flex-column flex-md-row px-2 py-3">
-                  <img src="/assets/images/landing/code-perspective.png" className="img-fluid helpicons" alt="Icon of API Reference Guide"/>
+                  <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/code-perspective.png" className="img-fluid helpicons" alt="Icon of API Reference Guide"/>
                   <div className="px-3">
                     <h5 className="font-20-700">API Reference Guide</h5>
                     <p className="font-17-500 text-white m-0">Our comprehensive documentation simplifies integration and maximizes functionality within your applications. </p>

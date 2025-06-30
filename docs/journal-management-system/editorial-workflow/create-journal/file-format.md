@@ -9,7 +9,7 @@ title: File Format
 
 ## File Format
 
-    ![image](/assets/images/create/file-format.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/file-format.webp)
 
 The File format configuration section in the Journal Management System (JMS) enables administrators to define and manage the acceptable file formats for manuscript submissions and editorial processes. This ensures that all uploaded documents adhere to the journal’s technical standards, creating a seamless workflow for authors, editors, and reviewers.
 
@@ -19,7 +19,7 @@ By specifying allowed file types, the system maintains consistency and compatibi
 
 ### Select Manuscript File Format
 
-    ![image](/assets/images/create/select-manuscript-file.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/select-manuscript-file.webp)
 
 In the **Journal Management System (JMS),** administrators can define the required file formats for manuscript submissions to ensure consistency and compatibility.
 
@@ -34,7 +34,7 @@ In the **Journal Management System (JMS),** administrators can define the requir
 
     - Enable the **Mandatory** checkbox if this file is required for submission.
 
-    ![image](/assets/images/create/configure-file-types.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/configure-file-types.webp)
 
 :::note
  If "Mandatory" is selected, the file must be uploaded by the user during submission. Otherwise, it will be treated as optional.
@@ -42,7 +42,7 @@ In the **Journal Management System (JMS),** administrators can define the requir
 
 ### Default File Types
 
-    ![image](/assets/images/create/default-file-types.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/default-file-types.webp)
 
     - **Manuscript:** Typically requires a PDF file for peer review consistency.
     - **Tables & Figures:** Support a variety of formats including DOCX, PNG, JPEG, TIFF, etc.
@@ -51,7 +51,7 @@ In the **Journal Management System (JMS),** administrators can define the requir
 
 ### Adding a New File Type
 
-    ![image](/assets/images/create/adding-new-file-format.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/adding-new-file-format.webp)
 
 If your journal requires specific file types beyond the defaults, you can create new ones.
 
@@ -73,14 +73,14 @@ In the Journal Management System (JMS), accurately categorizing submissions with
 
 #### Subject
 
-    ![image](/assets/images/create/select-subject-type.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/select-subject-type.webp)
 
     - **Select an existing subject:** Choose the subject that best represents the journal's focus.
     - **Add a new subject:** If the desired subject is not listed, enter the subject name and click **"Enter"** to add it.
     
 #### Discipline
 
-    ![image](/assets/images/create/select-discipline.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/select-discipline.webp)
 
     - **Select an existing discipline:** Assign the discipline that corresponds to the chosen subject to ensure accurate classification.
     - **Add a new discipline:** If the appropriate discipline is missing, type the discipline name and click **"Enter"** to include it.
@@ -93,7 +93,7 @@ To configure more subject and discipline combinations:
 
 ### Submission Language
 
-    ![image](/assets/images/create/submission-language.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/submission-language.webp)
 
 Define the language in which manuscripts should be submitted to ensure clarity and consistency across publications.
 

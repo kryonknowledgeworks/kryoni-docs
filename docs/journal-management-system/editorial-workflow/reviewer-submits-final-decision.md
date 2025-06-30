@@ -45,7 +45,7 @@ title : Reviewer Submits Final Decision on Revised Manuscript
 
 ### To View the Final Review
 
-![image](/assets/images/sending-revised-files/to-view-final-review.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/sending-revised-files/to-view-final-review.webp)
 
         - Go to the **Review Completed** section.
 
@@ -91,9 +91,9 @@ title : Reviewer Submits Final Decision on Revised Manuscript
 
     ##### Edit Reviewer Rating
 
-![image](/assets/images/sending-revised-files/edit-reviewer-1.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/sending-revised-files/edit-reviewer-1.webp)
 
-![image](/assets/images/sending-revised-files/edit-reviewer-2.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/sending-revised-files/edit-reviewer-2.webp)
 
     - Click on the **Reviewer’s Name** to open their profile.
 
@@ -137,7 +137,7 @@ This message appears to **prevent premature transition** to the production stage
 
         - Select **“Accept and Move to Production”** from the dropdown.
 
-![image](/assets/images/sending-revised-files/accept-and-move.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/sending-revised-files/accept-and-move.webp)
 
         - Choose which files to send to the production team. You may select:
 
@@ -151,6 +151,6 @@ This message appears to **prevent premature transition** to the production stage
 
         - After selecting all relevant files, click **Submit**.
 
-![image](/assets/images/sending-revised-files/submit.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/sending-revised-files/submit.webp)
 
         Now the files are moved to production.

@@ -8,7 +8,7 @@ title: Status Board
 
 ## Status Board
 
-![image](/assets/images/journal/status-board.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/status-board.webp)
 
 The Status Board in the Journal Management System (JMS) is a centralized dashboard that provides a real-time, single-page overview of the journal’s editorial workflow. It helps editorial user efficiently track and manage manuscript progress by categorizing submissions into three distinct stages.
 

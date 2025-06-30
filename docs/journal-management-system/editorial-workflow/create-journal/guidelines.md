@@ -9,7 +9,7 @@ title: Guidelines
 
 ## Guidelines
 
-    ![image](/assets/images/create/guidelines.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/guidelines.webp)
 
 ### Overview
 
@@ -17,7 +17,7 @@ This section is crucial for setting clear expectations for both authors and revi
 
 ### Author Guidelines or Attachments
 
-    ![image](/assets/images/create/author-guideless-or.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/author-guideless-or.webp)
 
 Outline the requirements for manuscript submissions, including formatting rules, length limits, and specific content criteria.
 
@@ -25,7 +25,7 @@ You can simply copy-paste the author guidelines or attach the file for additiona
 
 **Steps to Upload an Author Guidelines Attachment:**
 
-    ![image](/assets/images/create/steps-to.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/steps-to.webp)
 
 1. Click the **‘Upload Author Guidelines Attachment’** button.
 
@@ -35,13 +35,13 @@ You can simply copy-paste the author guidelines or attach the file for additiona
 
 ### Reviewer Guidelines or Attachments
 
-    ![image](/assets/images/create/revivewer-guide-attach.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/revivewer-guide-attach.webp)
 
 Specify the criteria for reviewers, such as evaluation standards, review timelines, and any additional resources or templates that can support their assessments. You can simply copy-paste the reviewer guidelines or attach relevant documents to help guide reviewers.
 
 **To Upload a Reviewer Guidelines Attachment:**
 
-    ![image](/assets/images/create/upload-reviewer-guidelines.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/upload-reviewer-guidelines.webp)
 
     - Click the **‘Upload Reviewer Guidelines Attachments’** button.
 

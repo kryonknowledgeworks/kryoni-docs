@@ -499,7 +499,7 @@ img.img_ev3q[title="orcidpass"]{
 .content_knG7.announcementBarContent_xLdY{
   font-weight: 500;
   font-size: 16px;
-  padding: 18px 0px;
+  padding: 18px;
   background: linear-gradient( 90deg,  rgba(255, 234, 204, 0.96) 20%,  rgba(255, 203, 172, 0.67) 25%,  rgba(251, 163, 172, 0.33) 50%, #cc95ef 100%);
 }
 
@@ -551,7 +551,7 @@ img.img_ev3q[title="orcidpass"]{
 
 /* home */
 #home{
-  background-image: url('/static/assets/images/landing/kryoni-docs-bg.webp');
+  background-image: url('https://cdn.kryoni.com/kryoni-docs/images/landing/kryoni-docs-bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -615,7 +615,7 @@ img.img_ev3q[title="orcidpass"]{
 .navbar__search .navbar__search-input:not(:focus) {
   width: 100%;
   height: 3rem;
-  background: white url('/static/assets/images/landing/search-symbol-light.png') no-repeat 15px center;
+  background: white url('https://cdn.kryoni.com/kryoni-docs/images/landing/search-symbol-light.png') no-repeat 15px center;
   background-size: 16px;
   border: 2px solid #007CFF;
 }
@@ -623,18 +623,18 @@ img.img_ev3q[title="orcidpass"]{
 .navbar__search .navbar__search-input {
   width: 100%;
   height: 3rem;
-  background: white url('/static/assets/images/landing/search-symbol-light.png') no-repeat 15px center;
+  background: white url('https://cdn.kryoni.com/kryoni-docs/images/landing/search-symbol-light.png') no-repeat 15px center;
   background-size: 16px;
 }
 
 html[data-theme='dark'] .navbar__search .navbar__search-input:not(:focus) {
-  background: #242526 url('/static/assets/images/landing/search-symbol-light.png') no-repeat 15px center;
+  background: #242526 url('https://cdn.kryoni.com/kryoni-docs/images/landing/search-symbol-light.png') no-repeat 15px center;
   background-size: 16px;
   color: white;
 }
 
 html[data-theme='dark'] .navbar__search .navbar__search-input {
-  background: #242526 url('/static/assets/images/landing/search-symbol-light.png') no-repeat 15px center;
+  background: #242526 url('https://cdn.kryoni.com/kryoni-docs/images/landing/search-symbol-light.png') no-repeat 15px center;
   background-size: 16px;
   color: white;
 }
@@ -772,14 +772,15 @@ body #footer .footer-menu-wrapper {
 }
 @media (min-width: 320px) and (max-width: 575.98px) {
   .content_knG7.announcementBarContent_xLdY {
-    padding: 8px 0px;
+    padding: 8px;
   }
   .font-40-700 {
     font-size: 26px;
   }
   .badge {
   font-size: 12px;
-}
+  display: none;
+  }
   .chips {    
      justify-content: flex-start;
   }  
@@ -799,6 +800,15 @@ body #footer .footer-menu-wrapper {
     display: flex !important;
     justify-content: end;
   }
+  [data-theme-choice='system'] .toggle_vylO .systemToggleIcon_QzmC, [data-theme-choice='light'] .toggle_vylO .lightToggleIcon_pyhR, [data-theme-choice='dark'] .toggle_vylO .darkToggleIcon_wfgR{
+    display: none;
+  }
+  .navbar__inner:has(.navbar__search-input:focus) .themedComponent_mlkZ{
+    display: none !important;
+  }
+  .theme-layout-navbar:has(.navbar__search-input:focus) .navbarSearchContainer_Bca1{
+    margin-top: 10px;
+  }  
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   #footer .footer-menu-wrapper {
@@ -826,6 +836,9 @@ body #footer .footer-menu-wrapper {
   }
   .navbar__search .navbar__search-input:focus {
     width: 100%;
+  }
+  .content_knG7.announcementBarContent_xLdY {
+    padding: 8px;
   }
 }
 @media (min-width:992px) and (max-width:1199.98px) {
@@ -855,14 +868,14 @@ body #footer .footer-menu-wrapper {
     height: auto;
 }
 }
-@media (min-width:767px) and (max-width:992px) {
+@media (min-width:768px) and (max-width:992px) {
   #footer .footerlogoimg {
     width: 80%;
     max-width: 275px;
     height: auto;
   }
   .navbar__search .navbar__search-input:not(:focus) {
-    width: 44%;  
+    width: 100%;  
   }
   .navbar__search .navbar__search-input:focus {
     width: 100%;
@@ -890,19 +903,24 @@ body #footer .footer-menu-wrapper {
   content: '';
   min-width: 27px;
   display: flex;
-  background: transparent url('/static/assets/images/landing/dark-home.png') no-repeat center center;
+  background: transparent url('https://cdn.kryoni.com/kryoni-docs/images/landing/dark-home.png') no-repeat center center;
   background-size: 16px;
 }
 .navbar-home-icon:hover::before{
-  background: transparent url('/static/assets/images/landing/hover-home.png') no-repeat center center;
+  background: transparent url('https://cdn.kryoni.com/kryoni-docs/images/landing/hover-home.png') no-repeat center center;
   background-size: 16px;
 }
 
 html[data-theme='dark'] .navbar-home-icon::before {
-  background: transparent url('/static/assets/images/landing/light-home.png') no-repeat center center;
+  background: transparent url('https://cdn.kryoni.com/kryoni-docs/images/landing/light-home.png') no-repeat center center;
   background-size: 16px;
 }
 
 .toggle_vylO.colorModeToggle_DEke{
   display: none;
+}
+@media (max-width: 996px) {
+    .navbar__item {
+        display: none;
+    }
 }

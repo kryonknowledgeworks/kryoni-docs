@@ -8,20 +8,20 @@ title: Journal Configuration
 
 ## Journal Configuration
 
-    ![image](/assets/images/create/journal-config.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-config.webp)
 
 The **Journal Configuration** process involves defining key details about your journal. This step ensures that the journal’s information is organized, consistent, and accessible across its platform. The configuration includes several essential fields, each of which plays a role in shaping the journal's identity and ensuring smooth submission processes.
 
 ### Journal Title
 
-    ![image](/assets/images/create/journal-title.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-title.webp)
     - **Required Field**
 
         Enter the **Official Title** of your journal. This will serve as the primary identifier of your journal within the system and will appear throughout the platform for easy reference by authors, reviewers, and editors.
 
 ### Journal Abbreviation
 
-    ![image](/assets/images/create/journal-abbr.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-abbr.webp)
 
     - **Required Field**
 
@@ -29,7 +29,7 @@ The **Journal Configuration** process involves defining key details about your j
 
 ### Journal Acronym
 
-    ![image](/assets/images/create/journal-acronym.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-acronym.webp)
 
     - **Required Field**
 
@@ -37,7 +37,7 @@ The **Journal Configuration** process involves defining key details about your j
 
 ### Journal Cover Image
 
-    ![image](/assets/images/create/journal-cover-image.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-cover-image.webp)
 
     - **Optional Field**
 
@@ -49,9 +49,9 @@ The **Journal Configuration** process involves defining key details about your j
 
 ### Journal type
 
-    ![image](/assets/images/create/journal-type-box.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-type-box.webp)
 
-    ![image](/assets/images/create/journal-type-choose.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-type-choose.webp)
 
 Choose the appropriate type for your journal from the following options:
 
@@ -65,11 +65,11 @@ Choose the appropriate type for your journal from the following options:
 
     After selecting your journal type, choose a suitable license based on your journal's access policy
 
-    ![image](/assets/images/create/journal-type-cc-by.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-type-cc-by.webp)
 
 ### Online ISSN
 
-    ![image](/assets/images/create/online-issn.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/online-issn.webp)
 
     - **Optional Field**
 
@@ -77,7 +77,7 @@ Choose the appropriate type for your journal from the following options:
 
 ### Print ISSN
 
-    ![image](/assets/images/create/print-issn.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/print-issn.webp)
 
     -  **Optional Field**
 
@@ -85,7 +85,7 @@ Choose the appropriate type for your journal from the following options:
 
 ### Journal Welcome Page Content
 
-    ![image](/assets/images/create/journal-wel-page.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-wel-page.webp)
 
     - **Optional field**
 
@@ -93,12 +93,12 @@ Choose the appropriate type for your journal from the following options:
 
 ### Journal Scope
 
-    ![image](/assets/images/create/journal-scope.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-scope.webp)
 
     - **Required Field**
 
         Clearly define the **scope** of your journal. This description should outline the specific areas of research and topics the journal will cover. It should also detail any particular criteria or submission guidelines that will help authors determine if their work is a suitable fit for the journal. This section is vital in ensuring that submissions align with the journal's thematic focus, which will help maintain high-quality and relevant content.
 
-    ![image](/assets/images/create/journal-scope-next.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/create/journal-scope-next.webp)
 
     - Once completed, Click **NEXT**

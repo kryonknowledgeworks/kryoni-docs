@@ -8,25 +8,25 @@ title: Developer Settings
 
 ## Developer Settings
 
-![image](/assets/images/journal/developer-settings.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/developer-settings.webp)
 
 The Developer Settings section provides full control over email templates used for various journal operations.
 
 These settings allow you to customize and manage automated email notifications triggered at different stages of the Journal Management System (JMS) workflow.
 
-![image](/assets/images/journal/developer-settings-1.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/developer-settings-1.webp)
 
 - **Pre-Review Stage** - Notifications related to manuscript submission, initial screening, and editorial review initiation.
 
-    ![image](/assets/images/journal/developer-settings-2.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/journal/developer-settings-2.webp)
 
 - **Review Stage** - Emails sent for review invitations, feedback submission, and reviewer reminders.
 
-    ![image](/assets/images/journal/developer-settings-3.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/journal/developer-settings-3.webp)
 
 - **Production Stage** - Notifications regarding final proofing, production completion, and publication updates.
 
-    ![image](/assets/images/journal/developer-settings-4.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/journal/developer-settings-4.webp)
 
 ### Editing Email Templates
 
@@ -52,7 +52,7 @@ These settings allow you to customize and manage automated email notifications t
 
 ### Email Configuration Options
 
-![image](/assets/images/journal/developer-settings-5.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/developer-settings-5.webp)
 
 Each email template includes the following fields:
 
@@ -66,7 +66,7 @@ Each email template includes the following fields:
 
 ### Activating or Deactivating Emails
 
-![image](/assets/images/journal/developer-settings-6.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/developer-settings-6.webp)
 
 - To enable an email notification, check the **Active Status** box.
 
@@ -78,7 +78,7 @@ By properly configuring these settings, you ensure **clear, consistent, and auto
 
     **Use Case Example: Configuring a Reviewer Invitation Email**
 
-![image](/assets/images/journal/developer-settings-7.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/journal/developer-settings-7.webp)
 
 ### Scenario
 

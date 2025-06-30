@@ -8,7 +8,7 @@ sidebar_label: Multilingual Support
 
 ## Multilingual Support
 
-    ![image](/assets/images/global/multilingual-support.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/global/multilingual-support.webp)
 
 In the top right corner, you'll find a language switcher. Click it to view the available options—
 

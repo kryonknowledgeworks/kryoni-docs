@@ -37,7 +37,7 @@ Once the author submits the revised manuscript, the editorial team can decide wh
 
     **Step 3: Submit the Revision for Review**
 
-![image](/assets/images/sending-revised-files/submit-the-revision.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/sending-revised-files/submit-the-revision.webp)
 
 - Click **Submit** to forward the file to the reviewer.
 

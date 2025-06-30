@@ -19,7 +19,7 @@ The peer review process is a cornerstone of maintaining academic quality and int
     - Click on add reviewer
     - If no reviewers are currently assigned to the journal, you’ll see the message: "No reviewers have been assigned to this journal yet – Click here to add reviewers." This link will direct you to the **Add Reviewer** page.
 
-        ![image](/assets/images/new-review/adding-reviewer-email.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/adding-reviewer-email.webp)
 
 #### Adding Reviewers by Email
 
@@ -38,17 +38,17 @@ All actions performed in JMS, such as adding reviewers or making editorial decis
 
 ### Add Reviewer
 
-    ![image](/assets/images/new-review/add-reviewer-details.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/add-reviewer-details.webp)
 
 #### Step 1: Click "Add Reviewer"
 
     - On all reviews screen, click the **“+Add Reviewer”** button.
 
-        ![image](/assets/images/new-review/adding-reviewer-email.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/adding-reviewer-email.webp)
 
     - A dropdown will appear with two options:
 
-        ![image](/assets/images/new-review/drop-two-options.webp)
+        ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/drop-two-options.webp)
         
 
         - **Create New Queue** – Used to initiate a batch-based or phase-wise review.
@@ -59,13 +59,13 @@ Let’s first explore
 
 1. Select **“Create New Queue”** from the dropdown
 
-    ![image](/assets/images/new-review/create-new-queue.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/create-new-queue.webp)
 
     This opens the setup for a new review queue.
 
 #### Step 2: Setting a Reviewer Limit
 
-    ![image](/assets/images/new-review/setting-reviewer-limit.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/setting-reviewer-limit.webp)
 
 **Reviewer Limit** allows you to define the maximum number of reviewers required for a manuscript. Once that number of reviewers **accepts** the invitation, all remaining **pending invitations will be automatically cancelled.**
 
@@ -80,7 +80,7 @@ If the limit is set to **2** and you invite **5** reviewers:
 
 #### Use Case
 
-Managing the review process for a research paper titled “AI in Healthcare”. Dr. Smith, a journal editor, wishes to assign reviewers while avoiding unnecessary follow-ups.
+Managing the review process for a research paper titled **“AI in Healthcare”**. Dr. Smith, a journal editor, wishes to assign reviewers while avoiding unnecessary follow-ups.
 
 ##### Steps Taken
 
@@ -106,7 +106,7 @@ Managing the review process for a research paper titled “AI in Healthcare”. 
 
 #### Step 3: Select a reviewer from the list
 
-![image](/assets/images/new-review/select-reviewer-list.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/select-reviewer-list.webp)
 
 Each reviewer listed includes a summary of their profile and activity to help you make informed decisions.
 
@@ -124,7 +124,7 @@ Key Reviewer Information Displayed
 
 Click **“Explore All Reviewers”** to access the full directory of reviewers registered in your Journal Management System (JMS).
 
-![image](/assets/images/new-review/explore-all-reviewers.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/explore-all-reviewers.webp)
 
 Each reviewer profile includes:
 
@@ -134,7 +134,7 @@ A detailed breakdown of their knowledge domains and specialties.
 
 ##### Reviewer Statistics
 
-![image](/assets/images/new-review/reviewer-statistics.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/reviewer-statistics.webp)
 
 These stats provide insights into a reviewer’s engagement and reliability:
     - **Invited** – Total invitations received.
@@ -161,13 +161,13 @@ After evaluating the reviewer’s profile and filtering based on your needs:
 
 #### Step 5: Choose Review Type
 
-![image](/assets/images/new-review/review-type-process.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/review-type-process.webp)
 
 Select the appropriate **Review Type** based on the journal’s review process.
 
 #### Step 6: Set Important Deadlines
 
-    ![image](/assets/images/new-review/set-important-deadlines.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/set-important-deadlines.webp)
 
     Define key dates to keep the review timeline on track
 
@@ -177,7 +177,7 @@ Select the appropriate **Review Type** based on the journal’s review process.
 
 #### Step 7: Select Reviewer Form
 
-    ![image](/assets/images/new-review/select-reviewer-form.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/select-reviewer-form.webp)
 
 Choose the appropriate **Reviewer Form** that the reviewer will use to evaluate the manuscript. This form typically includes:
 
@@ -187,19 +187,19 @@ Choose the appropriate **Reviewer Form** that the reviewer will use to evaluate 
 
 #### Step 8: Select Review Files
 
-    ![image](/assets/images/new-review/select-review-files.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/select-review-files.webp)
 
     - Choose the manuscript and any additional documents the reviewer needs for evaluation.
 
 #### Step 9: Add a Message
 
-    ![image](/assets/images/new-review/add-message.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/add-message.webp)
 
     - Include a message to the reviewer with specific instructions or guidelines.
 
 ### Final Step: Submit the Review Request
 
-    ![image](/assets/images/new-review/assign-reviewer.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/assign-reviewer.webp)
 
 Click **“Assign Reviewer”** to finalize the assignment.
 
@@ -236,7 +236,7 @@ Use this option when you want **direct control** over reviewer assignment.
 
 1. Click **“Add Individual Reviewer.”**
 
-    ![image](/assets/images/new-review/add-individual-reviewer.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/add-individual-reviewer.webp)
 
 2. Select a specific reviewer with the right expertise.
 3. Assign **Response** and **Review Due Dates.**
@@ -246,7 +246,7 @@ Ideal for high-priority manuscripts or when a specific reviewer’s input is ess
 
 ### Why Use "Add Individual Reviewer"?
 
-![image](/assets/images/new-review/reviewer-invited-box.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/reviewer-invited-box.webp)
 
     - **Manual selection** gives you complete control.
     - Best suited for **targeted or high-value assignments.**
@@ -264,7 +264,7 @@ This category displays **all assigned reviewers** for the manuscript, regardless
 
 ##### Displayed Information
 
-![image](/assets/images/new-review/displayed-information.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/displayed-information.webp)
 
     - **Reviewer Name** – Name of the assigned reviewer.
     - **Response Due Date** – Deadline for the reviewer to accept the invitation.
@@ -277,7 +277,7 @@ This category displays **all assigned reviewers** for the manuscript, regardless
 
 To access **additional details** about an assigned reviewer, follow these steps:
 
-![image](/assets/images/new-review/additional-information.webp)
+![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/additional-information.webp)
 
 ##### Steps to View Reviewer Information
 
@@ -360,7 +360,7 @@ If you need to withdraw a review invitation before the reviewer responds or begi
 
     ###### 3. Select "Cancel Reviewer"
 
-    ![image](/assets/images/new-review/cancel-reviewer.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/cancel-reviewer.webp)
 
         a. Click on the **Cancel Reviewer** option.
 
@@ -372,13 +372,13 @@ If you need to withdraw a review invitation before the reviewer responds or begi
 
     ###### 4. Confirm the Cancellation 
 
-    ![image](/assets/images/new-review/cancel-reason.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/cancel-reason.webp)
  
         a. The review invitation will be immediately withdrawn, and the reviewer will no longer have access to the manuscript.
 
 ##### Key Points to Remember
 
-    ![image](/assets/images/new-review/invited-cancelled.webp)
+    ![image](https://cdn.kryoni.com/kryoni-docs/images/new-review/invited-cancelled.webp)
 
     - Once cancelled, the reviewer will not be able to accept or review the manuscript.
     - cancelled invitations will be recorded under **Invitation cancelled** in the **Status Indicators**.
