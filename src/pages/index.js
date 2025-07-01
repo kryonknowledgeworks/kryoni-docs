@@ -56,9 +56,9 @@ export default function Home() {
         <section id="home">
           <div className="container-fluid container-lg">
             <div className="row w-100 m-auto">
-              <div className="col-12 col-md-3 order-0 order-md-0 d-flex justify-content-center align-items-center">
+              <div className="col-6 col-md-3 order-0 order-md-0 d-flex justify-content-center align-items-center">
                 <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/web-left.png" alt="group image" className="d-none d-md-block"/>
-                <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/mobile-responisve-banner.png" alt="group image" className="d-block d-md-none"/>
+                <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/mobile-left.png" alt="group image" className="d-block d-md-none"/>
               </div>
               <div className="col-12 col-md-6 order-2 order-md-1">
                 <div className="mt-3">
@@ -83,7 +83,7 @@ export default function Home() {
               </div>
               <div className="col-6 col-md-3 order-1 order-md-2">
                 <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/web-right.png" alt="group image" className="d-none d-md-block"/>
-                {/* <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/mob-right.png" alt="group image" className="d-block d-md-none"/> */}
+                <img src="https://cdn.kryoni.com/kryoni-docs/images/landing/mobile-right.png" alt="group image" className="d-block d-md-none"/>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
 
         <section id="products">
           <div className="container-fluid container-lg">
-             <div className="row g-4 mt-4">
+             <div className="row g-4 mt-4 w-100 m-auto">
               <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="custom-card p-4 exploreThemesCard">
                   <div><img src="https://cdn.kryoni.com/kryoni-docs/images/landing/max.png" className="img-fluid" alt="image representes analytics"/></div>

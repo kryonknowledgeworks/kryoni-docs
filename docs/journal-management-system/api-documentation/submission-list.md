@@ -51,7 +51,7 @@ To access this API, include the following headers in your request:
 #### Example
 
 ```plaintext
-https://jms.kryoni.com/api/v1/external/journals?journal_id=1
+https://jms.kryoni.com/api/v1/external/submissions?journal_id=1
 ```
 
 ### Pagination Parameters
