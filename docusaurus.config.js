@@ -119,7 +119,7 @@ const config = {
       // Replace with your project's social card
       announcementBar: {
         id: 'announcement',
-        content: 'Announcement: We construct an integrated, real-time, and cost-effective platform that is accessible to all.',
+        content: 'Announcement: We deliver an integrated, real-time platform that’s cost-effective and accessible to all, helping you streamline your workflow.',
         isCloseable: false,
       },
       // image: "img/Kryoni_logo.png",
