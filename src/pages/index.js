@@ -91,8 +91,8 @@ export default function Home() {
 
         <section id="products">
           <div className="container-fluid container-lg">
-             <div className="row g-4 mt-4 w-100 m-auto">
-              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+             <div className="row g-4 pb-4 w-100 m-auto">
+              {/* <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="custom-card p-4 exploreThemesCard">
                   <div><img src="https://cdn.kryoni.com/kryoni-docs/images/landing/max.png" className="img-fluid" alt="image representes analytics"/></div>
                   <div className="d-flex align-items-center justify-content-start pt-4">                                        
@@ -107,10 +107,10 @@ export default function Home() {
                     <p className="font-17-400">
                       Our Journal Management System offers an integrated solution to manage the entire editorial process—from manuscript submission and peer review to publication. Designed for easy collaboration among authors, reviewers, and editors, it ensures a streamlined, efficient, and transparent workflow. 
                     </p>
-                  </div>                  
+                  </div>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+              </div> */}
+              {/* <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                 <div className="custom-card p-4 exploreThemesCard">
                   <div><img src="https://cdn.kryoni.com/kryoni-docs/images/landing/min.png" className="img-fluid" alt="image represents laptop cloud"/></div>
                   <div className="d-flex align-items-center justify-content-start pt-4">                                        
@@ -126,6 +126,27 @@ export default function Home() {
                       Stream Space offers a robust content-hosting platform with reliable infrastructure, top-tier security, and customizable templates, making it easy to launch your journal without technical complexity 
                     </p>
                   </div>                 
+                </div>
+              </div> */}
+              {/* after stream space documentation need to be changed */}
+              <div className="col-12">
+                <div className="custom-card d-flex row w-100 m-auto align-items-center">
+                  <div className="col-12 col-lg-5"><img src="https://cdn.kryoni.com/kryoni-docs/images/landing/max.png" className="img-fluid" alt="image representes analytics"/></div>
+                  <div className="d-flex flex-column justify-content-center align-items-start col-12 col-lg-7">
+                    <div className="d-flex align-items-center justify-content-start pt-4">                                        
+                      <img
+                        className="img-fluid jmsimg me-4"
+                        src="https://cdn.kryoni.com/kryoni/images/version-1/journal-management.webp"
+                        alt="Icon representing the JournalManagement System (JMS) for streamlined publication processes"
+                      />
+                      <a href="/journal-management-system/get-started/introduction" className="font-28-700 text-decoration-none" target="_self">Journal Management System (JMS)</a>                                      
+                    </div>
+                    <div className="mt-4">
+                      <p className="font-17-400">
+                        Our Journal Management System offers an integrated solution to manage the entire editorial process—from manuscript submission and peer review to publication. Designed for easy collaboration among authors, reviewers, and editors, it ensures a streamlined, efficient, and transparent workflow. 
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
